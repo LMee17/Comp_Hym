@@ -5,6 +5,15 @@ output: html_document
 
 12th July 2022
 
+Gene level differential expression analysis.
+
+```{r}
+set.seed(42)
+dir.create("output")
+dir.create("output/Ind_DE/")
+```
+
+
 ##Libraries
 
 ```{r}
@@ -21,7 +30,7 @@ library("ggvenn")
 
 Following recommended workflow: http://master.bioconductor.org/packages/release/workflows/vignettes/rnaseqGene/inst/doc/rnaseqGene.html#preparing-quantification-input-to-deseq2
 
-DeSeq2: 
+DeSeq2: https://bioconductor.org/packages/release/bioc/vignettes/DESeq2/inst/doc/DESeq2.html
 
 Trim Galore:  https://github.com/FelixKrueger/TrimGalore
 
@@ -114,9 +123,9 @@ getDDS <- function(species, txobject){
 ddsTx <- DESeqDataSetFromTximport(txobject, colData = cd, design = ~Treatment)
 keep <- rowSums(counts(ddsTx)) >= 10
 ddsTx2 <- ddsTx[keep,]
-ddsTx$Treatment <- relevel(ddsTx$Treatment, ref = "Naive")
-ddsTx <- DESeq(ddsTx)
-  return(ddsTx)
+ddsTx2$Treatment <- relevel(ddsTx2$Treatment, ref = "Naive")
+ddsTx2 <- DESeq(ddsTx2)
+  return(ddsTx2)
 }
 ```
 
@@ -141,10 +150,10 @@ outCheck <- function(outlier_s, species){
   ddsTx <- DESeqDataSetFromTximport(tx, colData = cd, design = ~Treatment)
   keep <- rowSums(counts(ddsTx)) >= 10
   ddsTx2 <- ddsTx[keep,]
-  ddsTx$Treatment <- relevel(ddsTx$Treatment, ref = "Naive")
-  ddsTx <- DESeq(ddsTx)
-  vsd <- vst(ddsTx, blind = F)
-  select <- order(rowMeans(counts(amel.dds,normalized=TRUE)),
+  ddsTx2$Treatment <- relevel(ddsTx2$Treatment, ref = "Naive")
+  ddsTx2 <- DESeq(ddsTx2)
+  vsd <- vst(ddsTx2, blind = F)
+  select <- order(rowMeans(counts(ddsTx2,normalized=TRUE)),
                 decreasing=TRUE)[1:20]
   p1 <- pheatmap(assay(vsd)[select,])
   sampleDists <- dist(t(assay(vsd)))
@@ -185,9 +194,9 @@ ddsOmit <- function(outlier_s, species){
   ddsTx <- DESeqDataSetFromTximport(tx, colData = cd, design = ~Treatment)
   keep <- rowSums(counts(ddsTx)) >= 10
   ddsTx2 <- ddsTx[keep,]
-  ddsTx$Treatment <- relevel(ddsTx$Treatment, ref = "Naive")
-  ddsTx <- DESeq(ddsTx)
-  return(ddsTx)
+  ddsTx2$Treatment <- relevel(ddsTx2$Treatment, ref = "Naive")
+  ddsTx2 <- DESeq(ddsTx2)
+  return(ddsTx2)
 }
 ```
 
@@ -211,6 +220,10 @@ makeMetaDf <- function(res.all.object){
   for(i in 1:nrow(x)){
   if (x$OrthoGroup[i] == "Unassigned") {
     x$Function[i] <- "Unknown"} else {
+      check2 <- x$OrthoGroup[i] %in% ann.slim$Orthogroup
+      if (check2 == FALSE){
+        x$Function[i] <- "Unknown"
+      } else {
     f <- unique(ann.slim$Function[ann.slim$Orthogroup == x$OrthoGroup[i]])
     if (length(f) > 1){
       if(TRUE %in% grepl("Effector|Recognition|Signalling", f)){
@@ -226,16 +239,12 @@ makeMetaDf <- function(res.all.object){
                     gsub("Signalling", "Immune", 
                          gsub("Background", "None Immune", f))))
     x$Function[i] <- paste(f2)
+        }
       }
     }
   }
   x$Sig <- "No"
-  x$Sig[x$Gene %in% sig[[1]] &
-                          x$Condition == "Wound"] <- "Yes"
-  x$Sig[x$Gene %in% sig[[2]] &
-                          x$Condition == "Gram Positive"] <- "Yes"
-  x$Sig[x$Gene %in% sig[[3]] &
-                          x$Condition == "Gram Negative"] <- "Yes"
+  x$Sig[x$padj < 0.1] <- "Yes"
   x$Condition <- factor(x$Condition, levels = c("Wound", 
                                                 "Gram Negative", 
                                                 "Gram Positive"))
@@ -290,24 +299,30 @@ Produce and save a boxplot with expression levels across samples with gene input
 
 ```{r}
 visiGene <- function(gene, genename, dds){
-  p <- plotCounts(dds, gene = paste(gene), intgroup = "Treatment", returnData = T)
-  p$Treatment2 <- as.character(p$Treatment)
-  p$Treatment2[p$Treatment == "GramPos"] <- "Gram Positive"
-  p$Treatment2[p$Treatment == "GramNeg"] <- "Gram Negative"  
-  p$Treatment2 <- factor(p$Treatment2, levels = c("Naive",
-                                              "Wound", 
-                                              "Gram Positive", 
-                                              "Gram Negative"))  
-  p2 <- ggplot(p, aes(x = Treatment2, y = count)) +
-    geom_boxplot(aes(colour = Treatment2, alpha = 0.5)) +
+  tmp <- counts(dds, normalized = T)
+  samples <- dds$Sample
+  counts <- tmp[rownames(tmp) == paste(gene),]
+  plot.df <- as.data.frame(cbind(samples, counts))
+  names(plot.df) <- c("Samples", "Norm_Counts")
+  plot.df$Treatment[grepl("_N_", plot.df$Samples)] <- "Naive"
+  plot.df$Treatment[grepl("_P_", plot.df$Samples)] <- "Wound"
+  plot.df$Treatment[grepl("_SM_", plot.df$Samples)] <- "Gram Negative"
+  plot.df$Treatment[grepl("_SL_", plot.df$Samples)] <- "Gram Positive"
+  plot.df$Treatment <- factor(plot.df$Treatment, levels = c("Naive",
+                                                        "Wound", 
+                                                        "Gram Positive", 
+                                                        "Gram Negative"))
+  plot.df$Norm_Counts <- as.numeric(plot.df$Norm_Counts)
+  p <- ggplot(plot.df, aes(x = Treatment, y = log(Norm_Counts), fill = Treatment)) +
+    geom_boxplot() +
     geom_point(position = position_jitter(w=0.1, h = 0),
-               aes(colour = Treatment2), size = 3) +
+               aes(colour = Treatment), size = 3) +
     scale_colour_manual(values = c("#58ffa7", "#ffa758", "#ff58b0", "#58b0ff")) +
     xlab("Treatment") +
     labs(title = (paste(genename, " expression across treatments", sep = ""))) +
     guides(alpha = FALSE, colour = guide_legend("Treatment"))
   ggsave(paste(wd, "Plots/ExpressionPlots/", gene, "_ExpBoxPlot.pdf", sep = ""))
-  p2
+  p
 }
 ```
 
@@ -317,23 +332,28 @@ Plot all expression boxplots from a group of genes
 visiFacet <- function(genes, genenames, dds, filename){
   p <- vector(mode = "list", length = length(genes))
   for (i in 1:length(p)){
-    p[[i]] <- plotCounts(dds, gene = genes[i], 
-                         intgroup = "Treatment", returnData = T)
+    tmp <- counts(dds, normalized = T)
+    samples <- dds$Sample
+    counts <- tmp[rownames(tmp) == paste(genes[i]),]
+    p[[i]] <- as.data.frame(cbind(samples, counts))
+    names(p[[i]]) <- c("Samples", "Norm_Counts")
+    p[[i]]$Treatment[grepl("_N_", p[[i]]$Samples)] <- "Naive"
+    p[[i]]$Treatment[grepl("_P_", p[[i]]$Samples)] <- "Wound"
+    p[[i]]$Treatment[grepl("_SM_", p[[i]]$Samples)] <- "Gram Negative"
+    p[[i]]$Treatment[grepl("_SL_", p[[i]]$Samples)] <- "Gram Positive"
+    p[[i]]$Treatment <- factor(p[[i]]$Treatment, levels = c("Naive",
+                                                          "Wound", 
+                                                          "Gram Positive", 
+                                                          "Gram Negative"))
+    p[[i]]$Norm_Counts <- as.numeric(p[[i]]$Norm_Counts)
     p[[i]]$Gene <- paste(genes[i])
     p[[i]]$Label <- paste(genenames[i])
   }
   p2 <- bind_rows(p)
-  p2$Treatment2 <- as.character(p2$Treatment)
-  p2$Treatment2[p2$Treatment == "GramPos"] <- "Gram Positive"
-  p2$Treatment2[p2$Treatment == "GramNeg"] <- "Gram Negative"  
-  p2$Treatment2 <- factor(p2$Treatment2, levels = c("Naive",
-                                              "Wound", 
-                                            "Gram Positive", 
-                                              "Gram Negative"))  
-  p3 <- ggplot(p2, aes(x = Treatment2, y = count)) +
-    geom_boxplot(aes(colour = Treatment2, alpha = 0.5)) +
+  p3 <- ggplot(p2, aes(x = Treatment, y = log(Norm_Counts))) +
+    geom_boxplot(aes(colour = Treatment, alpha = 0.5)) +
     geom_point(position = position_jitter(w=0.1, h = 0),
-               aes(colour = Treatment2), size = 3) +
+               aes(colour = Treatment), size = 3) +
     scale_colour_manual(values = c("#58ffa7", "#ffa758", "#ff58b0", "#58b0ff")) +
     xlab("Treatment") +
     guides(alpha = FALSE, colour = guide_legend("Treatment")) +
@@ -344,16 +364,8 @@ visiFacet <- function(genes, genenames, dds, filename){
 ```
 
 
-##Individual DE
 
-```{r}
-set.seed(42)
-dir.create("output")
-dir.create("output/Ind_DE/")
-```
-
-
-###Amel: Gene Level DE 
+##Amel: Gene Level DE 
 
 ```{r}
 dir.create("output/Ind_DE/Amel/")
@@ -361,7 +373,7 @@ wd <- "output/Ind_DE/Amel/"
 ```
 
 
-####DE Analysis
+###DE Analysis
 
 First, convert transcript-level counts table from Kallisto to gene level counts and produce a coldata object
 
@@ -383,7 +395,7 @@ for(i in 1:length(amel.res)){
 }
 ```
 
-####Check for outliers
+###Check for outliers
 
 First, check counts
 
@@ -399,6 +411,13 @@ select <- order(rowMeans(counts(amel.dds,normalized=TRUE)),
                 decreasing=TRUE)[1:20]
 pheatmap(assay(vsd)[select,])
 ```
+
+```{r}
+pdf("output/Ind_DE/Amel/Amel_Pheatmap.pdf")
+  pheatmap(assay(vsd)[select,])
+dev.off()
+```
+
 
 AM_N_056 is clustering with bacterial and wound challenges... which may be a problem.
 
@@ -416,6 +435,14 @@ pheatmap(sampleDistMatrix,
 ```
 That outlying Naive is a log way from the others ... 
 
+```{r}
+pdf("output/Ind_DE/Amel/Amel_DistanceMatrix.pdf")
+  pheatmap(sampleDistMatrix,
+         clustering_distance_rows=sampleDists,
+         clustering_distance_cols=sampleDists)
+dev.off()
+```
+
 Finally, PCA
 
 ```{r}
@@ -424,6 +451,10 @@ ggplot(amel.pca, aes(x = PC1, y = PC2, color = Treatment, label = name)) +
   geom_point() +
   geom_text()
 ```
+```{r}
+ggsave("output/Ind_DE/Amel/Amel_PCA.pdf")
+```
+
 What happens if I remove the potential outlier ? 
 
 ```{r}
@@ -445,6 +476,51 @@ for(i in 1:length(amel.res2)){
   summary(amel.res2[[i]])
 }
 ```
+
+Save plots
+
+```{r}
+vsd2 <- vst(amel.dds2, blind = F)
+#make heatmap (top 20 genes)
+select <- order(rowMeans(counts(amel.dds2,normalized=TRUE)),
+                decreasing=TRUE)[1:20]
+pheatmap(assay(vsd2)[select,])
+```
+
+```{r}
+pdf("output/Ind_DE/Amel/Amel_OutlierRemoved_Pheatmap.pdf")
+  pheatmap(assay(vsd2)[select,])
+dev.off()
+```
+
+```{r}
+sampleDists2 <- dist(t(assay(vsd2)))
+sampleDistMatrix2 <- as.matrix(sampleDists2)
+rownames(sampleDistMatrix2) <- paste(vsd2$Treatment, vsd2$type, sep="-")
+colnames(sampleDistMatrix2) <- NULL
+
+pheatmap(sampleDistMatrix2,
+         clustering_distance_rows=sampleDists2,
+         clustering_distance_cols=sampleDists2)
+```
+
+```{r}
+pdf("output/Ind_DE/Amel/Amel_OutlierRemoved_DistanceMatrix.pdf")
+  pheatmap(sampleDistMatrix2,
+         clustering_distance_rows=sampleDists2,
+         clustering_distance_cols=sampleDists2)
+dev.off()
+```
+
+
+```{r}
+amel.pca2 <- plotPCA(vsd2, intgroup="Treatment", returnData = TRUE)
+ggplot(amel.pca2, aes(x = PC1, y = PC2, color = Treatment, label = name)) +
+  geom_point() +
+  geom_text()
+ggsave("output/Ind_DE/Amel/Amel_OutlierRemoved_PCA.pdf")
+```
+
 
 Do we see a difference in number of sig genes in terms of whether they're immune or not ? 
 
@@ -520,10 +596,9 @@ check.df <- rbind(one,two)
 ggplot(check.df, aes(fill=Var1, y=Prop, x=Var2)) + 
     geom_bar(position="dodge", stat="identity")
 ```
-
 No real difference. Gonna leave it as it is and not remove any outliers.
 
-####Results
+###Results
 
 Save 
 
@@ -534,17 +609,30 @@ for (i in 1:length(amel.res)){
   rownames(amel.res[[i]]) <- NULL
   amel.res[[i]] <- as.data.frame(amel.res[[i]])
 }
-
+ 
 amel.res.all <- bind_rows(amel.res[1:3])
+ 
+id <- read.table("input/Gene_Info/Amel_IDwDesc.tsv", 
+                 sep = "\t", quote = "", header = T)
+
+for (i in 1:nrow(amel.res.all)){
+  d <- unique(id$Description[id$GeneID == amel.res.all$Gene[i]])
+  if(length(d) > 1){
+    amel.res.all$Desc[i] <- d[1]
+  } else {
+    amel.res.all$Desc[i] <- d  
+  }
+}
 
 write.table(amel.res.all, paste(wd, "Amel_DeSeqResults_All.tsv", sep = ""),
-            col.names = T, row.names = T, quote = F, sep = "\t")
+            col.names = T, row.names = F, quote = F, sep = "\t")
 
 amel.res.sig <- subset(amel.res.all, padj < 0.1)
 
 write.table(amel.res.sig, paste(wd, "Amel_DeSeqResults_FDRlt0.1.tsv", sep =""), 
-            col.names = T, row.names = T, quote = F, sep = "\t")
+            col.names = T, row.names = F, quote = F, sep = "\t")
 ```
+
 
 Genes of interest?
 
@@ -577,7 +665,7 @@ goi.pos <- unique(c(sig.pos, top.pos))
 goi.neg <- unique(c(sig.neg, top.neg))
 ```
 
-####Visualise: Venn Diagrams
+###Visualise: Venn Diagrams
 
 ```{r}
 top.sig <- list("Wound" = sig.wound,
@@ -628,7 +716,6 @@ ggsave(paste(wd, "Plots/Amel_GOI_Venn.pdf", sep = ""))
 ```
 
 ```{r}
-
 goi.mat <- makeMatrix(goi.df)
 goi.mat
 ```
@@ -636,13 +723,13 @@ goi.mat
 goi.mat$Gene[goi.mat$AllGoi == 1]
 ```
 
-Cytochrome b5, alpha-mannosidase 2, fibroin heavy chain, defensin - 2
+Cytochrome b5, alpha-mannosidase 2, fibroin heavy chain, defensin - 2, uncharacterized LOC408494
 
 ```{r}
 goi.mat$Gene[goi.mat$BacterialGoi == 1]
 ```
 
-NF-kappa-B inhibitor cactus, dual 3',5'-cyclic-AMP and -GMP phosphodiesterase 11, Uncharacterised LOC408494
+NF-kappa-B inhibitor cactus(cactus2), dual 3',5'-cyclic-AMP and -GMP phosphodiesterase 11
 
 ```{r}
 goi.mat$Gene[goi.mat$AllSig == 1]
@@ -654,439 +741,122 @@ Cytochrome b5, alpha-mannosidase 2, fibroin heavy chain
 goi.mat$Gene[goi.mat$AllTop == 1]
 ```
 
-Defensin-2
+Defensin-2 and uncharacterized LOC408494
 
-####Visualise: Expression BoxPlots
+###Visualise: Expression BoxPlots
 
 ```{r}
-dir.create(paste(wd, "/Plots/ExpressionPlots/", sep = ""))
+dir.create(paste(wd, "Plots/ExpressionPlots/", sep = ""))
 ```
 
-#####Significant Wound
+####Significant Wound
 
 ```{r}
 goi.mat$Gene[goi.mat$SigWound == 1]
-```
-
-```{r}
 genes <- goi.mat$Gene[goi.mat$SigWound == 1]
-labs <- c("Cytochrome b5",
-          "Uncharacterised LOC102654628", 
-          "Proteasome subunit a type-6-like",
-          "Lymphocyte expansion molecule-like",
-          "Cytochrome P450 9e2",
-          "Eyes absent homolog 4",
-          "PURH",
-          "Alpha-mannosidase 2",
-          "Fibroin heavy chain",
-          "Early nodulin-75")
-
-labels <- as.data.frame(cbind(genes, labs))
-```
-
-
-```{r}
-visiGene("LOC724654", labs[1], amel.dds)
-```
-```{r}
-visiGene("LOC102654628", labs[2], amel.dds)
 ```
 
 ```{r}
-visiGene(genes[3], labs[3], amel.dds)
+visiFacet(genes = genes,
+          genenames = genes,
+          dds = amel.dds, 
+          filename = "Woundlog2FC")
 ```
 
-```{r}
-visiGene(genes[4], labs[4], amel.dds)
-```
-
-```{r}
-visiGene(genes[5], labs[5], amel.dds)
-```
-
-```{r}
-visiGene(genes[6], labs[6], amel.dds)
-```
-
-```{r}
-visiGene(genes[7], labs[7], amel.dds)
-```
-
-```{r}
-visiGene(genes[8], labs[8], amel.dds)
-```
-
-```{r}
-visiGene(genes[9], labs[9], amel.dds)
-```
-
-```{r}
-visiGene(genes[10], labs[10], amel.dds)
-```
 All Wound: 
 
 ```{r}
 visiFacet(genes = genes,
-          genenames = labs,
+          genenames = genes,
           dds = amel.dds, 
           filename = "WoundSig")
 ```
 
 
-#####TopFC Wound
+####TopFC Wound
+
+!!!! gonna stop with the gene by gene annotation, its too slow and changes as the analysis evolves. I
 
 ```{r}
 goi.mat$Gene[goi.mat$TopWound == 1]
-```
-
-```{r}
-goi.mat$Gene[goi.mat$TopWound == 1 & goi.mat$SigWound == 1]
-```
-
-No overlaps
-
-```{r}
 genes <- goi.mat$Gene[goi.mat$TopWound == 1]
-
-labs <- c("Def2",
-          "Uncharacterised LOC113219407", 
-          "LOC102655031",
-          "PQ-loop repeat-containing protein 1",
-          "Uncharacterised LOC10265496",
-          "Uncharacterised LOC100576987",
-          "Uncharacterised LOC100578623",
-          "Uncharacterised LOC102656497",
-          "LOC107965800",
-          "LOC113218678")
-
-tmp <- as.data.frame(cbind(genes, labs))
-labels <- rbind(labels, tmp)
 ```
 
-
-```{r}
-visiGene(genes[1], labs[1], amel.dds)
-```
-
-```{r}
-visiGene(genes[2], labs[2], amel.dds)
-```
-
-```{r}
-visiGene(genes[3], labs[3], amel.dds)
-```
-
-```{r}
-visiGene(genes[4], labs[4], amel.dds)
-```
-
-```{r}
-visiGene(genes[5], labs[5], amel.dds)
-```
-
-```{r}
-visiGene(genes[6], labs[6], amel.dds)
-```
-
-```{r}
-visiGene(genes[7], labs[7], amel.dds)
-```
-
-```{r}
-visiGene(genes[8], labs[8], amel.dds)
-```
-
-```{r}
-visiGene(genes[9], labs[9], amel.dds)
-```
-
-```{r}
-visiGene(genes[10], labs[10], amel.dds)
-```
 
 All Wound: 
 
 ```{r}
 visiFacet(genes = genes,
-          genenames = labs,
+          genenames = genes,
           dds = amel.dds, 
           filename = "Woundlog2FC")
 ```
 
 
-#####Significant GramPos
-
-```{r}
-goi.mat$Gene[goi.mat$SigPos == 1] %in% labels$genes
-```
-
-```{r}
-labels[labels$genes %in% goi.mat$Gene[goi.mat$SigPos == 1],]
-```
+####Significant GramPos
 
 ```{r}
 goi.mat$Gene[goi.mat$SigPos == 1]
-```
-
-
-```{r}
 genes <- goi.mat$Gene[goi.mat$SigPos == 1]
-labs <- c("Cytochrome b5",
-          "PURH", 
-          "Alpha-mannosidase 2",
-          "Fibroin heavy chain",
-          "Cactus",
-          "Uncharacterised LOC100578466",
-          "FoxP protein",
-          "Protein orai-2",
-          "Phosphodiesterase 11",
-          "Cactus1")
-
-tmp <- as.data.frame(cbind(genes, labs))
-labels <- rbind(labels, tmp)
-labels <- labels[!duplicated(labels),]
-```
-
-Genes 1, 2, 3, and 4 have already been visualised. Skip.
-
-
-```{r}
-visiGene(genes[5], labs[5], amel.dds)
-```
-
-```{r}
-visiGene(genes[6], labs[6], amel.dds)
-```
-
-```{r}
-visiGene(genes[7], labs[7], amel.dds)
-```
-
-```{r}
-visiGene(genes[8], labs[8], amel.dds)
-```
-
-```{r}
-visiGene(genes[9], labs[9], amel.dds)
-```
-
-```{r}
-visiGene(genes[10], labs[10], amel.dds)
 ```
 
 All Gram Pos Sig: 
 
 ```{r}
 visiFacet(genes = genes,
-          genenames = labs,
+          genenames = genes,
           dds = amel.dds, 
           filename = "PosSig")
 ```
 
 
-#####TopFC GramPos
+####TopFC GramPos
 
-```{r}
-goi.mat$Gene[goi.mat$TopPos == 1] %in% labels$genes
-```
 
-```{r}
-labels[labels$genes %in% goi.mat$Gene[goi.mat$TopPos == 1],]
-```
 ```{r}
 goi.mat$Gene[goi.mat$TopPos == 1]
-```
-
-
-```{r}
 genes <- goi.mat$Gene[goi.mat$TopPos == 1]
-
-labs <- c("Fibroin heavy chain",
-          "Def2", 
-          "Uncharacterised LOC100578466",
-          "Protein orai-2",
-          "Cactus1",
-          "M-phase inducer phosphatase",
-          "D-aspartate oxidase",
-          "Uncharacterised LOC408494",
-          "Loricrin",
-          "Cdk4")
-
-tmp <- as.data.frame(cbind(genes, labs))
-labels <- rbind(labels, tmp)
-labels <- labels[!duplicated(labels),]
 ```
 
-First 5 genes have already been plotted, skip
 
-
-```{r}
-visiGene(genes[6], labs[6], amel.dds)
-```
-
-```{r}
-visiGene(genes[7], labs[7], amel.dds)
-```
-
-```{r}
-visiGene(genes[8], labs[8], amel.dds)
-```
-
-```{r}
-visiGene(genes[9], labs[9], amel.dds)
-```
-
-```{r}
-visiGene(genes[10], labs[10], amel.dds)
-```
 
 All log Gram Pos: 
 
 ```{r}
 visiFacet(genes = genes,
-          genenames = labs,
+          genenames = genes,
           dds = amel.dds, 
           filename = "Poslog2FC")
 ```
 
-#####Significant GramNeg
+####Significant GramNeg
 
-```{r}
-goi.mat$Gene[goi.mat$SigNeg == 1] %in% labels$genes
-```
-
-```{r}
-labels[labels$genes %in% goi.mat$Gene[goi.mat$SigNeg == 1],]
-```
 
 ```{r}
 goi.mat$Gene[goi.mat$SigNeg == 1]
-```
-
-
-```{r}
 genes <- goi.mat$Gene[goi.mat$SigNeg == 1]
-labs <- c("Cytochrome b5",
-          "Alpha-mannosidase 2", 
-          "Fibroin heavy chain",
-          "Cactus",
-          "Phosphodiesterase 11",
-          "Uncharacterised LOC411807",
-          "Acph-1-like",
-          "Sorbitol dehydrogenase",
-          "Ninjurin-1",
-          "Dopa decarboxylase")
-
-tmp <- as.data.frame(cbind(genes, labs))
-labels <- rbind(labels, tmp)
-labels <- labels[!duplicated(labels),]
 ```
 
-Genes 1, 2, 3, 4 and 5 have already been visualised. Skip.
-
-
-```{r}
-visiGene(genes[6], labs[6], amel.dds)
-```
-
-```{r}
-visiGene(genes[7], labs[7], amel.dds)
-```
-
-```{r}
-visiGene(genes[8], labs[8], amel.dds)
-```
-
-```{r}
-visiGene(genes[9], labs[9], amel.dds)
-```
-
-```{r}
-visiGene(genes[10], labs[10], amel.dds)
-```
 
 All Gram Neg Sig: 
 
 ```{r}
 visiFacet(genes = genes,
-          genenames = labs,
+          genenames = genes,
           dds = amel.dds, 
           filename = "NegSig")
 ```
 
+####TopFC GramPos
 
-#####TopFC GramPos
-
-```{r}
-goi.mat$Gene[goi.mat$TopNeg == 1] %in% labels$genes
-```
-
-```{r}
-labels[labels$genes %in% goi.mat$Gene[goi.mat$TopNeg == 1],]
-```
 
 ```{r}
 goi.mat$Gene[goi.mat$TopNeg == 1]
-```
-
-
-```{r}
 genes <- goi.mat$Gene[goi.mat$TopNeg == 1]
-
-labs <- c("Def2",
-          "Uncharacterised LOC113219407", 
-          "Uncharacterised LOC102656497",
-          "Uncharacterised LOC408494",
-          "LOC100578161",
-          "Uncharacterised LOC102655835",
-          "Pgrp-s2",
-          "Uncharacterised LOC100576758",
-          "Uncharacterised LOC113219299",
-          "Tyrosine Hydroxylase")
-
-tmp <- as.data.frame(cbind(genes, labs))
-labels <- rbind(labels, tmp)
-labels <- labels[!duplicated(labels),]
-```
-
-First 4 genes have already been plotted, skip
-
-```{r}
-visiGene(genes[5], labs[5], amel.dds)
-```
-
-```{r}
-visiGene(genes[6], labs[6], amel.dds)
-```
-
-```{r}
-visiGene(genes[7], labs[7], amel.dds)
-```
-
-```{r}
-visiGene(genes[8], labs[8], amel.dds)
-```
-
-```{r}
-visiGene(genes[9], labs[9], amel.dds)
-```
-
-```{r}
-visiGene(genes[10], labs[10], amel.dds)
-```
-
-All log Gram Neg: 
-
-```{r}
-visiFacet(genes = genes,
-          genenames = labs,
-          dds = amel.dds, 
-          filename = "Neglog2FC")
 ```
 
 
-
-####Visualise: PCA
+###Visualise: PCA
 
 Decided to not remove potential outliers.
 
@@ -1126,7 +896,7 @@ ggplot(amel.pca, aes(x = PC1, y = PC2, color = Treat2)) +
 ggsave(paste(wd, "Plots/Amel_PCA_TrtVUnTrt.pdf", sep = ""))
 ```
 
-####Visualise: Smears
+###Visualise: Smears
 
 Amel/Bter consideration : there is a shared gene name that causes issues. To fix:
 
@@ -1177,13 +947,13 @@ ggsave(paste(wd, "Plots/Amel_SmearPlot.pdf", sep = ""))
 ```
 
 
-####Visualise: Rainclouds
+###Visualise: Rainclouds
 
 ```{r}
 sig.genes <- unique(unlist(sig))
 plot.sig <- plot.df[plot.df$Gene %in% sig.genes,]
 
-to.add.naive <- plot.sig[plot.sig$Gene %in% sig.df$Gene &
+to.add.naive <- plot.sig[plot.sig$Gene %in% sig.genes &
                                plot.sig$Condition == "Wound",]
 to.add.naive$Sig <- "No"
 to.add.naive$Condition <- "Naive"
@@ -1243,29 +1013,7 @@ ggsave(paste(wd, "Plots/Amel_logFCScatter_GeneLine.pdf", sep = ""))
 ```
 
 
-
-
-
-
-
-
-
-```{r}
-id <- read.table("../CoreProj_Analysis/input/Gene_Info/Amel_HAv3.1_MasterIDtable.tsv",
-                 sep = "\t", header = T)
-head(id)
-amel.tx <- id[c(2,1)]
-names(amel.tx) <- c("TXNAME", "GENEID")
-amel.tx
-
-write.table(amel.tx, "input/Gene_Info/Amel_TXGene.tsv", sep = "\t",
-            col.names = T, row.names = F, quote = F)
-```
-
-
-
-
-####Visualise: Volcano Plots
+###Visualise: Volcano Plots
 
 ```{r}
 plot.df$Function <- factor(plot.df$Function, levels = c("Immune",
@@ -1274,7 +1022,7 @@ plot.df$Function <- factor(plot.df$Function, levels = c("Immune",
 
 ggplot(plot.df,
      aes(x = log2FoldChange, y = Neglog10adjPvalue)) +
-  geom_point(aes(colour = Direction), size = 2) +
+  geom_point(aes(colour = Direction), size = 1) +
   scale_colour_manual(values=c("Up-Regulated" = "red",
                                "Not Top" = "black",  
                                "Down-Regulated" = "blue" ),
@@ -1293,7 +1041,7 @@ ggsave(paste(wd, "Plots/Amel_Simple_FDR0.1_Volcano.pdf", sep = ""))
 ```{r}
 ggplot(plot.df,
      aes(x = log2FoldChange, y = Neglog10adjPvalue)) +
-  geom_point(aes(colour = Direction, shape = Function), size = 2) +
+  geom_point(aes(colour = Direction, shape = Function), size = 1) +
   scale_colour_manual(values=c("Up-Regulated" = "red",
                                "Not Top" = "black",  
                                "Down-Regulated" = "blue" ),
@@ -1318,7 +1066,7 @@ plot.df$Direction2[plot.df$padj < 0.05 &
 
 ggplot(plot.df,
      aes(x = log2FoldChange, y = Neglog10adjPvalue)) +
-  geom_point(aes(colour = Direction2), size = 2, 
+  geom_point(aes(colour = Direction2), size = 1, 
              position = position_jitter(w=0.1, h = 0.1)) +
   scale_colour_manual(values=c("Up-Regulated" = "red",
                                "Not Top" = "black",  
@@ -1337,7 +1085,7 @@ ggsave(paste(wd, "Plots/Amel_Simple_FDR0.05_Volcano.pdf", sep = ""))
 ```{r}
 ggplot(plot.df,
      aes(x = log2FoldChange, y = Neglog10adjPvalue)) +
-  geom_point(aes(colour = Direction2, shape = Function), size = 2) +
+  geom_point(aes(colour = Direction2, shape = Function), size = 1) +
   scale_colour_manual(values=c("Up-Regulated" = "red",
                                "Not Top" = "black",  
                                "Down-Regulated" = "blue" ),
@@ -1365,7 +1113,7 @@ plot.df$Direction3[plot.df$padj < 0.001 &
 
 ggplot(plot.df,
      aes(x = log2FoldChange, y = Neglog10adjPvalue)) +
-  geom_point(aes(colour = Direction3), size = 2, 
+  geom_point(aes(colour = Direction3), size = 1, 
              position = position_jitter(w=0.1, h = 0.1)) +
   scale_colour_manual(values=c("Up-Regulated" = "red",
                                "Not Top" = "black",  
@@ -1386,13 +1134,13 @@ ggsave(paste(wd, "Plots/Amel_Simple_FDR0.001_Volcano.pdf", sep = ""))
 ```{r}
 ggplot(plot.df,
      aes(x = log2FoldChange, y = Neglog10adjPvalue)) +
-  geom_point(aes(colour = Direction3, shape = Function), size = 2) +
+  geom_point(aes(colour = Direction3, shape = Function), size = 1) +
   scale_colour_manual(values=c("Up-Regulated" = "red",
                                "Not Top" = "black",  
                                "Down-Regulated" = "blue" ),
                       breaks = c("Up-Regulated", "Down-Regulated")) +
   scale_shape_manual(values= c(19, 17, 1)) +
-  guides(colour = guide_legend("FDR < 0.01", nrow = 2),
+  guides(colour = guide_legend("FDR < 0.001", nrow = 2),
          shape = guide_legend("Gene Function", nrow = 3)) +
   ylab("-log10(adjPvalue)") +
   theme(legend.position = "bottom") +
@@ -1419,7 +1167,7 @@ sig.pos[1:3]
 plot.df$Label[plot.df$Condition == "Gram Positive" & 
                 plot.df$Gene == "LOC726750"] <- "Fibroin heavy chain"
 plot.df$Label[plot.df$Condition == "Gram Positive" & 
-                plot.df$Gene == "LOC411012"] <- "Cactus-2"
+                plot.df$Gene == "LOC411012"] <- "Cactus2"
 plot.df$Label[plot.df$Condition == "Gram Positive" & 
                 plot.df$Gene == "LOC724654"] <- "Cytochrome b5"
 
@@ -1435,7 +1183,994 @@ plot.df$Label[plot.df$Condition == "Gram Negative" &
 ```{r}
 ggplot(plot.df,
      aes(x = log2FoldChange, y = Neglog10adjPvalue)) +
-  geom_point(aes(colour = Direction3), size = 2, 
+  geom_point(aes(colour = Direction3), size = 1, 
+             position = position_jitter(w=0.1, h = 0.1)) +
+  scale_colour_manual(values=c("Up-Regulated" = "red",
+                               "Not Top" = "black",  
+                               "Down-Regulated" = "blue" ),
+                      breaks = c("Up-Regulated", "Down-Regulated")) +
+  guides(colour = guide_legend("FDR < 0.001", nrow = 2),
+         shape = guide_legend("Gene Function", nrow = 3)) +
+  ylab("-log10(adjPvalue)") +
+  theme(legend.position = "bottom") +
+    facet_grid(~Condition, scales = "free_y") +
+  geom_label_repel(
+    data = plot.df[!is.na(plot.df$Label),],
+    size = 2,
+    aes(label = Label),
+    point.padding = unit(0.3, "lines"),
+    box.padding = 1.25
+  ) 
+
+```
+
+
+```{r}
+ggsave(paste(wd, "Plots/Amel_Simple_FDR0.001_Volcano_top3Label.pdf", sep = ""))
+```
+
+```{r}
+ggplot(plot.df,
+     aes(x = log2FoldChange, y = Neglog10adjPvalue)) +
+  geom_point(aes(colour = Direction3, shape = Function), size = 1) +
+  scale_colour_manual(values=c("Up-Regulated" = "red",
+                               "Not Top" = "black",  
+                               "Down-Regulated" = "blue" ),
+                      breaks = c("Up-Regulated", "Down-Regulated")) +
+  scale_shape_manual(values= c(19, 17, 1)) +
+  guides(colour = guide_legend("FDR < 0.001", nrow = 2),
+         shape = guide_legend("Gene Function", nrow = 3)) +
+  ylab("-log10(adjPvalue)") +
+  theme(legend.position = "bottom") +
+    facet_grid(~Condition, scales = "free_y") +
+  geom_label_repel(
+    data = plot.df[!is.na(plot.df$Label),],
+    size = 2,
+    aes(label = Label),
+    point.padding = unit(0.3, "lines"),
+    box.padding = 1.2
+  ) 
+
+```
+```{r}
+ggsave(paste(wd, "Plots/Amel_Class_FDR0.001_Volcano_top3Label.pdf", sep = ""))
+```
+
+
+##Bter: Gene Level DE 
+
+```{r}
+dir.create("output/Ind_DE/Bter/")
+wd <- "output/Ind_DE/Bter/"
+```
+
+NB: there are likely to be immune genes in Bter that do not group into orthogroups with Amel (ie rapidly evolving AMPs) and so they will have to be annotated separately.
+
+LOC100649867: apidaecins type 73
+
+```{r}
+ortho %>%
+  arrange(desc(Orthogroup))
+```
+```{r}
+ortho[40557,1] <- "OG0011065"
+ortho[40557,2] <- "Bter"
+ortho[40557,3] <- "LOC100649867"
+
+tail(ortho)
+```
+```{r}
+ann.slim[12123, 1] <- "Effector"
+ann.slim[12123, 2] <- "OG0011065"
+
+tail(ann.slim)
+```
+
+
+###DE Analysis
+
+First, convert transcript-level counts table from Kallisto to gene level counts and produce a coldata object
+
+```{r}
+bter.tx <- geneCount("Bter")
+head(bter.tx$counts)
+```
+
+Build a DESeq DataSet from the above, prefilter (keep only rows that have at least 10 reads total), and return dds object.
+
+```{r}
+bter.dds <- getDDS("Bter", bter.tx)
+bter.res <- vector(mode = "list", length = 3)
+treats <- resultsNames(bter.dds)[c(4,3,2)]
+
+for(i in 1:length(bter.res)){
+  bter.res[[i]] <- results(bter.dds, name = paste(treats[i]))
+  summary(bter.res[[i]])
+}
+```
+
+###Check for outliers
+
+First, check counts
+
+```{r}
+boxplot(log10(assays(bter.dds)[["cooks"]]), range=0, las=2)
+```
+
+```{r}
+#normalise
+vsd <- vst(bter.dds, blind = F)
+#make heatmap (top 20 genes)
+select <- order(rowMeans(counts(bter.dds,normalized=TRUE)),
+                decreasing=TRUE)[1:20]
+pheatmap(assay(vsd)[select,])
+```
+From this I would suggest P30 and SM32 are outliers - and possibly N001
+
+```{r}
+pdf("output/Ind_DE/Bter/Bter_Pheatmap.pdf")
+  pheatmap(assay(vsd)[select,])
+dev.off()
+```
+
+Check with sample to sample distances
+
+```{r}
+sampleDists <- dist(t(assay(vsd)))
+sampleDistMatrix <- as.matrix(sampleDists)
+rownames(sampleDistMatrix) <- paste(vsd$Treatment, vsd$type, sep="-")
+colnames(sampleDistMatrix) <- NULL
+
+pheatmap(sampleDistMatrix,
+         clustering_distance_rows=sampleDists,
+         clustering_distance_cols=sampleDists)
+```
+
+```{r}
+pdf("output/Ind_DE/Bter/Bter_DistanceMatrix.pdf")
+  pheatmap(sampleDistMatrix,
+         clustering_distance_rows=sampleDists,
+         clustering_distance_cols=sampleDists)
+dev.off()
+```
+
+Yeah that's pretty messy
+
+Finally, PCA
+
+```{r}
+bter.pca <- plotPCA(vsd, intgroup="Treatment", returnData = TRUE)
+ggplot(bter.pca, aes(x = PC1, y = PC2, color = Treatment, label = name)) +
+  geom_point() +
+  geom_text()
+```
+```{r}
+ggsave("output/Ind_DE/Bter/Bter_PCA.pdf")
+```
+
+What happens if I remove the potential outliers ? 
+
+```{r}
+torem <- c("BT_A_SL_003", "BT_A_P_030", "BT_A_SM_032", "BT_A_N_001")
+outCheck(torem, "Bter")
+```
+
+2 plots are still a mess, but the sample-distance plots are very much improved.
+Now SL 003 is a problem ? Go back and try again....
+
+Much better.... though I've lost 4 samples!
+
+
+```{r}
+bter.dds2 <- ddsOmit(torem, "Bter")
+
+bter.res2 <- vector(mode = "list", length = 3)
+treats2 <- resultsNames(bter.dds2)[c(4,3,2)]
+
+for(i in 1:length(bter.res2)){
+  bter.res2[[i]] <- results(bter.dds2, name = paste(treats2[i]))
+  print(treats2[i])
+  summary(bter.res2[[i]])
+}
+```
+
+Save plots
+
+```{r}
+vsd2 <- vst(bter.dds2, blind = F)
+#make heatmap (top 20 genes)
+select <- order(rowMeans(counts(bter.dds2,normalized=TRUE)),
+                decreasing=TRUE)[1:20]
+pheatmap(assay(vsd2)[select,])
+```
+
+```{r}
+pdf("output/Ind_DE/Bter/Bter_OutlierRemoved_Pheatmap.pdf")
+  pheatmap(assay(vsd2)[select,])
+dev.off()
+```
+
+```{r}
+sampleDists2 <- dist(t(assay(vsd2)))
+sampleDistMatrix2 <- as.matrix(sampleDists2)
+rownames(sampleDistMatrix2) <- paste(vsd2$Treatment, vsd2$type, sep="-")
+colnames(sampleDistMatrix2) <- NULL
+
+pheatmap(sampleDistMatrix2,
+         clustering_distance_rows=sampleDists2,
+         clustering_distance_cols=sampleDists2)
+```
+
+```{r}
+pdf("output/Ind_DE/Bter/Bter_OutlierRemoved_DistanceMatrix.pdf")
+  pheatmap(sampleDistMatrix2,
+         clustering_distance_rows=sampleDists2,
+         clustering_distance_cols=sampleDists2)
+dev.off()
+```
+
+
+```{r}
+bter.pca2 <- plotPCA(vsd2, intgroup="Treatment", returnData = TRUE)
+ggplot(bter.pca2, aes(x = PC1, y = PC2, color = Treatment, label = name)) +
+  geom_point() +
+  geom_text()
+ggsave("output/Ind_DE/Bter/Bter_OutlierRemoved_PCA.pdf")
+```
+
+Do we see a difference in number of sig genes in terms of whether they're immune or not ? 
+
+```{r}
+sig <- vector(mode = "list", length = length(bter.res))
+
+for (i in 1:length(sig)){
+  tmp <- bter.res[[i]][!is.na(bter.res),]
+  tmp$Gene <- rownames(tmp)
+  sig[[i]] <- tmp$Gene[tmp$padj < 0.1]
+  sig[[i]] <- sig[[i]][!is.na(sig[[i]])]
+}
+
+run1 <- unique(unlist(sig))
+ort1 <- vector(length = length(run1))
+ann1 <- vector(length = length(run1))
+
+for(i in 1:length(run1)){
+  check <- run1[i] %in% ortho$GeneID
+  if (check == FALSE){
+  ort1[i] <- "Unassigned"
+  ann1[i] <- "Unknown"
+} else {
+  ort1[i] <- ortho$Orthogroup[ortho$GeneID == run1[i]]
+  check2 <- ort1[i] %in% ann.slim$Orthogroup
+  if (check2 == FALSE){
+    ann1[i] <- "Unknown"
+  } else {
+  f <- unique(ann.slim$Function[ann.slim$Orthogroup == ort1[i]])
+  if (length(f) > 1){
+    if(TRUE %in% grepl("Effector|Recognition|Signalling", f)){
+      ann1[i] <- "Immune"
+    } else {
+        if(TRUE %in% grepl("Putative Immune", f)){
+          ann1[i] <- "Putative Immune"
+        }
+      }
+  } else {
+      f2 <- gsub("Effector", "Immune", 
+               gsub("Recognition", "Immune", 
+                    gsub("Signalling", "Immune", 
+                         gsub("Background", "None Immune", f))))
+      ann1[i] <- paste(f2)
+      }
+  }
+  }
+}
+
+one <- as.data.frame(cbind(run1, ort1, ann1))
+names(one) <- c("Gene", "OrthoGroup", "Function")
+one$Run <- paste("One")
+```
+
+And again...
+
+```{r}
+sig2 <- vector(mode = "list", length = length(bter.res2))
+
+for (i in 1:length(sig2)){
+  tmp <- bter.res2[[i]][!is.na(bter.res2),]
+  tmp$Gene <- rownames(tmp)
+  sig2[[i]] <- tmp$Gene[tmp$padj < 0.1]
+  sig2[[i]] <- sig2[[i]][!is.na(sig2[[i]])]
+}
+
+run2 <- unique(unlist(sig2))
+ort2 <- vector(length = length(run2))
+ann2 <- vector(length = length(run2))
+
+for(i in 1:length(run2)){
+  check <- run2[i] %in% ortho$GeneID
+  if (check == FALSE){
+  ort2[i] <- "Unassigned"
+  ann2[i] <- "Unknown"
+} else {
+  ort2[i] <- ortho$Orthogroup[ortho$GeneID == run2[i]]
+  check2 <- ort2[i] %in% ann.slim$Orthogroup
+  if (check2 == FALSE){
+    ann2[i] <- "Unknown"
+  } else {
+  f <- unique(ann.slim$Function[ann.slim$Orthogroup == ort2[i]])
+  if (length(f) > 1){
+    if(TRUE %in% grepl("Effector|Recognition|Signalling", f)){
+      ann2[i] <- "Immune"
+    } else {
+        if(TRUE %in% grepl("Putative Immune", f)){
+          ann2[i] <- "Putative Immune"
+        }
+      }
+  } else {
+      f2 <- gsub("Effector", "Immune", 
+               gsub("Recognition", "Immune", 
+                    gsub("Signalling", "Immune", 
+                         gsub("Background", "None Immune", f))))
+      ann2[i] <- paste(f2)
+      }
+  }
+  }
+}
+
+
+two <- as.data.frame(cbind(run2, ort2, ann2))
+names(two) <- c("Gene", "OrthoGroup", "Function")
+two$Run <- paste("Two")
+```
+
+
+```{r}
+one <- as.data.frame(table(one$Function, one$Run))
+one$Prop <- one$Freq/sum(one$Freq)
+two <- as.data.frame(table(two$Function, two$Run))
+two$Prop <- two$Freq/sum(two$Freq)
+
+check.df <- rbind(one,two)
+
+ggplot(check.df, aes(fill=Var1, y=Prop, x=Var2)) + 
+    geom_bar(position="dodge", stat="identity")
+```
+
+```{r}
+ggplot(check.df, aes(fill=Var1, y=Freq, x=Var2)) + 
+    geom_bar(position="dodge", stat="identity")
+```
+
+There is quite a significant difference .... gonna make the call to go forward without the outliers but .... this may change with Seth's input.
+
+```{r}
+bter.dds <- bter.dds2
+bter.res <- bter.res2
+```
+
+
+###Results
+
+Save 
+
+(Once this is done once, read from the produced file, annotating takes some time.)
+
+```{r}
+for (i in 1:length(bter.res)){
+  bter.res[[i]]$Contrast <- paste(treats[i])
+  bter.res[[i]]$Gene <- rownames(bter.res[[i]])
+  rownames(bter.res[[i]]) <- NULL
+  bter.res[[i]] <- as.data.frame(bter.res[[i]])
+}
+
+bter.res.all <- bind_rows(bter.res[1:3])
+
+id <- read.table("input/Gene_Info/Bter_IDwDesc.tsv", 
+              sep = "\t", quote = "", header = T)
+
+
+for (i in 1:nrow(bter.res.all)){
+  d <- unique(id$Description[id$GeneID == bter.res.all$Gene[i]])
+  if(length(d) > 1){
+    bter.res.all$Desc[i] <- d[1]
+  } else {
+    bter.res.all$Desc[i] <- d  
+  }
+}
+
+write.table(bter.res.all, paste(wd, "Bter_DeSeqResults_All.tsv", sep = ""),
+            col.names = T, row.names = F, quote = F, sep = "\t")
+
+bter.res.sig <- subset(bter.res.all, padj < 0.1)
+
+write.table(bter.res.sig, paste(wd, "Bter_DeSeqResults_FDRlt0.1.tsv", sep =""), 
+            col.names = T, row.names = F, quote = F, sep = "\t")
+```
+
+Genes of interest?
+
+I'm going to take the top 10 most significant and top 10 biggest logFC per treatment. 
+Genes that overlap between two (and between the three treatments) will be of particular interest
+
+```{r}
+nona <- bter.res.all[!is.na(bter.res.all$padj),]
+nona$LogDif <- sub('-', '', nona$log2FoldChange)
+tmp <- nona[nona$Contrast == treats[1],]
+sig.wound <- head(tmp$Gene[order(tmp$padj)], n = 10)
+top.wound <- head(tmp$Gene[order(tmp$LogDif, decreasing = T)], n = 10)
+tmp <- nona[nona$Contrast == treats[2],]
+sig.pos <- head(tmp$Gene[order(tmp$padj)], n = 10)
+top.pos <- head(tmp$Gene[order(tmp$LogDif, decreasing = T)], n = 10)
+tmp <- nona[nona$Contrast == treats[3],]
+sig.neg <-  head(tmp$Gene[order(tmp$padj)], n = 10)
+top.neg <- head(tmp$Gene[order(tmp$LogDif, decreasing = T)], n = 10)
+
+goi <- c(sig.wound, top.wound, sig.pos, top.pos, sig.neg, top.neg)
+stat <- c(rep("Top 10 Sig Wound", 10), rep("Top 10 log2FC Wound", 10),
+          rep("Top 10 Sig Gram Positive", 10), rep("Top 10 log2FC Gram Positive", 10),
+          rep("Top 10 Sig Gram Negative", 10), rep("Top 10 log2FC Gram Negative", 10))
+
+goi.df <- as.data.frame(cbind(goi, stat))
+
+
+goi.wound <- unique(c(sig.wound, top.wound))
+goi.pos <- unique(c(sig.pos, top.pos))
+goi.neg <- unique(c(sig.neg, top.neg))
+```
+
+###Visualise: Venn Diagrams
+
+```{r}
+top.sig <- list("Wound" = sig.wound,
+                 "Gram Positive" = sig.pos,
+                 "Gram Negative" = sig.neg)
+
+p <- ggvenn(top.sig,
+       set_name_size = 5,
+       show_percentage = F,
+       fill_color = c("yellow", "blue", "green"))
+p +  ggtitle("Top 10 Genes per Treatment by adjPvalue")
+```
+
+```{r}
+dir.create(paste(wd, "Plots/", sep = ""))
+ggsave(paste(wd, "Plots/Bter_TopAdjPvalue_Venn.pdf", sep = ""))
+```
+
+```{r}
+top.lfc <- list("Wound" = top.wound,
+                 "Gram Positive" = top.pos,
+                 "Gram Negative" = top.neg)
+
+p <- ggvenn(top.lfc,
+       set_name_size = 5,
+       show_percentage = F,
+       fill_color = c("yellow", "blue", "green"))
+p +  ggtitle("Top 10 Genes per Treatment by log2FC")
+```
+
+
+
+```{r}
+ggsave(paste(wd, "Plots/Bter_Toplog2FC_Venn.pdf", sep = ""))
+```
+
+```{r}
+goi <- list("Wound" = goi.wound,
+                 "Gram Positive" = goi.pos,
+                 "Gram Negative" = goi.neg)
+
+p <- ggvenn(goi,
+       set_name_size = 5,
+       show_percentage = F,
+       fill_color = c("yellow", "blue", "green"))
+p +  ggtitle("Genes of Interest Across Treatments")
+```
+
+
+```{r}
+ggsave(paste(wd, "Plots/Bter_GOI_Venn.pdf", sep = ""))
+```
+
+```{r}
+goi.mat <- makeMatrix(goi.df)
+goi.mat
+```
+
+```{r}
+goi.mat$Gene[goi.mat$AllGoi == 1]
+```
+
+hymenoptaecin, hymenoptaecin-like, apidaecins type 73, protein Malvolio, uncharacterised LOC125385027, KATNAL2, Defensin
+
+```{r}
+goi.mat$Gene[goi.mat$BacterialGoi == 1]
+```
+
+regulator of microtubule dynamics protein 1-like
+
+```{r}
+goi.mat$Gene[goi.mat$AllSig == 1]
+```
+
+hymenoptaecin, hymenoptaecin-like, apidaecins type 73, protein Malvolio
+
+```{r}
+goi.mat$Gene[goi.mat$AllTop == 1]
+```
+
+uncharacterised LOC125385027, KATNAL2, Defensin
+
+###Visualise: Expression BoxPlots
+
+```{r}
+dir.create(paste(wd, "Plots/ExpressionPlots/", sep = ""))
+```
+
+####Significant Wound
+
+```{r}
+goi.mat$Gene[goi.mat$SigWound == 1]
+genes <- goi.mat$Gene[goi.mat$SigWound == 1]
+```
+
+```{r}
+for (i in 1:length(genes)){
+  visiGene(gene = genes[i], genename = genes[i], dds = bter.dds)
+}
+```
+
+All Wound: 
+
+```{r}
+visiFacet(genes = genes,
+          genenames = genes,
+          dds = bter.dds, 
+          filename = "WoundSig")
+```
+
+
+####TopFC Wound
+
+```{r}
+goi.mat$Gene[goi.mat$TopWound == 1]
+genes <- goi.mat$Gene[goi.mat$TopWound == 1]
+```
+
+```{r}
+for (i in 1:length(genes)){
+  visiGene(gene = genes[i], genename = genes[i], dds = bter.dds)
+}
+```
+
+All Wound: 
+
+```{r}
+visiFacet(genes = genes,
+          genenames = genes,
+          dds = bter.dds, 
+          filename = "Woundlog2FC")
+```
+
+
+####Significant GramPos
+
+
+```{r}
+goi.mat$Gene[goi.mat$SigPos == 1]
+```
+
+
+```{r}
+for (i in 1:length(genes)){
+  visiGene(gene = genes[i], genename = genes[i], dds = bter.dds)
+}
+```
+
+
+All Gram Pos Sig: 
+
+```{r}
+visiFacet(genes = genes,
+          genenames = genes,
+          dds = bter.dds, 
+          filename = "PosSig")
+```
+
+
+####TopFC GramPos
+
+
+```{r}
+goi.mat$Gene[goi.mat$TopPos == 1]
+genes <- goi.mat$Gene[goi.mat$TopPos == 1]
+```
+
+
+
+```{r}
+for (i in 1:length(genes)){
+  visiGene(gene = genes[i], genename = genes[i], dds = bter.dds)
+}
+```
+
+
+All log Gram Pos: 
+
+```{r}
+visiFacet(genes = genes,
+          genenames = genes,
+          dds = bter.dds, 
+          filename = "Poslog2FC")
+```
+
+####Significant GramNeg
+
+
+```{r}
+goi.mat$Gene[goi.mat$SigNeg == 1]
+genes <- goi.mat$Gene[goi.mat$SigNeg == 1]
+```
+
+```{r}
+for (i in 1:length(genes)){
+  visiGene(gene = genes[i], genename = genes[i], dds = bter.dds)
+}
+```
+
+```{r}
+visiFacet(genes = genes,
+          genenames = genes,
+          dds = bter.dds, 
+          filename = "NegSig")
+```
+
+
+####TopFC GramPos
+
+
+```{r}
+goi.mat$Gene[goi.mat$TopNeg == 1]
+genes <- goi.mat$Gene[goi.mat$TopNeg == 1]
+```
+
+```{r}
+for (i in 1:length(genes)){
+  visiGene(gene = genes[i], genename = genes[i], dds = bter.dds)
+}
+```
+
+All log Gram Neg: 
+
+```{r}
+visiFacet(genes = genes,
+          genenames = genes,
+          dds = bter.dds, 
+          filename = "Neglog2FC")
+```
+
+
+###Visualise: PCA
+
+Redo after removing outliers.
+
+```{r}
+vsd <- vst(bter.dds, blind = F)
+
+bter.pca <- plotPCA(vsd, intgroup="Treatment", returnData = TRUE)
+
+ggplot(bter.pca, aes(x = PC1, y = PC2, color = Treatment)) +
+  geom_point() 
+```
+
+```{r}
+ggsave(paste(wd, "Plots/Bter_PCA_Simple.pdf", sep = ""))
+```
+
+```{r}
+ggplot(bter.pca, aes(x = PC1, y = PC2, color = Treatment)) +
+  geom_point() +
+  geom_label_repel(
+    data = bter.pca,
+    aes(label = name),
+    size = 3
+  )
+```
+```{r}
+ggsave(paste(wd, "Plots/Bter_PCA_Labelled.pdf", sep = ""))
+```
+
+```{r}
+bter.pca$Treat2 <- c(rep("Naive", 2), rep("Treatment", 6))
+
+ggplot(bter.pca, aes(x = PC1, y = PC2, color = Treat2)) +
+  geom_point() +
+  stat_ellipse()
+```
+
+```{r}
+ggsave(paste(wd, "Plots/Bter_PCA_TrtVUnTrt.pdf", sep = ""))
+```
+
+###Visualise: Smears
+
+Amel/Bter consideration : there is a shared gene name that causes issues. To fix:
+
+```{r}
+bter.res.all$Gene[bter.res.all$Gene == "Kr-h1"] <- "Kr-h1_Bter"
+
+ortho$GeneID[ortho$GeneID == "Kr-h1" & ortho$Species == "Bter"] <- "Kr-h1_Bter"
+```
+
+```{r}
+plot.df <- makeMetaDf(bter.res.all)
+plot.df %>%
+  filter(Condition == "Wound") %>%
+  arrange(padj)
+```
+
+
+
+```{r}
+plot.df$Condition <- factor(plot.df$Condition, levels = c("Wound",
+                                                          "Gram Positive",
+                                                          "Gram Negative"))
+
+ggplot(plot.df, aes(x = log(baseMean), y = log2FoldChange)) +
+  geom_point(aes(colour = Sig)) +
+  facet_grid(~Condition) +
+  scale_color_manual(values=c("black", "Red"), guide = NULL) +
+  theme(legend.position = "bottom")
+```
+
+
+
+```{r}
+ggsave(paste(wd, "Plots/Bter_SmearPlot.pdf", sep = ""))
+```
+
+
+###Visualise: Rainclouds
+
+```{r}
+sig.genes <- unique(plot.df$Gene[plot.df$padj < 0.1])
+plot.sig <- plot.df[plot.df$Gene %in% sig.genes,]
+
+to.add.naive <- plot.sig[plot.sig$Gene %in% sig.genes &
+                               plot.sig$Condition == "Wound",]
+to.add.naive$Sig <- "No"
+to.add.naive$Condition <- "Naive"
+to.add.naive$log2FoldChange <- 0
+
+plot.sig <- rbind(plot.sig, to.add.naive)
+
+plot.sig$Condition <- factor(plot.sig$Condition, levels = c("Naive",
+                                                            "Wound", 
+                                                            "Gram Positive", 
+                                                            "Gram Negative"))
+
+plot.sig$Significance[plot.sig$padj > 0.1] <- "Not Significant"
+plot.sig$Significance[plot.sig$padj < 0.1 & plot.sig$padj > 0.05] <- 
+  "Significant (FDR < 0.1)"
+plot.sig$Significance[plot.sig$padj < 0.05 & plot.sig$padj > 0.01] <-
+  "Significant (FDR < 0.05)"
+plot.sig$Significance[plot.sig$padj < 0.01 & plot.sig$padj > 0.001] <-
+  "Significant (FDR < 0.01)"
+plot.sig$Significance[plot.sig$padj < 0.001] <-
+  "Significant (FDR < 0.001)"
+
+plot.sig$Significance <- factor(plot.sig$Significance, levels =
+                                 c("Not Significant",
+                                   "Significant (FDR < 0.1)",
+                                   "Significant (FDR < 0.05)",
+                                   "Significant (FDR < 0.01)",
+                                   "Significant (FDR < 0.001)"))
+
+
+plot.sig$Function <- factor(plot.sig$Function, levels = c("Immune",
+                                                          "Putative Immune", 
+                                                          "None Immune", 
+                                                          "Unknown"))
+
+ggplot(plot.sig[!plot.sig$Condition == "Naive",], 
+       (aes(x = Condition, y = log2FoldChange))) +
+  geom_jitter(aes(colour = Function, shape = Significance)) +
+  scale_colour_manual(values = c("#2c8cd9", "#7a2cd9", "darkgrey", "plum")) +
+  scale_shape_manual(values = c(1, 5, 18, 19, 17)) 
+```
+
+```{r}
+ggsave(paste(wd, "Plots/Bter_logFCJitter.pdf", sep = ""))
+```
+
+```{r}
+ggplot(plot.sig, 
+       (aes(x = Condition, y = log2FoldChange))) +
+  geom_point(aes(colour = Function, shape = Significance)) +
+  geom_line( linetype = "dashed", alpha = 0.2, aes(group = Gene, colour = Function)) +
+  scale_colour_manual(values = c("#2c8cd9", "#7a2cd9", "darkgrey", "plum")) +
+  scale_shape_manual(values = c(1, 5, 18, 19, 17)) 
+```
+
+```{r}
+ggsave(paste(wd, "Plots/Bter_logFCScatter_GeneLine.pdf", sep = ""))
+```
+
+###Visualise: Volcano Plots
+
+```{r}
+plot.df$Function <- factor(plot.df$Function, levels = c("Immune",
+                                                        "Putative Immune",
+                                                        "None Immune",
+                                                        "Unknown"))
+
+ggplot(plot.df,
+     aes(x = log2FoldChange, y = Neglog10adjPvalue)) +
+  geom_point(aes(colour = Direction), size = 1) +
+  scale_colour_manual(values=c("Up-Regulated" = "red",
+                               "Not Top" = "black",  
+                               "Down-Regulated" = "blue" ),
+                      breaks = c("Up-Regulated", "Down-Regulated")) +
+  guides(colour = guide_legend("FDR < 0.1", nrow = 2),
+         shape = guide_legend("Gene Function", nrow = 3)) +
+  ylab("-log10(adjPvalue)") +
+  theme(legend.position = "bottom") +
+    facet_grid(~Condition, scales = "free_y") 
+```
+
+
+```{r}
+ggsave(paste(wd, "Plots/Bter_Simple_FDR0.1_Volcano.pdf", sep = ""))
+```
+
+
+```{r}
+ggplot(plot.df,
+     aes(x = log2FoldChange, y = Neglog10adjPvalue)) +
+  geom_point(aes(colour = Direction, shape = Function), size = 1) +
+  scale_colour_manual(values=c("Up-Regulated" = "red",
+                               "Not Top" = "black",  
+                               "Down-Regulated" = "blue" ),
+                      breaks = c("Up-Regulated", "Down-Regulated")) +
+  scale_shape_manual(values= c(19, 17, 1, 3)) +
+  guides(colour = guide_legend("FDR < 0.1", nrow = 2),
+         shape = guide_legend("Gene Function", nrow = 4)) +
+  ylab("-log10(adjPvalue)") +
+  theme(legend.position = "bottom") +
+    facet_grid(~Condition, scales = "free_y") 
+```
+```{r}
+ggsave(paste(wd, "Plots/Bter_Class_FDR0.1_Volcano.pdf", sep = ""))
+```
+
+```{r}
+plot.df$Direction2 <- "Not Significant"
+plot.df$Direction2[plot.df$padj < 0.05 &
+                    plot.df$log2FoldChange > 0 ] <- "Up-Regulated"
+plot.df$Direction2[plot.df$padj < 0.05 &
+                    plot.df$log2FoldChange < 0 ] <- "Down-Regulated"
+
+ggplot(plot.df,
+     aes(x = log2FoldChange, y = Neglog10adjPvalue)) +
+  geom_point(aes(colour = Direction2), size = 1, 
+             position = position_jitter(w=0.1, h = 0.1)) +
+  scale_colour_manual(values=c("Up-Regulated" = "red",
+                               "Not Top" = "black",  
+                               "Down-Regulated" = "blue" ),
+                      breaks = c("Up-Regulated", "Down-Regulated")) +
+  guides(colour = guide_legend("FDR < 0.05", nrow = 2),
+         shape = guide_legend("Gene Function", nrow = 3)) +
+  ylab("-log10(adjPvalue)") +
+  theme(legend.position = "bottom") +
+    facet_grid(~Condition, scales = "free_y") 
+```
+
+```{r}
+ggsave(paste(wd, "Plots/Bter_Simple_FDR0.05_Volcano.pdf", sep = ""))
+```
+
+```{r}
+ggplot(plot.df,
+     aes(x = log2FoldChange, y = Neglog10adjPvalue)) +
+  geom_point(aes(colour = Direction2, shape = Function), size = 1) +
+  scale_colour_manual(values=c("Up-Regulated" = "red",
+                               "Not Top" = "black",  
+                               "Down-Regulated" = "blue" ),
+                      breaks = c("Up-Regulated", "Down-Regulated")) +
+  scale_shape_manual(values= c(19, 17, 1, 3)) +
+  guides(colour = guide_legend("FDR < 0.05", nrow = 2),
+         shape = guide_legend("Gene Function", nrow = 4)) +
+  ylab("-log10(adjPvalue)") +
+  theme(legend.position = "bottom") +
+    facet_grid(~Condition, scales = "free_y") 
+```
+
+
+```{r}
+ggsave(paste(wd, "Plots/Bter_Class_FDR0.05_Volcano.pdf", sep = ""))
+```
+
+
+```{r}
+plot.df$Direction3 <- "Not Significant"
+plot.df$Direction3[plot.df$padj < 0.001 &
+                    plot.df$log2FoldChange > 0 ] <- "Up-Regulated"
+plot.df$Direction3[plot.df$padj < 0.001 &
+                    plot.df$log2FoldChange < 0 ] <- "Down-Regulated"
+
+ggplot(plot.df,
+     aes(x = log2FoldChange, y = Neglog10adjPvalue)) +
+  geom_point(aes(colour = Direction3), size = 1, 
+             position = position_jitter(w=0.1, h = 0.1)) +
+  scale_colour_manual(values=c("Up-Regulated" = "red",
+                               "Not Top" = "black",  
+                               "Down-Regulated" = "blue" ),
+                      breaks = c("Up-Regulated", "Down-Regulated")) +
+  guides(colour = guide_legend("FDR < 0.001", nrow = 2),
+         shape = guide_legend("Gene Function", nrow = 3)) +
+  ylab("-log10(adjPvalue)") +
+  theme(legend.position = "bottom") +
+    facet_grid(~Condition, scales = "free_y") 
+```
+
+
+```{r}
+ggsave(paste(wd, "Plots/Bter_Simple_FDR0.001_Volcano.pdf", sep = ""))
+```
+
+```{r}
+ggplot(plot.df,
+     aes(x = log2FoldChange, y = Neglog10adjPvalue)) +
+  geom_point(aes(colour = Direction3, shape = Function), size = 1) +
+  scale_colour_manual(values=c("Up-Regulated" = "red",
+                               "Not Top" = "black",  
+                               "Down-Regulated" = "blue" ),
+                      breaks = c("Up-Regulated", "Down-Regulated")) +
+  scale_shape_manual(values= c(19, 17, 1, 3)) +
+  guides(colour = guide_legend("FDR < 0.001", nrow = 2),
+         shape = guide_legend("Gene Function", nrow = 4)) +
+  ylab("-log10(adjPvalue)") +
+  theme(legend.position = "bottom") +
+    facet_grid(~Condition, scales = "free_y") 
+```
+
+
+```{r}
+ggsave(paste(wd, "Plots/Bter_Class_FDR0.001_Volcano.pdf", sep = ""))
+```
+
+Label top 3 sig genes per treatment
+
+```{r}
+sig.wound[1:3]
+plot.df$Label[plot.df$Condition == "Wound" & 
+                plot.df$Gene == "LOC100631061"] <- "Hymenoptaecin"
+plot.df$Label[plot.df$Condition == "Wound" & 
+                plot.df$Gene == "LOC125385347"] <- "Hymenoptaecin-like"
+plot.df$Label[plot.df$Condition == "Wound" & 
+                plot.df$Gene == "LOC100649281"] <- "Maltase A1-like"
+
+sig.pos[1:3]
+plot.df$Label[plot.df$Condition == "Gram Positive" & 
+                plot.df$Gene == "LOC100631061"] <- "Hymenoptaecin"
+plot.df$Label[plot.df$Condition == "Gram Positive" & 
+                plot.df$Gene == "LOC100644101"] <- "Uncharacterised LOC100644101"
+plot.df$Label[plot.df$Condition == "Gram Positive" & 
+                plot.df$Gene == "LOC100649867"] <- "Apidaecins type 73"
+
+sig.neg[1:3]
+plot.df$Label[plot.df$Condition == "Gram Negative" & 
+                plot.df$Gene == "LOC100631061"] <- "Hymenoptaecin"
+plot.df$Label[plot.df$Condition == "Gram Negative" & 
+                plot.df$Gene == "LOC125385347"] <- "Hymenoptaecin-like"
+plot.df$Label[plot.df$Condition == "Gram Negative" & 
+                plot.df$Gene == "LOC100649867"] <- "Apidaecins type 73"
+```
+
+```{r}
+ggplot(plot.df,
+     aes(x = log2FoldChange, y = Neglog10adjPvalue)) +
+  geom_point(aes(colour = Direction3), size = 1, 
              position = position_jitter(w=0.1, h = 0.1)) +
   scale_colour_manual(values=c("Up-Regulated" = "red",
                                "Not Top" = "black",  
@@ -1458,20 +2193,20 @@ ggplot(plot.df,
 
 
 ```{r}
-ggsave(paste(wd, "Plots/Amel_Simple_FDR0.001_Volcano_top3Label.pdf", sep = ""))
+ggsave(paste(wd, "Plots/Bter_Simple_FDR0.001_Volcano_top3Label.pdf", sep = ""))
 ```
 
 ```{r}
 ggplot(plot.df,
      aes(x = log2FoldChange, y = Neglog10adjPvalue)) +
-  geom_point(aes(colour = Direction3, shape = Function), size = 2) +
+  geom_point(aes(colour = Direction3, shape = Function), size = 1) +
   scale_colour_manual(values=c("Up-Regulated" = "red",
                                "Not Top" = "black",  
                                "Down-Regulated" = "blue" ),
                       breaks = c("Up-Regulated", "Down-Regulated")) +
-  scale_shape_manual(values= c(19, 17, 1)) +
-  guides(colour = guide_legend("FDR < 0.01", nrow = 2),
-         shape = guide_legend("Gene Function", nrow = 3)) +
+  scale_shape_manual(values= c(19, 17, 1, 3)) +
+  guides(colour = guide_legend("FDR < 0.001", nrow = 2),
+         shape = guide_legend("Gene Function", nrow = 4)) +
   ylab("-log10(adjPvalue)") +
   theme(legend.position = "bottom") +
     facet_grid(~Condition, scales = "free_y") +
@@ -1484,6 +2219,27 @@ ggplot(plot.df,
   ) 
 
 ```
+
 ```{r}
-ggsave(paste(wd, "Plots/Amel_Class_FDR0.001_Volcano_top3Label.pdf", sep = ""))
+ggsave(paste(wd, "Plots/Bter_Class_FDR0.001_Volcano_top3Label.pdf", sep = ""))
 ```
+
+Finish with writing the new ortho table (with a caveat in case I've had to rerun this project)
+
+```{r}
+ortho <- ortho[!duplicated(ortho),]
+write.table(ortho, "input/Ortho_Files/OrthoFinder_Combined_Parsed_Jul22.tsv",
+            col.names = T, row.names = F, quote = F, sep = "\t")
+```
+
+##SessionInfo
+
+```{r}
+dir.create("SessionLogs/")
+writeLines(capture.output(sessionInfo()),
+           "SessionLogs/Proj_Pt1_SesInfo.txt")
+sessionInfo()
+```
+
+
+
