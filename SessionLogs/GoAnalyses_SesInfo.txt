@@ -1,0 +1,39 @@
+R version 4.2.1 (2022-06-23)
+Platform: x86_64-apple-darwin17.0 (64-bit)
+Running under: macOS Big Sur 11.6
+
+Matrix products: default
+LAPACK: /Library/Frameworks/R.framework/Versions/4.2/Resources/lib/libRlapack.dylib
+
+locale:
+[1] en_GB.UTF-8/en_GB.UTF-8/en_GB.UTF-8/C/en_GB.UTF-8/en_GB.UTF-8
+
+attached base packages:
+[1] stats4    stats     graphics  grDevices utils     datasets  methods  
+[8] base     
+
+other attached packages:
+ [1] ggwordcloud_0.5.0    ggplot2_3.3.6        dplyr_1.0.9         
+ [4] topGO_2.48.0         SparseM_1.81         GO.db_3.15.0        
+ [7] AnnotationDbi_1.58.0 IRanges_2.30.0       S4Vectors_0.34.0    
+[10] Biobase_2.56.0       graph_1.74.0         BiocGenerics_0.42.0 
+
+loaded via a namespace (and not attached):
+ [1] KEGGREST_1.36.3        tidyselect_1.1.2       xfun_0.31             
+ [4] purrr_0.3.4            lattice_0.20-45        colorspace_2.0-3      
+ [7] vctrs_0.4.1            generics_0.1.3         htmltools_0.5.3       
+[10] yaml_2.3.5             utf8_1.2.2             blob_1.2.3            
+[13] rlang_1.0.4            pillar_1.8.0           withr_2.5.0           
+[16] glue_1.6.2             DBI_1.1.3              bit64_4.0.5           
+[19] matrixStats_0.62.0     GenomeInfoDbData_1.2.8 lifecycle_1.0.1       
+[22] zlibbioc_1.42.0        Biostrings_2.64.0      munsell_0.5.0         
+[25] gtable_0.3.0           memoise_2.0.1          evaluate_0.15         
+[28] knitr_1.39             fastmap_1.1.0          GenomeInfoDb_1.32.2   
+[31] fansi_1.0.3            Rcpp_1.0.9             scales_1.2.0          
+[34] cachem_1.0.6           XVector_0.36.0         bit_4.0.4             
+[37] png_0.1-7              digest_0.6.29          grid_4.2.1            
+[40] cli_3.3.0              tools_4.2.1            bitops_1.0-7          
+[43] magrittr_2.0.3         RCurl_1.98-1.7         RSQLite_2.2.15        
+[46] tibble_3.1.8           crayon_1.5.1           pkgconfig_2.0.3       
+[49] assertthat_0.2.1       rmarkdown_2.14         httr_1.4.3            
+[52] rstudioapi_0.13        R6_2.5.1               compiler_4.2.1        

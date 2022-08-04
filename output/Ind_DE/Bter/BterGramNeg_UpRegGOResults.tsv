@@ -1,0 +1,601 @@
+GO.ID	Term	Annotated	Significant	Expected	weightFisher	Ontology
+GO:0042438	melanin biosynthetic process	4	3	0.02	7.3e-05	BP
+GO:0048067	cuticle pigmentation	34	4	0.18	0.00023	BP
+GO:0009620	response to fungus	46	4	0.24	0.00034	BP
+GO:0048082	regulation of adult chitin-containing cu...	8	2	0.04	0.00072	BP
+GO:0007564	regulation of chitin-based cuticle tanni...	9	2	0.05	0.00093	BP
+GO:0050830	defense response to Gram-positive bacter...	13	2	0.07	0.00198	BP
+GO:0010951	negative regulation of endopeptidase act...	17	2	0.09	0.00341	BP
+GO:0035007	regulation of melanization defense respo...	3	2	0.02	0.00504	BP
+GO:0009914	hormone transport	14	2	0.07	0.00505	BP
+GO:0006583	melanin biosynthetic process from tyrosi...	1	1	0.01	0.00522	BP
+GO:0006585	dopamine biosynthetic process from tyros...	1	1	0.01	0.00522	BP
+GO:0006587	serotonin biosynthetic process from tryp...	1	1	0.01	0.00522	BP
+GO:0036285	SAGA complex assembly	1	1	0.01	0.00522	BP
+GO:0048022	negative regulation of melanin biosynthe...	1	1	0.01	0.00522	BP
+GO:0002229	defense response to oomycetes	1	1	0.01	0.00522	BP
+GO:0035314	scab formation	1	1	0.01	0.00522	BP
+GO:0032223	negative regulation of synaptic transmis...	1	1	0.01	0.00522	BP
+GO:2001168	positive regulation of histone H2B ubiqu...	1	1	0.01	0.00522	BP
+GO:0015870	acetylcholine transport	1	1	0.01	0.00522	BP
+GO:0001692	histamine metabolic process	1	1	0.01	0.00522	BP
+GO:0043042	amino acid adenylylation by nonribosomal...	1	1	0.01	0.00522	BP
+GO:0009611	response to wounding	85	3	0.44	0.00643	BP
+GO:0035165	embryonic crystal cell differentiation	2	1	0.01	0.01042	BP
+GO:0034761	positive regulation of iron ion transmem...	2	1	0.01	0.01042	BP
+GO:0071421	manganese ion transmembrane transport	2	1	0.01	0.01042	BP
+GO:0060586	multicellular organismal iron ion homeos...	2	1	0.01	0.01042	BP
+GO:0015871	choline transport	2	1	0.01	0.01042	BP
+GO:0035009	negative regulation of melanization defe...	2	1	0.01	0.01042	BP
+GO:0042690	negative regulation of crystal cell diff...	2	1	0.01	0.01042	BP
+GO:0032491	detection of molecule of fungal origin	2	1	0.01	0.01042	BP
+GO:0035434	copper ion transmembrane transport	3	1	0.02	0.01558	BP
+GO:0007393	dorsal closure, leading edge cell fate d...	3	1	0.02	0.01558	BP
+GO:0033387	putrescine biosynthetic process from orn...	3	1	0.02	0.01558	BP
+GO:0035211	spermathecum morphogenesis	3	1	0.02	0.01558	BP
+GO:0000244	spliceosomal tri-snRNP complex assembly	3	1	0.02	0.01558	BP
+GO:0002752	cell surface pattern recognition recepto...	3	1	0.02	0.01558	BP
+GO:0046718	viral entry into host cell	3	1	0.02	0.01558	BP
+GO:0043433	negative regulation of DNA-binding trans...	4	1	0.02	0.02073	BP
+GO:0035170	lymph gland crystal cell differentiation	4	1	0.02	0.02073	BP
+GO:0015677	copper ion import	4	1	0.02	0.02073	BP
+GO:0033212	iron import into cell	4	1	0.02	0.02073	BP
+GO:0097688	glutamate receptor clustering	4	1	0.02	0.02073	BP
+GO:0061101	neuroendocrine cell differentiation	4	1	0.02	0.02073	BP
+GO:0042691	positive regulation of crystal cell diff...	4	1	0.02	0.02073	BP
+GO:0042440	pigment metabolic process	83	6	0.43	0.02158	BP
+GO:0007352	zygotic specification of dorsal/ventral ...	5	1	0.03	0.02584	BP
+GO:0006967	positive regulation of antifungal peptid...	5	1	0.03	0.02584	BP
+GO:0007486	imaginal disc-derived female genitalia d...	5	1	0.03	0.02584	BP
+GO:0048526	imaginal disc-derived wing expansion	6	1	0.03	0.03093	BP
+GO:0046887	positive regulation of hormone secretion	6	1	0.03	0.03093	BP
+GO:0050916	sensory perception of sweet taste	6	1	0.03	0.03093	BP
+GO:0060395	SMAD protein signal transduction	6	1	0.03	0.03093	BP
+GO:0046665	amnioserosa maintenance	6	1	0.03	0.03093	BP
+GO:0042133	neurotransmitter metabolic process	21	2	0.11	0.03482	BP
+GO:0051897	positive regulation of protein kinase B ...	7	1	0.04	0.03600	BP
+GO:0010862	positive regulation of pathway-restricte...	7	1	0.04	0.03600	BP
+GO:0040007	growth	375	4	1.96	0.03936	BP
+GO:0008592	regulation of Toll signaling pathway	21	2	0.11	0.03969	BP
+GO:0002805	regulation of antimicrobial peptide bios...	28	2	0.15	0.03974	BP
+GO:0008062	eclosion rhythm	8	1	0.04	0.04104	BP
+GO:0046672	positive regulation of compound eye reti...	8	1	0.04	0.04104	BP
+GO:0000023	maltose metabolic process	8	1	0.04	0.04104	BP
+GO:0090328	regulation of olfactory learning	8	1	0.04	0.04104	BP
+GO:0016201	synaptic target inhibition	9	1	0.05	0.04605	BP
+GO:0072488	ammonium transmembrane transport	9	1	0.05	0.04605	BP
+GO:0055070	copper ion homeostasis	9	1	0.05	0.04605	BP
+GO:0042417	dopamine metabolic process	12	2	0.06	0.04928	BP
+GO:0006122	mitochondrial electron transport, ubiqui...	10	1	0.05	0.05104	BP
+GO:0097090	presynaptic membrane organization	10	1	0.05	0.05104	BP
+GO:0001941	postsynaptic membrane organization	11	1	0.06	0.05601	BP
+GO:0007615	anesthesia-resistant memory	11	1	0.06	0.05601	BP
+GO:0006508	proteolysis	409	6	2.14	0.05608	BP
+GO:0040040	thermosensory behavior	12	1	0.06	0.06094	BP
+GO:0043052	thermotaxis	12	1	0.06	0.06094	BP
+GO:0045751	negative regulation of Toll signaling pa...	13	1	0.07	0.06586	BP
+GO:0008063	Toll signaling pathway	35	3	0.18	0.06610	BP
+GO:0045610	regulation of hemocyte differentiation	29	3	0.15	0.07057	BP
+GO:0006963	positive regulation of antibacterial pep...	14	1	0.07	0.07075	BP
+GO:0042136	neurotransmitter biosynthetic process	14	1	0.07	0.07075	BP
+GO:0030097	hemopoiesis	70	3	0.37	0.07110	BP
+GO:0018107	peptidyl-threonine phosphorylation	15	1	0.08	0.07561	BP
+GO:0046622	positive regulation of organ growth	15	1	0.08	0.07561	BP
+GO:0016360	sensory organ precursor cell fate determ...	16	1	0.08	0.08045	BP
+GO:0007507	heart development	91	2	0.48	0.08099	BP
+GO:0042675	compound eye cone cell differentiation	17	1	0.09	0.08527	BP
+GO:0014065	phosphatidylinositol 3-kinase signaling	17	1	0.09	0.08527	BP
+GO:0002793	positive regulation of peptide secretion	17	1	0.09	0.08527	BP
+GO:0097164	ammonium ion metabolic process	24	3	0.13	0.09285	BP
+GO:0045467	R7 cell development	19	1	0.1	0.09482	BP
+GO:0009996	negative regulation of cell fate specifi...	19	1	0.1	0.09482	BP
+GO:0042048	olfactory behavior	57	2	0.3	0.09682	BP
+GO:0007390	germ-band shortening	20	1	0.1	0.09957	BP
+GO:0007362	terminal region determination	20	1	0.1	0.09957	BP
+GO:0000027	ribosomal large subunit assembly	20	1	0.1	0.09957	BP
+GO:0045944	positive regulation of transcription by ...	215	3	1.12	0.09992	BP
+GO:0007469	antennal development	22	1	0.11	0.10898	BP
+GO:0007398	ectoderm development	23	1	0.12	0.11365	BP
+GO:0035167	larval lymph gland hemopoiesis	40	2	0.21	0.11464	BP
+GO:0007416	synapse assembly	157	2	0.82	0.11706	BP
+GO:1902875	regulation of embryonic pattern specific...	25	1	0.13	0.12292	BP
+GO:0000122	negative regulation of transcription by ...	121	2	0.63	0.13067	BP
+GO:0008293	torso signaling pathway	27	1	0.14	0.13210	BP
+GO:0008039	synaptic target recognition	37	2	0.19	0.13231	BP
+GO:0007613	memory	101	2	0.53	0.14700	BP
+GO:0007526	larval somatic muscle development	31	1	0.16	0.15018	BP
+GO:1905269	positive regulation of chromatin organiz...	31	1	0.16	0.15018	BP
+GO:0045793	positive regulation of cell size	32	1	0.17	0.15464	BP
+GO:0008258	head involution	32	1	0.17	0.15464	BP
+GO:0007548	sex differentiation	72	2	0.38	0.16344	BP
+GO:0010469	regulation of signaling receptor activit...	34	1	0.18	0.16350	BP
+GO:0006633	fatty acid biosynthetic process	34	1	0.18	0.16350	BP
+GO:0051607	defense response to virus	35	1	0.18	0.16790	BP
+GO:0045087	innate immune response	102	4	0.53	0.16895	BP
+GO:0035172	hemocyte proliferation	38	1	0.2	0.18095	BP
+GO:0032147	activation of protein kinase activity	40	1	0.21	0.18954	BP
+GO:0045746	negative regulation of Notch signaling p...	43	1	0.22	0.20226	BP
+GO:0018105	peptidyl-serine phosphorylation	44	1	0.23	0.20646	BP
+GO:0002252	immune effector process	94	3	0.49	0.20661	BP
+GO:0008286	insulin receptor signaling pathway	46	1	0.24	0.21480	BP
+GO:0045475	locomotor rhythm	50	1	0.26	0.23121	BP
+GO:0007619	courtship behavior	52	1	0.27	0.23929	BP
+GO:0016049	cell growth	120	2	0.63	0.24991	BP
+GO:0002168	instar larval development	56	1	0.29	0.25521	BP
+GO:0045471	response to ethanol	57	1	0.3	0.25914	BP
+GO:0048749	compound eye development	309	2	1.61	0.26183	BP
+GO:0007616	long-term memory	61	1	0.32	0.27466	BP
+GO:0045995	regulation of embryonic development	62	1	0.32	0.27849	BP
+GO:0046677	response to antibiotic	62	1	0.32	0.27849	BP
+GO:0001558	regulation of cell growth	64	1	0.33	0.28609	BP
+GO:0007618	mating	72	1	0.38	0.31574	BP
+GO:0022416	chaeta development	73	1	0.38	0.31936	BP
+GO:0035220	wing disc development	314	2	1.64	0.32910	BP
+GO:0009205	purine ribonucleoside triphosphate metab...	80	1	0.42	0.34420	BP
+GO:0043066	negative regulation of apoptotic process	82	1	0.43	0.35113	BP
+GO:0009167	purine ribonucleoside monophosphate meta...	83	1	0.43	0.35457	BP
+GO:2000027	regulation of animal organ morphogenesis	84	1	0.44	0.35799	BP
+GO:0043408	regulation of MAPK cascade	90	1	0.47	0.37817	BP
+GO:0010720	positive regulation of cell development	92	1	0.48	0.38475	BP
+GO:0042981	regulation of apoptotic process	177	2	0.92	0.38820	BP
+GO:2000113	negative regulation of cellular macromol...	268	2	1.4	0.41174	BP
+GO:0009636	response to toxic substance	108	1	0.56	0.43508	BP
+GO:0015711	organic anion transport	110	1	0.57	0.44109	BP
+GO:0006836	neurotransmitter transport	112	1	0.58	0.44703	BP
+GO:0048731	system development	1357	9	7.08	0.45479	BP
+GO:0016310	phosphorylation	464	3	2.42	0.46227	BP
+GO:0098656	anion transmembrane transport	120	1	0.63	0.47020	BP
+GO:0048813	dendrite morphogenesis	129	1	0.67	0.49514	BP
+GO:0051124	synaptic assembly at neuromuscular junct...	133	1	0.69	0.50586	BP
+GO:0009150	purine ribonucleotide metabolic process	140	1	0.73	0.52410	BP
+GO:0010628	positive regulation of gene expression	367	3	1.92	0.53142	BP
+GO:0006364	rRNA processing	144	1	0.75	0.53422	BP
+GO:0007155	cell adhesion	144	1	0.75	0.53422	BP
+GO:0007165	signal transduction	1096	9	5.72	0.53676	BP
+GO:0051240	positive regulation of multicellular org...	175	2	0.91	0.56051	BP
+GO:0007283	spermatogenesis	182	1	0.95	0.62061	BP
+GO:0010629	negative regulation of gene expression	396	2	2.07	0.62336	BP
+GO:0007411	axon guidance	213	1	1.11	0.67944	BP
+GO:2000112	regulation of cellular macromolecule bio...	781	4	4.08	0.75304	BP
+GO:2000026	regulation of multicellular organismal d...	431	4	2.25	0.82889	BP
+GO:0007292	female gamete generation	544	1	2.84	0.95035	BP
+GO:0044703	multi-organism reproductive process	771	2	4.03	0.97842	BP
+GO:0006825	copper ion transport	6	1	0.03	1.00000	BP
+GO:0006826	iron ion transport	8	1	0.04	1.00000	BP
+GO:0032787	monocarboxylic acid metabolic process	96	1	0.5	1.00000	BP
+GO:0043038	amino acid activation	38	1	0.2	1.00000	BP
+GO:0019693	ribose phosphate metabolic process	148	1	0.77	1.00000	BP
+GO:0002009	morphogenesis of an epithelium	485	2	2.53	1.00000	BP
+GO:0006828	manganese ion transport	3	1	0.02	1.00000	BP
+GO:0031323	regulation of cellular metabolic process	1216	10	6.35	1.00000	BP
+GO:0031324	negative regulation of cellular metaboli...	428	5	2.23	1.00000	BP
+GO:0009141	nucleoside triphosphate metabolic proces...	85	1	0.44	1.00000	BP
+GO:0008283	cell population proliferation	287	1	1.5	1.00000	BP
+GO:0031325	positive regulation of cellular metaboli...	576	6	3.01	1.00000	BP
+GO:0031326	regulation of cellular biosynthetic proc...	829	5	4.33	1.00000	BP
+GO:0031327	negative regulation of cellular biosynth...	282	3	1.47	1.00000	BP
+GO:0009144	purine nucleoside triphosphate metabolic...	80	1	0.42	1.00000	BP
+GO:0031328	positive regulation of cellular biosynth...	362	3	1.89	1.00000	BP
+GO:0043491	protein kinase B signaling	13	1	0.07	1.00000	BP
+GO:0006810	transport	1145	3	5.98	1.00000	BP
+GO:0006811	ion transport	340	2	1.78	1.00000	BP
+GO:0006812	cation transport	222	2	1.16	1.00000	BP
+GO:0032774	RNA biosynthetic process	729	4	3.81	1.00000	BP
+GO:0006163	purine nucleotide metabolic process	150	1	0.78	1.00000	BP
+GO:0140694	non-membrane-bounded organelle assembly	170	1	0.89	1.00000	BP
+GO:0001654	eye development	325	2	1.7	1.00000	BP
+GO:0042325	regulation of phosphorylation	199	2	1.04	1.00000	BP
+GO:0042327	positive regulation of phosphorylation	105	2	0.55	1.00000	BP
+GO:0045611	negative regulation of hemocyte differen...	12	1	0.06	1.00000	BP
+GO:0065003	protein-containing complex assembly	364	3	1.9	1.00000	BP
+GO:0045612	positive regulation of hemocyte differen...	4	1	0.02	1.00000	BP
+GO:0065007	biological regulation	2804	16	14.64	1.00000	BP
+GO:0065008	regulation of biological quality	957	7	5	1.00000	BP
+GO:0065009	regulation of molecular function	429	5	2.24	1.00000	BP
+GO:0001932	regulation of protein phosphorylation	186	2	0.97	1.00000	BP
+GO:0001934	positive regulation of protein phosphory...	101	2	0.53	1.00000	BP
+GO:0042060	wound healing	61	1	0.32	1.00000	BP
+GO:0090304	nucleic acid metabolic process	1425	6	7.44	1.00000	BP
+GO:0009593	detection of chemical stimulus	25	1	0.13	1.00000	BP
+GO:0007560	imaginal disc morphogenesis	321	1	1.68	1.00000	BP
+GO:0031056	regulation of histone modification	35	1	0.18	1.00000	BP
+GO:0005615	extracellular space	141	3	0.63	0.023	CC
+GO:0009897	external side of plasma membrane	8	1	0.04	0.035	CC
+GO:0005750	mitochondrial respiratory chain complex ...	8	1	0.04	0.035	CC
+GO:0000124	SAGA complex	17	1	0.08	0.073	CC
+GO:0005576	extracellular region	262	5	1.16	0.080	CC
+GO:0030687	preribosome, large subunit precursor	20	1	0.09	0.085	CC
+GO:0005887	integral component of plasma membrane	265	3	1.18	0.110	CC
+GO:0032154	cleavage furrow	28	1	0.12	0.117	CC
+GO:0009986	cell surface	49	2	0.22	0.160	CC
+GO:0005769	early endosome	43	1	0.19	0.175	CC
+GO:0016324	apical plasma membrane	52	1	0.23	0.208	CC
+GO:0030532	small nuclear ribonucleoprotein complex	59	1	0.26	0.232	CC
+GO:0031594	neuromuscular junction	66	1	0.29	0.256	CC
+GO:0005886	plasma membrane	704	6	3.13	0.324	CC
+GO:0005768	endosome	159	2	0.71	0.395	CC
+GO:0005700	polytene chromosome	142	1	0.63	0.474	CC
+GO:0005634	nucleus	1639	6	7.28	0.598	CC
+GO:0032991	protein-containing complex	1833	5	8.14	0.874	CC
+GO:0005737	cytoplasm	2632	7	11.69	0.993	CC
+GO:0043228	non-membrane-bounded organelle	1012	1	4.49	1.000	CC
+GO:0005694	chromosome	370	1	1.64	1.000	CC
+GO:0070461	SAGA-type complex	18	1	0.08	1.000	CC
+GO:0043229	intracellular organelle	3150	9	13.99	1.000	CC
+GO:0030054	cell junction	309	1	1.37	1.000	CC
+GO:0097708	intracellular vesicle	277	2	1.23	1.000	CC
+GO:0070069	cytochrome complex	12	1	0.05	1.000	CC
+GO:0070469	respirasome	39	1	0.17	1.000	CC
+GO:0005739	mitochondrion	492	1	2.18	1.000	CC
+GO:0012505	endomembrane system	693	2	3.08	1.000	CC
+GO:0031966	mitochondrial membrane	158	1	0.7	1.000	CC
+GO:0070013	intracellular organelle lumen	766	1	3.4	1.000	CC
+GO:0031967	organelle envelope	252	1	1.12	1.000	CC
+GO:0098796	membrane protein complex	304	1	1.35	1.000	CC
+GO:0098798	mitochondrial protein-containing complex	153	1	0.68	1.000	CC
+GO:1990204	oxidoreductase complex	50	1	0.22	1.000	CC
+GO:0031248	protein acetyltransferase complex	63	1	0.28	1.000	CC
+GO:0120114	Sm-like protein family complex	64	1	0.28	1.000	CC
+GO:1905368	peptidase complex	64	1	0.28	1.000	CC
+GO:0045275	respiratory chain complex III	8	1	0.04	1.000	CC
+GO:0031410	cytoplasmic vesicle	277	2	1.23	1.000	CC
+GO:0110165	cellular anatomical entity	4699	20	20.87	1.000	CC
+GO:0140535	intracellular protein-containing complex	389	1	1.73	1.000	CC
+GO:0000123	histone acetyltransferase complex	56	1	0.25	1.000	CC
+GO:0031090	organelle membrane	455	1	2.02	1.000	CC
+GO:0032153	cell division site	33	1	0.15	1.000	CC
+GO:1902493	acetyltransferase complex	63	1	0.28	1.000	CC
+GO:1902494	catalytic complex	604	2	2.68	1.000	CC
+GO:1902495	transmembrane transporter complex	80	1	0.36	1.000	CC
+GO:1990234	transferase complex	355	1	1.58	1.000	CC
+GO:0031981	nuclear lumen	616	1	2.74	1.000	CC
+GO:0031982	vesicle	304	2	1.35	1.000	CC
+GO:0045177	apical part of cell	109	1	0.48	1.000	CC
+GO:1990904	ribonucleoprotein complex	450	2	2	1.000	CC
+GO:0043231	intracellular membrane-bounded organelle	2786	9	12.37	1.000	CC
+GO:0098552	side of membrane	49	1	0.22	1.000	CC
+GO:0005622	intracellular anatomical structure	3902	12	17.33	1.000	CC
+GO:0043232	intracellular non-membrane-bounded organ...	1012	1	4.49	1.000	CC
+GO:0043233	organelle lumen	766	1	3.4	1.000	CC
+GO:0098590	plasma membrane region	169	2	0.75	1.000	CC
+GO:0005575	cellular_component	4729	21	21	1.000	CC
+GO:0071944	cell periphery	819	6	3.64	1.000	CC
+GO:0031224	intrinsic component of membrane	635	4	2.82	1.000	CC
+GO:0031226	intrinsic component of plasma membrane	274	3	1.22	1.000	CC
+GO:0005740	mitochondrial envelope	168	1	0.75	1.000	CC
+GO:1990351	transporter complex	87	1	0.39	1.000	CC
+GO:0005743	mitochondrial inner membrane	124	1	0.55	1.000	CC
+GO:0016020	membrane	1317	7	5.85	1.000	CC
+GO:0031974	membrane-enclosed lumen	766	1	3.4	1.000	CC
+GO:0031975	envelope	252	1	1.12	1.000	CC
+GO:0016021	integral component of membrane	621	4	2.76	1.000	CC
+GO:0005746	mitochondrial respirasome	39	1	0.17	1.000	CC
+GO:0140513	nuclear protein-containing complex	582	2	2.58	1.000	CC
+GO:0045202	synapse	192	1	0.85	1.000	CC
+GO:0019866	organelle inner membrane	127	1	0.56	1.000	CC
+GO:0098800	inner mitochondrial membrane protein com...	66	1	0.29	1.000	CC
+GO:0005654	nucleoplasm	328	1	1.46	1.000	CC
+GO:0030684	preribosome	73	1	0.32	1.000	CC
+GO:0043226	organelle	3193	9	14.18	1.000	CC
+GO:0043227	membrane-bounded organelle	2857	9	12.69	1.000	CC
+GO:0098803	respiratory chain complex	39	1	0.17	1.000	CC
+GO:0000109	nucleotide-excision repair complex	4	0	0.02	1.000	CC
+GO:0000110	nucleotide-excision repair factor 1 comp...	3	0	0.01	1.000	CC
+GO:0000111	nucleotide-excision repair factor 2 comp...	1	0	0	1.000	CC
+GO:0000118	histone deacetylase complex	23	0	0.1	1.000	CC
+GO:0000120	RNA polymerase I transcription regulator...	2	0	0.01	1.000	CC
+GO:0000126	transcription factor TFIIIB complex	3	0	0.01	1.000	CC
+GO:0000127	transcription factor TFIIIC complex	3	0	0.01	1.000	CC
+GO:0000137	Golgi cis cisterna	8	0	0.04	1.000	CC
+GO:0000138	Golgi trans cisterna	8	0	0.04	1.000	CC
+GO:0000139	Golgi membrane	44	0	0.2	1.000	CC
+GO:0000145	exocyst	8	0	0.04	1.000	CC
+GO:0000151	ubiquitin ligase complex	98	0	0.44	1.000	CC
+GO:0000152	nuclear ubiquitin ligase complex	17	0	0.08	1.000	CC
+GO:0000153	cytoplasmic ubiquitin ligase complex	4	0	0.02	1.000	CC
+GO:0000159	protein phosphatase type 2A complex	5	0	0.02	1.000	CC
+GO:0000164	protein phosphatase type 1 complex	3	0	0.01	1.000	CC
+GO:0000172	ribonuclease MRP complex	5	0	0.02	1.000	CC
+GO:0000176	nuclear exosome (RNase complex)	9	0	0.04	1.000	CC
+GO:0000177	cytoplasmic exosome (RNase complex)	5	0	0.02	1.000	CC
+GO:0000178	exosome (RNase complex)	12	0	0.05	1.000	CC
+GO:0000214	tRNA-intron endonuclease complex	3	0	0.01	1.000	CC
+GO:0000220	vacuolar proton-transporting V-type ATPa...	6	0	0.03	1.000	CC
+GO:0000221	vacuolar proton-transporting V-type ATPa...	6	0	0.03	1.000	CC
+GO:0000228	nuclear chromosome	148	0	0.66	1.000	CC
+GO:0000235	astral microtubule	1	0	0	1.000	CC
+GO:0000242	pericentriolar material	9	0	0.04	1.000	CC
+GO:0000243	commitment complex	6	0	0.03	1.000	CC
+GO:0000262	mitochondrial chromosome	1	0	0	1.000	CC
+GO:0000274	mitochondrial proton-transporting ATP sy...	1	0	0	1.000	CC
+GO:0000275	mitochondrial proton-transporting ATP sy...	6	0	0.03	1.000	CC
+GO:0000276	mitochondrial proton-transporting ATP sy...	5	0	0.02	1.000	CC
+GO:0000306	extrinsic component of vacuolar membrane	1	0	0	1.000	CC
+GO:0000307	cyclin-dependent protein kinase holoenzy...	13	0	0.06	1.000	CC
+GO:0000313	organellar ribosome	61	0	0.27	1.000	CC
+GO:0000314	organellar small ribosomal subunit	23	0	0.1	1.000	CC
+GO:0000315	organellar large ribosomal subunit	41	0	0.18	1.000	CC
+GO:0000323	lytic vacuole	60	0	0.27	1.000	CC
+GO:0000346	transcription export complex	7	0	0.03	1.000	CC
+GO:0000347	THO complex	6	0	0.03	1.000	CC
+GO:0000407	phagophore assembly site	15	0	0.07	1.000	CC
+GO:0000408	EKC/KEOPS complex	2	0	0.01	1.000	CC
+GO:0000421	autophagosome membrane	5	0	0.02	1.000	CC
+GO:0000428	DNA-directed RNA polymerase complex	102	0	0.45	1.000	CC
+GO:0000439	transcription factor TFIIH core complex	6	0	0.03	1.000	CC
+GO:0000445	THO complex part of transcription export...	4	0	0.02	1.000	CC
+GO:0000502	proteasome complex	41	0	0.18	1.000	CC
+GO:0000506	glycosylphosphatidylinositol-N-acetylglu...	4	0	0.02	1.000	CC
+GO:0000775	chromosome, centromeric region	55	0	0.24	1.000	CC
+GO:0000776	kinetochore	34	0	0.15	1.000	CC
+GO:0000779	condensed chromosome, centromeric region	37	0	0.16	1.000	CC
+GO:0000781	chromosome, telomeric region	8	0	0.04	1.000	CC
+GO:0000785	chromatin	175	0	0.78	1.000	CC
+GO:0000786	nucleosome	5	0	0.02	1.000	CC
+GO:0000791	euchromatin	18	0	0.08	1.000	CC
+GO:0000792	heterochromatin	26	0	0.12	1.000	CC
+GO:0000793	condensed chromosome	67	0	0.3	1.000	CC
+GO:0000794	condensed nuclear chromosome	24	0	0.11	1.000	CC
+GO:0000795	synaptonemal complex	3	0	0.01	1.000	CC
+GO:0000796	condensin complex	7	0	0.03	1.000	CC
+GO:0000798	nuclear cohesin complex	2	0	0.01	1.000	CC
+GO:0000803	sex chromosome	7	0	0.03	1.000	CC
+GO:0000805	X chromosome	6	0	0.03	1.000	CC
+GO:0000806	Y chromosome	1	0	0	1.000	CC
+GO:0000808	origin recognition complex	5	0	0.02	1.000	CC
+GO:0000811	GINS complex	4	0	0.02	1.000	CC
+GO:0000812	Swr1 complex	2	0	0.01	1.000	CC
+GO:0000813	ESCRT I complex	6	0	0.03	1.000	CC
+GO:0000814	ESCRT II complex	3	0	0.01	1.000	CC
+GO:0000815	ESCRT III complex	7	0	0.03	1.000	CC
+GO:0000835	ER ubiquitin ligase complex	1	0	0	1.000	CC
+GO:0000836	Hrd1p ubiquitin ligase complex	1	0	0	1.000	CC
+GO:0000922	spindle pole	22	0	0.1	1.000	CC
+GO:0000923	equatorial microtubule organizing center	5	0	0.02	1.000	CC
+GO:0000930	gamma-tubulin complex	6	0	0.03	1.000	CC
+GO:0000931	gamma-tubulin large complex	4	0	0.02	1.000	CC
+GO:0000932	P-body	30	0	0.13	1.000	CC
+GO:0000938	GARP complex	5	0	0.02	1.000	CC
+GO:0000940	outer kinetochore	10	0	0.04	1.000	CC
+GO:0000974	Prp19 complex	10	0	0.04	1.000	CC
+GO:0001405	PAM complex, Tim23 associated import mot...	2	0	0.01	1.000	CC
+GO:0001651	dense fibrillar component	1	0	0	1.000	CC
+GO:0001652	granular component	1	0	0	1.000	CC
+GO:0001669	acrosomal vesicle	2	0	0.01	1.000	CC
+GO:0001673	male germ cell nucleus	6	0	0.03	1.000	CC
+GO:0001674	female germ cell nucleus	9	0	0.04	1.000	CC
+GO:0001725	stress fiber	2	0	0.01	1.000	CC
+GO:0001726	ruffle	3	0	0.01	1.000	CC
+GO:0001940	male pronucleus	2	0	0.01	1.000	CC
+GO:0002080	acrosomal membrane	1	0	0	1.000	CC
+GO:0002081	outer acrosomal membrane	1	0	0	1.000	CC
+GO:0002102	podosome	1	0	0	1.000	CC
+GO:0005581	collagen trimer	3	0	0.01	1.000	CC
+GO:0005587	collagen type IV trimer	2	0	0.01	1.000	CC
+GO:0005604	basement membrane	12	0	0.05	1.000	CC
+GO:0005616	larval serum protein complex	3	0	0.01	1.000	CC
+GO:0005635	nuclear envelope	84	0	0.37	1.000	CC
+GO:0005637	nuclear inner membrane	3	0	0.01	1.000	CC
+GO:0005638	lamin filament	1	0	0	1.000	CC
+GO:0005639	integral component of nuclear inner memb...	1	0	0	1.000	CC
+GO:0005640	nuclear outer membrane	1	0	0	1.000	CC
+GO:0005642	annulate lamellae	1	0	0	1.000	CC
+GO:0005643	nuclear pore	37	0	0.16	1.000	CC
+GO:0005652	nuclear lamina	9	0	0.04	1.000	CC
+GO:0005655	nucleolar ribonuclease P complex	5	0	0.02	1.000	CC
+GO:0005656	nuclear pre-replicative complex	2	0	0.01	1.000	CC
+GO:0005657	replication fork	25	0	0.11	1.000	CC
+GO:0005658	alpha DNA polymerase:primase complex	4	0	0.02	1.000	CC
+GO:0005663	DNA replication factor C complex	5	0	0.02	1.000	CC
+GO:0005664	nuclear origin of replication recognitio...	5	0	0.02	1.000	CC
+GO:0005665	RNA polymerase II, core complex	12	0	0.05	1.000	CC
+GO:0005666	RNA polymerase III complex	21	0	0.09	1.000	CC
+GO:0005667	transcription regulator complex	123	0	0.55	1.000	CC
+GO:0005668	RNA polymerase transcription factor SL1 ...	2	0	0.01	1.000	CC
+GO:0005669	transcription factor TFIID complex	20	0	0.09	1.000	CC
+GO:0005672	transcription factor TFIIA complex	2	0	0.01	1.000	CC
+GO:0005673	transcription factor TFIIE complex	2	0	0.01	1.000	CC
+GO:0005674	transcription factor TFIIF complex	3	0	0.01	1.000	CC
+GO:0005675	transcription factor TFIIH holo complex	10	0	0.04	1.000	CC
+GO:0005677	chromatin silencing complex	3	0	0.01	1.000	CC
+GO:0005680	anaphase-promoting complex	11	0	0.05	1.000	CC
+GO:0004252	serine-type endopeptidase activity	36	4	0.17	1.8e-05	MF
+GO:0004867	serine-type endopeptidase inhibitor acti...	8	2	0.04	0.00057	MF
+GO:0004676	3-phosphoinositide-dependent protein kin...	1	1	0	0.00466	MF
+GO:0003833	beta-alanyl amine synthase activity	1	1	0	0.00466	MF
+GO:0070976	TIR domain binding	1	1	0	0.00466	MF
+GO:0004058	aromatic-L-amino-acid decarboxylase acti...	1	1	0	0.00466	MF
+GO:0005381	iron ion transmembrane transporter activ...	2	1	0.01	0.00931	MF
+GO:0005384	manganese ion transmembrane transporter ...	2	1	0.01	0.00931	MF
+GO:0001872	(1->3)-beta-D-glucan binding	2	1	0.01	0.00931	MF
+GO:0015220	choline transmembrane transporter activi...	2	1	0.01	0.00931	MF
+GO:0005375	copper ion transmembrane transporter act...	3	1	0.01	0.01393	MF
+GO:0004586	ornithine decarboxylase activity	3	1	0.01	0.01393	MF
+GO:0038187	pattern recognition receptor activity	3	1	0.01	0.01393	MF
+GO:0001530	lipopolysaccharide binding	5	1	0.02	0.02311	MF
+GO:0019955	cytokine binding	5	1	0.02	0.02311	MF
+GO:0005160	transforming growth factor beta receptor...	6	1	0.03	0.02767	MF
+GO:0008121	ubiquinol-cytochrome-c reductase activit...	7	1	0.03	0.03221	MF
+GO:0032450	maltose alpha-glucosidase activity	8	1	0.04	0.03673	MF
+GO:0008519	ammonium transmembrane transporter activ...	9	1	0.04	0.04123	MF
+GO:0005125	cytokine activity	9	1	0.04	0.04123	MF
+GO:0015645	fatty acid ligase activity	11	1	0.05	0.05017	MF
+GO:0030295	protein kinase activator activity	12	1	0.06	0.05461	MF
+GO:0051087	chaperone binding	14	1	0.07	0.06343	MF
+GO:0005326	neurotransmitter transmembrane transport...	24	1	0.11	0.10638	MF
+GO:0001227	DNA-binding transcription repressor acti...	28	1	0.13	0.12303	MF
+GO:0038023	signaling receptor activity	150	3	0.7	0.14091	MF
+GO:0015293	symporter activity	33	1	0.15	0.14343	MF
+GO:0008514	organic anion transmembrane transporter ...	90	1	0.42	0.34629	MF
+GO:0000981	DNA-binding transcription factor activit...	143	2	0.67	0.40605	MF
+GO:0004888	transmembrane signaling receptor activit...	113	1	0.53	0.41445	MF
+GO:0008134	transcription factor binding	117	1	0.55	0.42559	MF
+GO:0001067	transcription regulatory region nucleic ...	151	1	0.7	0.51249	MF
+GO:0043565	sequence-specific DNA binding	196	1	0.91	0.60845	MF
+GO:0030246	carbohydrate binding	19	1	0.09	1.00000	MF
+GO:0019207	kinase regulator activity	45	1	0.21	1.00000	MF
+GO:0030247	polysaccharide binding	3	1	0.01	1.00000	MF
+GO:0019209	kinase activator activity	12	1	0.06	1.00000	MF
+GO:0003674	molecular_function	4289	20	20	1.00000	MF
+GO:0016740	transferase activity	725	1	3.38	1.00000	MF
+GO:0098772	molecular function regulator activity	266	4	1.24	1.00000	MF
+GO:0008324	cation transmembrane transporter activit...	176	3	0.82	1.00000	MF
+GO:0009055	electron transfer activity	27	1	0.13	1.00000	MF
+GO:0003676	nucleic acid binding	744	1	3.47	1.00000	MF
+GO:0003677	DNA binding	332	1	1.55	1.00000	MF
+GO:0004175	endopeptidase activity	82	4	0.38	1.00000	MF
+GO:0015453	oxidoreduction-driven active transmembra...	17	1	0.08	1.00000	MF
+GO:0046873	metal ion transmembrane transporter acti...	114	1	0.53	1.00000	MF
+GO:0030234	enzyme regulator activity	230	3	1.07	1.00000	MF
+GO:0016301	kinase activity	251	1	1.17	1.00000	MF
+GO:1901363	heterocyclic compound binding	831	1	3.88	1.00000	MF
+GO:0015318	inorganic molecular entity transmembrane...	253	3	1.18	1.00000	MF
+GO:0015101	organic cation transmembrane transporter...	11	1	0.05	1.00000	MF
+GO:0090599	alpha-glucosidase activity	8	1	0.04	1.00000	MF
+GO:0016874	ligase activity	91	1	0.42	1.00000	MF
+GO:0003700	DNA-binding transcription factor activit...	203	2	0.95	1.00000	MF
+GO:0004672	protein kinase activity	176	1	0.82	1.00000	MF
+GO:0015267	channel activity	120	1	0.56	1.00000	MF
+GO:0016877	ligase activity, forming carbon-sulfur b...	20	1	0.09	1.00000	MF
+GO:0004674	protein serine/threonine kinase activity	134	1	0.62	1.00000	MF
+GO:0016878	acid-thiol ligase activity	14	1	0.07	1.00000	MF
+GO:0016879	ligase activity, forming carbon-nitrogen...	29	1	0.14	1.00000	MF
+GO:0097159	organic cyclic compound binding	838	1	3.91	1.00000	MF
+GO:0004553	hydrolase activity, hydrolyzing O-glycos...	46	1	0.21	1.00000	MF
+GO:0004558	alpha-1,4-glucosidase activity	8	1	0.04	1.00000	MF
+GO:0140096	catalytic activity, acting on a protein	668	5	3.11	1.00000	MF
+GO:0005515	protein binding	1508	4	7.03	1.00000	MF
+GO:0015926	glucosidase activity	8	1	0.04	1.00000	MF
+GO:0001217	DNA-binding transcription repressor acti...	28	1	0.13	1.00000	MF
+GO:0140657	ATP-dependent activity	230	1	1.07	1.00000	MF
+GO:0022853	active ion transmembrane transporter act...	83	1	0.39	1.00000	MF
+GO:0060089	molecular transducer activity	152	3	0.71	1.00000	MF
+GO:0019904	protein domain specific binding	63	1	0.29	1.00000	MF
+GO:0016829	lyase activity	82	2	0.38	1.00000	MF
+GO:0016787	hydrolase activity	786	5	3.67	1.00000	MF
+GO:0008233	peptidase activity	154	4	0.72	1.00000	MF
+GO:0005215	transporter activity	405	3	1.89	1.00000	MF
+GO:0022857	transmembrane transporter activity	338	3	1.58	1.00000	MF
+GO:0005216	ion channel activity	116	1	0.54	1.00000	MF
+GO:0008236	serine-type peptidase activity	42	4	0.2	1.00000	MF
+GO:0008047	enzyme activator activity	107	1	0.5	1.00000	MF
+GO:0017171	serine hydrolase activity	43	4	0.2	1.00000	MF
+GO:0004866	endopeptidase inhibitor activity	17	2	0.08	1.00000	MF
+GO:0030414	peptidase inhibitor activity	17	2	0.08	1.00000	MF
+GO:0016679	oxidoreductase activity, acting on diphe...	7	1	0.03	1.00000	MF
+GO:0016772	transferase activity, transferring phosp...	306	1	1.43	1.00000	MF
+GO:0016773	phosphotransferase activity, alcohol gro...	225	1	1.05	1.00000	MF
+GO:0005261	cation channel activity	90	1	0.42	1.00000	MF
+GO:0005102	signaling receptor binding	125	1	0.58	1.00000	MF
+GO:0016798	hydrolase activity, acting on glycosyl b...	53	1	0.25	1.00000	MF
+GO:0046915	transition metal ion transmembrane trans...	14	1	0.07	1.00000	MF
+GO:0016491	oxidoreductase activity	234	1	1.09	1.00000	MF
+GO:0005126	cytokine receptor binding	11	1	0.05	1.00000	MF
+GO:0004857	enzyme inhibitor activity	37	2	0.17	1.00000	MF
+GO:0008289	lipid binding	87	1	0.41	1.00000	MF
+GO:0015291	secondary active transmembrane transport...	64	1	0.3	1.00000	MF
+GO:0005488	binding	2395	5	11.17	1.00000	MF
+GO:0022890	inorganic cation transmembrane transport...	168	3	0.78	1.00000	MF
+GO:0140110	transcription regulator activity	296	2	1.38	1.00000	MF
+GO:0048018	receptor ligand activity	25	1	0.12	1.00000	MF
+GO:0061134	peptidase regulator activity	24	2	0.11	1.00000	MF
+GO:0097367	carbohydrate derivative binding	105	1	0.49	1.00000	MF
+GO:0061135	endopeptidase regulator activity	19	2	0.09	1.00000	MF
+GO:0016830	carbon-carbon lyase activity	30	2	0.14	1.00000	MF
+GO:0016831	carboxy-lyase activity	21	2	0.1	1.00000	MF
+GO:0015399	primary active transmembrane transporter...	72	1	0.34	1.00000	MF
+GO:0030545	signaling receptor regulator activity	29	1	0.14	1.00000	MF
+GO:0015075	ion transmembrane transporter activity	267	3	1.25	1.00000	MF
+GO:0022803	passive transmembrane transporter activi...	120	1	0.56	1.00000	MF
+GO:0030546	signaling receptor activator activity	27	1	0.13	1.00000	MF
+GO:0022804	active transmembrane transporter activit...	137	2	0.64	1.00000	MF
+GO:0003824	catalytic activity	1919	10	8.95	1.00000	MF
+GO:0008509	anion transmembrane transporter activity	123	1	0.57	1.00000	MF
+GO:0015078	proton transmembrane transporter activit...	37	1	0.17	1.00000	MF
+GO:0019887	protein kinase regulator activity	43	1	0.2	1.00000	MF
+GO:0000009	alpha-1,6-mannosyltransferase activity	1	0	0	1.00000	MF
+GO:0000014	single-stranded DNA endodeoxyribonucleas...	2	0	0.01	1.00000	MF
+GO:0000026	alpha-1,2-mannosyltransferase activity	2	0	0.01	1.00000	MF
+GO:0000030	mannosyltransferase activity	15	0	0.07	1.00000	MF
+GO:0000033	alpha-1,3-mannosyltransferase activity	2	0	0.01	1.00000	MF
+GO:0000035	acyl binding	1	0	0	1.00000	MF
+GO:0000036	acyl carrier activity	1	0	0	1.00000	MF
+GO:0000049	tRNA binding	14	0	0.07	1.00000	MF
+GO:0000062	fatty-acyl-CoA binding	1	0	0	1.00000	MF
+GO:0000064	L-ornithine transmembrane transporter ac...	1	0	0	1.00000	MF
+GO:0000095	S-adenosyl-L-methionine transmembrane tr...	2	0	0.01	1.00000	MF
+GO:0000099	sulfur amino acid transmembrane transpor...	2	0	0.01	1.00000	MF
+GO:0000104	succinate dehydrogenase activity	3	0	0.01	1.00000	MF
+GO:0000146	microfilament motor activity	2	0	0.01	1.00000	MF
+GO:0000149	SNARE binding	38	0	0.18	1.00000	MF
+GO:0000150	DNA strand exchange activity	4	0	0.02	1.00000	MF
+GO:0000166	nucleotide binding	77	0	0.36	1.00000	MF
+GO:0000171	ribonuclease MRP activity	1	0	0	1.00000	MF
+GO:0000175	3'-5'-exoribonuclease activity	15	0	0.07	1.00000	MF
+GO:0000179	rRNA (adenine-N6,N6-)-dimethyltransferas...	2	0	0.01	1.00000	MF
+GO:0000182	rDNA binding	2	0	0.01	1.00000	MF
+GO:0000213	tRNA-intron endonuclease activity	2	0	0.01	1.00000	MF
+GO:0000217	DNA secondary structure binding	10	0	0.05	1.00000	MF
+GO:0000224	peptide-N4-(N-acetyl-beta-glucosaminyl)a...	1	0	0	1.00000	MF
+GO:0000268	peroxisome targeting sequence binding	2	0	0.01	1.00000	MF
+GO:0000285	1-phosphatidylinositol-3-phosphate 5-kin...	1	0	0	1.00000	MF
+GO:0000287	magnesium ion binding	6	0	0.03	1.00000	MF
+GO:0000293	ferric-chelate reductase activity	1	0	0	1.00000	MF
+GO:0000295	adenine nucleotide transmembrane transpo...	5	0	0.02	1.00000	MF
+GO:0000298	endopolyphosphatase activity	1	0	0	1.00000	MF
+GO:0000309	nicotinamide-nucleotide adenylyltransfer...	1	0	0	1.00000	MF
+GO:0000339	RNA cap binding	8	0	0.04	1.00000	MF
+GO:0000340	RNA 7-methylguanosine cap binding	4	0	0.02	1.00000	MF
+GO:0000386	second spliceosomal transesterification ...	1	0	0	1.00000	MF
+GO:0000400	four-way junction DNA binding	7	0	0.03	1.00000	MF
+GO:0000403	Y-form DNA binding	2	0	0.01	1.00000	MF
+GO:0000700	mismatch base pair DNA N-glycosylase act...	1	0	0	1.00000	MF
+GO:0000702	oxidized base lesion DNA N-glycosylase a...	4	0	0.02	1.00000	MF
+GO:0000703	oxidized pyrimidine nucleobase lesion DN...	2	0	0.01	1.00000	MF
+GO:0000774	adenyl-nucleotide exchange factor activi...	1	0	0	1.00000	MF
+GO:0000822	inositol hexakisphosphate binding	1	0	0	1.00000	MF
+GO:0000823	inositol-1,4,5-trisphosphate 6-kinase ac...	1	0	0	1.00000	MF
+GO:0000827	inositol-1,3,4,5,6-pentakisphosphate kin...	1	0	0	1.00000	MF
+GO:0000828	inositol hexakisphosphate kinase activit...	1	0	0	1.00000	MF
+GO:0000829	inositol heptakisphosphate kinase activi...	1	0	0	1.00000	MF
+GO:0000832	inositol hexakisphosphate 5-kinase activ...	1	0	0	1.00000	MF
+GO:0000900	mRNA regulatory element binding translat...	8	0	0.04	1.00000	MF
+GO:0000976	transcription cis-regulatory region bind...	124	0	0.58	1.00000	MF
+GO:0000977	RNA polymerase II transcription regulato...	92	0	0.43	1.00000	MF
+GO:0000978	RNA polymerase II cis-regulatory region ...	33	0	0.15	1.00000	MF
+GO:0000979	RNA polymerase II core promoter sequence...	2	0	0.01	1.00000	MF
+GO:0000987	cis-regulatory region sequence-specific ...	38	0	0.18	1.00000	MF
+GO:0000992	RNA polymerase III cis-regulatory region...	8	0	0.04	1.00000	MF
+GO:0000993	RNA polymerase II complex binding	8	0	0.04	1.00000	MF
+GO:0000994	RNA polymerase III core binding	1	0	0	1.00000	MF
+GO:0001002	RNA polymerase III type 1 promoter seque...	1	0	0	1.00000	MF
+GO:0001003	RNA polymerase III type 2 promoter seque...	2	0	0.01	1.00000	MF
+GO:0001006	RNA polymerase III type 3 promoter seque...	6	0	0.03	1.00000	MF
+GO:0001016	RNA polymerase III transcription regulat...	8	0	0.04	1.00000	MF
+GO:0001025	RNA polymerase III general transcription...	1	0	0	1.00000	MF
+GO:0001042	RNA polymerase I core binding	1	0	0	1.00000	MF
+GO:0001046	core promoter sequence-specific DNA bind...	3	0	0.01	1.00000	MF
+GO:0001054	RNA polymerase I activity	1	0	0	1.00000	MF
+GO:0001091	RNA polymerase II general transcription ...	9	0	0.04	1.00000	MF
+GO:0001092	TFIIA-class transcription factor complex...	4	0	0.02	1.00000	MF
+GO:0001093	TFIIB-class transcription factor binding	1	0	0	1.00000	MF
+GO:0001094	TFIID-class transcription factor complex...	2	0	0.01	1.00000	MF
+GO:0001096	TFIIF-class transcription factor complex...	2	0	0.01	1.00000	MF
+GO:0001097	TFIIH-class transcription factor complex...	1	0	0	1.00000	MF
+GO:0001098	basal transcription machinery binding	17	0	0.08	1.00000	MF
+GO:0001099	basal RNA polymerase II transcription ma...	17	0	0.08	1.00000	MF
+GO:0001156	TFIIIC-class transcription factor comple...	1	0	0	1.00000	MF
+GO:0001163	RNA polymerase I transcription regulator...	2	0	0.01	1.00000	MF
+GO:0001164	RNA polymerase I core promoter sequence-...	1	0	0	1.00000	MF
+GO:0001181	RNA polymerase I general transcription i...	1	0	0	1.00000	MF
+GO:0001216	DNA-binding transcription activator acti...	40	0	0.19	1.00000	MF
+GO:0001221	transcription coregulator binding	5	0	0.02	1.00000	MF
+GO:0001223	transcription coactivator binding	5	0	0.02	1.00000	MF
+GO:0001228	DNA-binding transcription activator acti...	40	0	0.19	1.00000	MF
+GO:0001409	guanine nucleotide transmembrane transpo...	1	0	0	1.00000	MF
+GO:0001517	N-acetylglucosamine 6-O-sulfotransferase...	1	0	0	1.00000	MF
+GO:0001540	amyloid-beta binding	2	0	0.01	1.00000	MF
+GO:0001586	Gi/o-coupled serotonin receptor activity	1	0	0	1.00000	MF
+GO:0001587	Gq/11-coupled serotonin receptor activit...	1	0	0	1.00000	MF
+GO:0001588	dopamine neurotransmitter receptor activ...	2	0	0.01	1.00000	MF
+GO:0001591	dopamine neurotransmitter receptor activ...	1	0	0	1.00000	MF

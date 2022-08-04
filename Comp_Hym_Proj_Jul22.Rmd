@@ -120,11 +120,11 @@ Produce DDS object from tximport object (includes prefiltering and setting refer
 getDDS <- function(species, txobject){
   cd <- read.table(paste("output/Ind_DE/", species, "/",
                          species, "_SampleData.tsv", sep = ""), header = T, sep = "\t")
-ddsTx <- DESeqDataSetFromTximport(txobject, colData = cd, design = ~Treatment)
-keep <- rowSums(counts(ddsTx)) >= 10
-ddsTx2 <- ddsTx[keep,]
-ddsTx2$Treatment <- relevel(ddsTx2$Treatment, ref = "Naive")
-ddsTx2 <- DESeq(ddsTx2)
+  ddsTx <- DESeqDataSetFromTximport(txobject, colData = cd, design = ~Treatment)
+  keep <- rowSums(counts(ddsTx)) >= 10
+  ddsTx2 <- ddsTx[keep,]
+  ddsTx2$Treatment <- relevel(ddsTx2$Treatment, ref = "Naive")
+  ddsTx2 <- DESeq(ddsTx2)
   return(ddsTx2)
 }
 ```

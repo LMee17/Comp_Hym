@@ -1,0 +1,107 @@
+GO:0010951	negative regulation of endopeptidase act...	10	3	0.14	0.00028	BP	Up
+GO:0050830	defense response to Gram-positive bacter...	12	3	0.17	0.00051	BP	Up
+GO:0045087	innate immune response	104	7	1.44	0.00171	BP	Up
+GO:0006967	positive regulation of antifungal peptid...	6	2	0.08	0.00273	BP	Up
+GO:0009620	response to fungus	43	5	0.59	0.00466	BP	Up
+GO:0008152	metabolic process	3318	44	45.85	0.00475	BP	Up
+GO:0045751	negative regulation of Toll signaling pa...	9	2	0.12	0.00637	BP	Up
+GO:0016201	synaptic target inhibition	10	2	0.14	0.00789	BP	Up
+GO:0007416	synapse assembly	153	6	2.11	0.01258	BP	Up
+GO:0035007	regulation of melanization defense respo...	3	2	0.04	0.01363	BP	Up
+GO:0038084	vascular endothelial growth factor signa...	1	1	0.01	0.01382	BP	Up
+GO:0009257	10-formyltetrahydrofolate biosynthetic p...	1	1	0.01	0.01382	BP	Down
+GO:0071938	vitamin A transport	1	1	0.01	0.01382	BP	Up
+GO:0033215	reductive iron assimilation	1	1	0.01	0.01382	BP	Up
+GO:0002229	defense response to oomycetes	1	1	0.01	0.01382	BP	Up
+GO:0006554	lysine catabolic process	1	1	0.01	0.01382	BP	Down
+GO:0006585	dopamine biosynthetic process from tyros...	1	1	0.01	0.01382	BP	Up
+GO:0006587	serotonin biosynthetic process from tryp...	1	1	0.01	0.01382	BP	Up
+GO:0034633	retinol transport	1	1	0.01	0.01382	BP	Up
+GO:0006043	glucosamine catabolic process	1	1	0.01	0.01382	BP	Down
+GO:0046948	hydroxylysine catabolic process	1	1	0.01	0.01382	BP	Down
+GO:0097118	neuroligin clustering involved in postsy...	1	1	0.01	0.01382	BP	Up
+GO:0008063	Toll signaling pathway	32	5	0.44	0.02081	BP	Up
+GO:0007618	mating	77	4	1.06	0.02128	BP	Up
+GO:0030097	hemopoiesis	73	3	1.01	0.02227	BP	Up
+GO:0015718	monocarboxylic acid transport	18	2	0.25	0.02498	BP	Down
+GO:0035009	negative regulation of melanization defe...	2	1	0.03	0.02745	BP	Up
+GO:2000305	semaphorin-plexin signaling pathway invo...	2	1	0.03	0.02745	BP	Up
+GO:0035106	operant conditioning	2	1	0.03	0.02745	BP	Up
+GO:2001240	negative regulation of extrinsic apoptot...	2	1	0.03	0.02745	BP	Up
+GO:0060586	multicellular organismal iron ion homeos...	2	1	0.03	0.02745	BP	Up
+GO:0045739	positive regulation of DNA repair	2	1	0.03	0.02745	BP	Up
+GO:0070285	pigment cell development	2	1	0.03	0.02745	BP	Up
+GO:0071421	manganese ion transmembrane transport	2	1	0.03	0.02745	BP	Up
+GO:1990592	protein K69-linked ufmylation	2	1	0.03	0.02745	BP	Down
+GO:0018095	protein polyglutamylation	2	1	0.03	0.02745	BP	Up
+GO:0016576	histone dephosphorylation	2	1	0.03	0.02745	BP	Up
+GO:0034761	positive regulation of iron ion transmem...	2	1	0.03	0.02745	BP	Up
+GO:0007280	pole cell migration	19	2	0.26	0.02767	BP	Up
+GO:0032504	multicellular organism reproduction	785	14	10.85	0.03778	BP	Up
+GO:0009617	response to bacterium	89	5	1.23	0.03931	BP	Up
+GO:0019732	antifungal humoral response	10	3	0.14	0.03984	BP	Up
+GO:0033212	iron import into cell	4	2	0.06	0.04035	BP	Up
+GO:0030041	actin filament polymerization	44	2	0.61	0.04065	BP	Down
+GO:0051591	response to cAMP	3	1	0.04	0.04089	BP	Up
+GO:0009113	purine nucleobase biosynthetic process	3	1	0.04	0.04089	BP	Down
+GO:0003380	establishment or maintenance of cytoskel...	3	1	0.04	0.04089	BP	Down
+GO:0030240	skeletal muscle thin filament assembly	3	1	0.04	0.04089	BP	Down
+GO:0006718	juvenile hormone biosynthetic process	3	1	0.04	0.04089	BP	Up
+GO:0048383	mesectoderm development	3	1	0.04	0.04089	BP	Down
+GO:0106074	aminoacyl-tRNA metabolism involved in tr...	3	1	0.04	0.04089	BP	Down
+GO:0046718	viral entry into host cell	3	1	0.04	0.04089	BP	Up
+GO:0045434	negative regulation of female receptivit...	3	1	0.04	0.04089	BP	Up
+GO:0046844	chorion micropyle formation	3	1	0.04	0.04089	BP	Up
+GO:0048010	vascular endothelial growth factor recep...	3	1	0.04	0.04089	BP	Up
+GO:0035434	copper ion transmembrane transport	3	1	0.04	0.04089	BP	Up
+GO:0009611	response to wounding	85	5	1.17	0.04356	BP	Up
+GO:0042060	wound healing	60	3	0.83	0.04946	BP	Down
+GO:0009897	external side of plasma membrane	8	3	0.1	0.0023	CC	Up
+GO:0005615	extracellular space	138	7	1.77	0.005	CC	Up
+GO:0000307	cyclin-dependent protein kinase holoenzy...	12	2	0.15	0.0098	CC	Up
+GO:0099056	integral component of presynaptic membra...	1	1	0.01	0.0128	CC	Up
+GO:0033573	high-affinity iron permease complex	1	1	0.01	0.0128	CC	Up
+GO:0043197	dendritic spine	1	1	0.01	0.0128	CC	Up
+GO:0032433	filopodium tip	2	1	0.03	0.0255	CC	Up
+GO:0031233	intrinsic component of external side of ...	2	1	0.03	0.0255	CC	Up
+GO:0005576	extracellular region	270	12	3.46	0.0337	CC	Up
+GO:0098549	somatic ring canal	3	1	0.04	0.038	CC	Up
+GO:0098820	trans-synaptic protein complex	3	1	0.04	0.038	CC	Up
+GO:0036062	presynaptic periactive zone	3	1	0.04	0.038	CC	Up
+GO:0004867	serine-type endopeptidase inhibitor acti...	4	3	0.05	9.7e-06	MF	Up
+GO:0004252	serine-type endopeptidase activity	29	3	0.4	0.007	MF	Up
+GO:0004329	formate-tetrahydrofolate ligase activity	1	1	0.01	0.014	MF	Down
+GO:0008031	eclosion hormone activity	1	1	0.01	0.014	MF	Up
+GO:0005021	vascular endothelial growth factor-activ...	1	1	0.01	0.014	MF	Up
+GO:0051500	D-tyrosyl-tRNA(Tyr) deacylase activity	1	1	0.01	0.014	MF	Down
+GO:0033743	peptide-methionine (R)-S-oxide reductase...	1	1	0.01	0.014	MF	Down
+GO:0005504	fatty acid binding	1	1	0.01	0.014	MF	Down
+GO:0004342	glucosamine-6-phosphate deaminase activi...	1	1	0.01	0.014	MF	Down
+GO:0052767	mannosyl-oligosaccharide 1,6-alpha-manno...	1	1	0.01	0.014	MF	Up
+GO:0004561	alpha-N-acetylglucosaminidase activity	1	1	0.01	0.014	MF	Down
+GO:0070976	TIR domain binding	1	1	0.01	0.014	MF	Up
+GO:0019010	farnesoic acid O-methyltransferase activ...	1	1	0.01	0.014	MF	Up
+GO:0004096	catalase activity	1	1	0.01	0.014	MF	Up
+GO:0035049	juvenile hormone acid methyltransferase ...	1	1	0.01	0.014	MF	Up
+GO:0004361	glutaryl-CoA dehydrogenase activity	1	1	0.01	0.014	MF	Down
+GO:0034185	apolipoprotein binding	1	1	0.01	0.014	MF	Up
+GO:0004516	nicotinate phosphoribosyltransferase act...	1	1	0.01	0.014	MF	Up
+GO:0106026	Gly-tRNA(Ala) hydrolase activity	1	1	0.01	0.014	MF	Down
+GO:0019841	retinol binding	1	1	0.01	0.014	MF	Down
+GO:0004058	aromatic-L-amino-acid decarboxylase acti...	1	1	0.01	0.014	MF	Up
+GO:0071568	UFM1 transferase activity	1	1	0.01	0.014	MF	Down
+GO:0004322	ferroxidase activity	2	1	0.03	0.027	MF	Up
+GO:0004488	methylenetetrahydrofolate dehydrogenase ...	2	1	0.03	0.027	MF	Down
+GO:0004477	methenyltetrahydrofolate cyclohydrolase ...	2	1	0.03	0.027	MF	Down
+GO:0004332	fructose-bisphosphate aldolase activity	2	1	0.03	0.027	MF	Down
+GO:0097109	neuroligin family protein binding	2	1	0.03	0.027	MF	Up
+GO:0030378	serine racemase activity	2	1	0.03	0.027	MF	Down
+GO:0030946	protein tyrosine phosphatase activity, m...	2	1	0.03	0.027	MF	Up
+GO:0005381	iron ion transmembrane transporter activ...	2	1	0.03	0.027	MF	Up
+GO:0005384	manganese ion transmembrane transporter ...	2	1	0.03	0.027	MF	Up
+GO:0042166	acetylcholine binding	2	1	0.03	0.027	MF	Up
+GO:0070740	tubulin-glutamic acid ligase activity	2	1	0.03	0.027	MF	Up
+GO:0035248	alpha-1,4-N-acetylgalactosaminyltransfer...	3	1	0.04	0.041	MF	Up
+GO:0003993	acid phosphatase activity	3	1	0.04	0.041	MF	Up
+GO:0015026	coreceptor activity	3	1	0.04	0.041	MF	Up
+GO:0005375	copper ion transmembrane transporter act...	3	1	0.04	0.041	MF	Up

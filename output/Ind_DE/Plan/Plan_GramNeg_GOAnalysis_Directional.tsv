@@ -1,0 +1,169 @@
+GO:0009167	purine ribonucleoside monophosphate meta...	92	37	10.59	9.4e-11	BP	Down
+GO:0009205	purine ribonucleoside triphosphate metab...	89	37	10.25	4.2e-10	BP	Down
+GO:0009150	purine ribonucleotide metabolic process	150	42	17.27	2.7e-09	BP	Down
+GO:0006120	mitochondrial electron transport, NADH t...	26	15	2.99	1.6e-08	BP	Down
+GO:0016999	antibiotic metabolic process	36	16	4.14	2.1e-07	BP	Down
+GO:0007052	mitotic spindle organization	61	22	7.02	8.4e-07	BP	Up
+GO:0006099	tricarboxylic acid cycle	28	13	3.22	4e-06	BP	Down
+GO:0006101	citrate metabolic process	28	13	3.22	4e-06	BP	Down
+GO:0007088	regulation of mitotic nuclear division	49	17	5.64	5.9e-06	BP	Up
+GO:0016310	phosphorylation	463	78	53.3	1.3e-05	BP	Up
+GO:0006122	mitochondrial electron transport, ubiqui...	10	7	1.15	2.3e-05	BP	Down
+GO:0002181	cytoplasmic translation	108	26	12.43	6.7e-05	BP	Down
+GO:0000281	mitotic cytokinesis	54	17	6.22	6.8e-05	BP	Up
+GO:0015985	energy coupled proton transport, down el...	19	9	2.19	0.00011	BP	Down
+GO:0051257	meiotic spindle midzone assembly	4	4	0.46	0.00017	BP	Up
+GO:0009168	purine ribonucleoside monophosphate bios...	37	12	4.26	0.00059	BP	Down
+GO:0015986	proton motive force-driven ATP synthesis	19	9	2.19	0.00071	BP	Down
+GO:0044703	multi-organism reproductive process	748	108	86.1	0.00148	BP	Up
+GO:0007056	spindle assembly involved in female meio...	9	6	1.04	0.0015	BP	Up
+GO:0007344	pronuclear fusion	3	3	0.35	0.00152	BP	Up
+GO:0035044	sperm aster formation	3	3	0.35	0.00152	BP	Up
+GO:0031054	pre-miRNA processing	3	3	0.35	0.00152	BP	Up
+GO:0006123	mitochondrial electron transport, cytoch...	3	3	0.35	0.00152	BP	Down
+GO:0007307	eggshell chorion gene amplification	21	8	2.42	0.00152	BP	Up
+GO:0006607	NLS-bearing protein import into nucleus	13	6	1.5	0.00191	BP	Up
+GO:0016321	female meiosis chromosome segregation	13	6	1.5	0.00191	BP	Up
+GO:0071103	DNA conformation change	88	20	10.13	0.00194	BP	Down
+GO:0006325	chromatin organization	318	54	36.61	0.00211	BP	Down
+GO:0030261	chromosome condensation	43	14	4.95	0.00387	BP	Up
+GO:0007100	mitotic centrosome separation	11	6	1.27	0.00453	BP	Up
+GO:0055093	response to hyperoxia	7	4	0.81	0.00457	BP	Down
+GO:0007140	male meiotic nuclear division	57	13	6.56	0.00497	BP	Up
+GO:0001556	oocyte maturation	4	3	0.46	0.00555	BP	Up
+GO:0000915	actomyosin contractile ring assembly	18	7	2.07	0.00654	BP	Up
+GO:0006270	DNA replication initiation	13	6	1.5	0.00783	BP	Up
+GO:0040003	chitin-based cuticle development	63	12	7.25	0.00891	BP	Up
+GO:0070507	regulation of microtubule cytoskeleton o...	36	12	4.14	0.00892	BP	Up
+GO:0007098	centrosome cycle	58	21	6.68	0.01076	BP	Up
+GO:0006378	mRNA polyadenylation	26	8	2.99	0.01207	BP	Up
+GO:0007018	microtubule-based movement	117	17	13.47	0.01223	BP	Up
+GO:0007091	metaphase/anaphase transition of mitotic...	24	7	2.76	0.01259	BP	Up
+GO:0035310	notum cell fate specification	5	3	0.58	0.0127	BP	Up
+GO:1900153	positive regulation of nuclear-transcrib...	5	3	0.58	0.0127	BP	Up
+GO:0060213	positive regulation of nuclear-transcrib...	5	3	0.58	0.0127	BP	Up
+GO:0051231	spindle elongation	13	6	1.5	0.01311	BP	Up
+GO:0007144	female meiosis I	5	4	0.58	0.01316	BP	Up
+GO:0042797	tRNA transcription by RNA polymerase III	2	2	0.23	0.01323	BP	Up
+GO:0030954	astral microtubule nucleation	2	2	0.23	0.01323	BP	Up
+GO:0006597	spermine biosynthetic process	2	2	0.23	0.01323	BP	Up
+GO:0035046	pronuclear migration	2	2	0.23	0.01323	BP	Up
+GO:0031887	lipid droplet transport along microtubul...	2	2	0.23	0.01323	BP	Up
+GO:0051664	nuclear pore localization	2	2	0.23	0.01323	BP	Up
+GO:0000461	endonucleolytic cleavage to generate mat...	2	2	0.23	0.01323	BP	Down
+GO:0006067	ethanol metabolic process	2	2	0.23	0.01323	BP	Down
+GO:1903562	microtubule bundle formation involved in...	2	2	0.23	0.01323	BP	Up
+GO:0006990	positive regulation of transcription fro...	2	2	0.23	0.01323	BP	Down
+GO:0032837	distributive segregation	2	2	0.23	0.01323	BP	Up
+GO:0061867	establishment of mitotic spindle asymmet...	2	2	0.23	0.01323	BP	Up
+GO:0007065	male meiosis sister chromatid cohesion	2	2	0.23	0.01323	BP	Up
+GO:0007079	mitotic chromosome movement towards spin...	2	2	0.23	0.01323	BP	Up
+GO:1904667	negative regulation of ubiquitin protein...	2	2	0.23	0.01323	BP	Up
+GO:0000920	septum digestion after cytokinesis	2	2	0.23	0.01323	BP	Up
+GO:0032465	regulation of cytokinesis	10	5	1.15	0.01356	BP	Up
+GO:0030422	production of siRNA involved in post-tra...	9	4	1.04	0.01363	BP	Up
+GO:0007099	centriole replication	19	6	2.19	0.01634	BP	Up
+GO:0007279	pole cell formation	14	5	1.61	0.01639	BP	Up
+GO:0000916	actomyosin contractile ring contraction	14	5	1.61	0.01639	BP	Up
+GO:0007143	female meiotic nuclear division	35	19	4.03	0.01928	BP	Up
+GO:0009631	cold acclimation	10	4	1.15	0.02067	BP	Down
+GO:0030536	larval feeding behavior	10	4	1.15	0.02067	BP	Down
+GO:0006783	heme biosynthetic process	10	4	1.15	0.02067	BP	Down
+GO:0000086	G2/M transition of mitotic cell cycle	29	8	3.34	0.02299	BP	Up
+GO:0000335	negative regulation of transposition, DN...	6	3	0.69	0.02324	BP	Up
+GO:0010628	positive regulation of gene expression	366	55	42.13	0.02904	BP	Up
+GO:0007406	negative regulation of neuroblast prolif...	27	7	3.11	0.02933	BP	Up
+GO:0048800	antennal morphogenesis	11	4	1.27	0.02959	BP	Up
+GO:0045035	sensory organ precursor cell division	11	4	1.27	0.02959	BP	Down
+GO:0048542	lymph gland development	53	6	6.1	0.03006	BP	Down
+GO:0030036	actin cytoskeleton organization	233	37	26.82	0.03204	BP	Down
+GO:0090090	negative regulation of canonical Wnt sig...	28	7	3.22	0.03536	BP	Up
+GO:0042795	snRNA transcription by RNA polymerase II	3	2	0.35	0.03666	BP	Up
+GO:0046012	positive regulation of oskar mRNA transl...	3	2	0.35	0.03666	BP	Up
+GO:2001271	negative regulation of cysteine-type end...	3	2	0.35	0.03666	BP	Down
+GO:0006583	melanin biosynthetic process from tyrosi...	3	2	0.35	0.03666	BP	Up
+GO:0007130	synaptonemal complex assembly	3	2	0.35	0.03666	BP	Up
+GO:2000373	positive regulation of DNA topoisomerase...	3	2	0.35	0.03666	BP	Down
+GO:0030726	male germline ring canal formation	3	2	0.35	0.03666	BP	Up
+GO:0015867	ATP transport	3	2	0.35	0.03666	BP	Down
+GO:0007057	spindle assembly involved in female meio...	3	2	0.35	0.03666	BP	Up
+GO:0036490	regulation of translation in response to...	3	2	0.35	0.03666	BP	Down
+GO:1901673	regulation of mitotic spindle assembly	3	2	0.35	0.03666	BP	Up
+GO:0035561	regulation of chromatin binding	3	2	0.35	0.03666	BP	Up
+GO:0051289	protein homotetramerization	3	2	0.35	0.03666	BP	Down
+GO:0010529	negative regulation of transposition	13	6	1.5	0.03686	BP	Up
+GO:0031398	positive regulation of protein ubiquitin...	13	5	1.5	0.03702	BP	Up
+GO:0007348	regulation of syncytial blastoderm mitot...	7	3	0.81	0.03723	BP	Up
+GO:0007418	ventral midline development	7	3	0.81	0.03723	BP	Up
+GO:0048133	male germ-line stem cell asymmetric divi...	7	3	0.81	0.03723	BP	Up
+GO:0060361	flight	7	3	0.81	0.03723	BP	Up
+GO:0035186	syncytial blastoderm mitotic cell cycle	19	7	2.19	0.03997	BP	Up
+GO:0000082	G1/S transition of mitotic cell cycle	35	6	4.03	0.04058	BP	Up
+GO:0005975	carbohydrate metabolic process	116	13	13.35	0.0411	BP	Up
+GO:0045333	cellular respiration	91	41	10.48	0.04815	BP	Down
+GO:0010501	RNA secondary structure unwinding	30	7	3.45	0.04975	BP	Up
+GO:2000647	negative regulation of stem cell prolife...	30	7	3.45	0.04975	BP	Up
+GO:0005747	mitochondrial respiratory chain complex ...	29	17	3.3	9.8e-10	CC	Down
+GO:0051233	spindle midzone	24	16	2.73	3.2e-06	CC	Up
+GO:0005813	centrosome	64	21	7.28	2.3e-05	CC	Down
+GO:0005750	mitochondrial respiratory chain complex ...	8	6	0.91	4.8e-05	CC	Down
+GO:0005828	kinetochore microtubule	11	7	1.25	5.2e-05	CC	Up
+GO:0005871	kinesin complex	26	10	2.96	0.00032	CC	Up
+GO:0022625	cytosolic large ribosomal subunit	51	15	5.8	0.00036	CC	Down
+GO:0000922	spindle pole	22	11	2.5	0.00065	CC	Up
+GO:0000275	mitochondrial proton-transporting ATP sy...	7	5	0.8	0.00075	CC	Down
+GO:0032133	chromosome passenger complex	5	4	0.57	0.00075	CC	Up
+GO:0035323	male germline ring canal	5	4	0.57	0.00075	CC	Up
+GO:1990023	mitotic spindle midzone	8	5	0.91	0.00078	CC	Up
+GO:0000776	kinetochore	30	14	3.41	9e-04	CC	Up
+GO:0005876	spindle microtubule	24	14	2.73	0.00149	CC	Up
+GO:0031430	M band	13	6	1.48	0.00179	CC	Down
+GO:0005700	polytene chromosome	141	27	16.04	0.00185	CC	Up
+GO:0030496	midbody	19	7	2.16	0.0035	CC	Up
+GO:0022627	cytosolic small ribosomal subunit	40	11	4.55	0.00392	CC	Down
+GO:0005814	centriole	15	6	1.71	0.00427	CC	Up
+GO:0016581	NuRD complex	7	4	0.8	0.00437	CC	Up
+GO:0043186	P granule	25	8	2.84	0.00494	CC	Up
+GO:1990385	meiotic spindle midzone	4	3	0.45	0.00536	CC	Up
+GO:0031012	extracellular matrix	34	9	3.87	0.00656	CC	Down
+GO:0000940	outer kinetochore	8	4	0.91	0.00796	CC	Up
+GO:0005634	nucleus	1577	206	179.35	0.0106	CC	Up
+GO:0098549	somatic ring canal	2	2	0.23	0.01291	CC	Up
+GO:0097431	mitotic spindle pole	2	2	0.23	0.01291	CC	Up
+GO:0070762	nuclear pore transmembrane ring	2	2	0.23	0.01291	CC	Up
+GO:0097482	muscle cell postsynaptic specialization	10	4	1.14	0.01982	CC	Down
+GO:0000794	condensed nuclear chromosome	20	6	2.27	0.02019	CC	Up
+GO:0070938	contractile ring	8	4	0.91	0.02238	CC	Up
+GO:0030018	Z disc	34	8	3.87	0.03321	CC	Down
+GO:0005819	spindle	67	28	7.62	0.03472	CC	Up
+GO:1990498	mitotic spindle microtubule	3	2	0.34	0.03581	CC	Up
+GO:0005751	mitochondrial respiratory chain complex ...	3	2	0.34	0.03581	CC	Down
+GO:0000276	mitochondrial proton-transporting ATP sy...	8	4	0.91	0.03589	CC	Down
+GO:0031080	nuclear pore outer ring	7	3	0.8	0.03605	CC	Up
+GO:0032154	cleavage furrow	29	7	3.3	0.03977	CC	Up
+GO:0000775	chromosome, centromeric region	48	19	5.46	0.04998	CC	Up
+GO:0003954	NADH dehydrogenase activity	26	17	3.24	4.7e-08	MF	Down
+GO:0008121	ubiquinol-cytochrome-c reductase activit...	7	5	0.87	5e-04	MF	Down
+GO:0003735	structural constituent of ribosome	145	31	18.05	0.0015	MF	Down
+GO:0008010	structural constituent of chitin-based l...	9	5	1.12	0.0024	MF	Down
+GO:0008137	NADH dehydrogenase (ubiquinone) activity	6	4	0.75	0.0029	MF	Down
+GO:0001092	TFIIA-class transcription factor complex...	4	3	0.5	0.007	MF	Up
+GO:0035035	histone acetyltransferase binding	4	3	0.5	0.007	MF	Up
+GO:0008574	plus-end-directed microtubule motor acti...	8	4	1	0.011	MF	Up
+GO:0070883	pre-miRNA binding	2	2	0.25	0.0155	MF	Up
+GO:0004367	glycerol-3-phosphate dehydrogenase [NAD+...	2	2	0.25	0.0155	MF	Down
+GO:0030911	TPR domain binding	2	2	0.25	0.0155	MF	Down
+GO:0034584	piRNA binding	2	2	0.25	0.0155	MF	Up
+GO:0004441	inositol-1,4-bisphosphate 1-phosphatase ...	2	2	0.25	0.0155	MF	Up
+GO:0003994	aconitate hydratase activity	2	2	0.25	0.0155	MF	Down
+GO:0008143	poly(A) binding	5	3	0.62	0.0158	MF	Up
+GO:0008061	chitin binding	19	6	2.37	0.0236	MF	Down
+GO:0005528	FK506 binding	6	3	0.75	0.0287	MF	Down
+GO:0003777	microtubule motor activity	33	10	4.11	0.0297	MF	Up
+GO:0004449	isocitrate dehydrogenase (NAD+) activity	3	2	0.37	0.0426	MF	Down
+GO:0061663	NEDD8 ligase activity	3	2	0.37	0.0426	MF	Down
+GO:0046933	proton-transporting ATP synthase activit...	3	2	0.37	0.0426	MF	Down
+GO:0051536	iron-sulfur cluster binding	12	3	1.49	0.0426	MF	Down
+GO:0044769	ATPase activity, coupled to transmembran...	15	3	1.87	0.0427	MF	Down
+GO:0003727	single-stranded RNA binding	22	7	2.74	0.0452	MF	Up
+GO:0070735	protein-glycine ligase activity	7	3	0.87	0.0457	MF	Up

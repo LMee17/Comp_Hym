@@ -1,0 +1,111 @@
+GO:0009620	response to fungus	46	8	0.39	7.7e-06	BP	Up
+GO:0032491	detection of molecule of fungal origin	2	2	0.02	6.9e-05	BP	Up
+GO:0009631	cold acclimation	12	3	0.1	0.00012	BP	Down
+GO:0050830	defense response to Gram-positive bacter...	13	3	0.11	0.00015	BP	Up
+GO:0045751	negative regulation of Toll signaling pa...	13	3	0.11	0.00015	BP	Up
+GO:0002752	cell surface pattern recognition recepto...	3	2	0.03	0.00021	BP	Up
+GO:0010951	negative regulation of endopeptidase act...	17	3	0.14	0.00035	BP	Up
+GO:0042438	melanin biosynthetic process	4	2	0.03	0.00041	BP	Up
+GO:0007465	R7 cell fate commitment	18	3	0.15	0.00041	BP	Down
+GO:0008293	torso signaling pathway	27	3	0.23	0.0014	BP	Down
+GO:0032869	cellular response to insulin stimulus	54	4	0.45	0.00173	BP	Down
+GO:0042759	long-chain fatty acid biosynthetic proce...	8	2	0.07	0.00187	BP	Up
+GO:0034625	fatty acid elongation, monounsaturated f...	11	2	0.09	0.00361	BP	Up
+GO:0034626	fatty acid elongation, polyunsaturated f...	11	2	0.09	0.00361	BP	Up
+GO:0019367	fatty acid elongation, saturated fatty a...	11	2	0.09	0.00361	BP	Up
+GO:0006607	NLS-bearing protein import into nucleus	13	2	0.11	0.00506	BP	Down
+GO:0042761	very long-chain fatty acid biosynthetic ...	14	2	0.12	0.00588	BP	Up
+GO:0043248	proteasome assembly	15	2	0.13	0.00674	BP	Down
+GO:0018107	peptidyl-threonine phosphorylation	15	2	0.13	0.00674	BP	Up
+GO:0034605	cellular response to heat	16	2	0.13	0.00767	BP	Down
+GO:0035007	regulation of melanization defense respo...	3	2	0.03	0.00821	BP	Up
+GO:0072501	cellular divalent inorganic anion homeos...	1	1	0.01	0.00839	BP	Up
+GO:0030320	cellular monovalent inorganic anion home...	1	1	0.01	0.00839	BP	Up
+GO:0006559	L-phenylalanine catabolic process	1	1	0.01	0.00839	BP	Down
+GO:0019442	tryptophan catabolic process to acetyl-C...	1	1	0.01	0.00839	BP	Down
+GO:0046475	glycerophospholipid catabolic process	1	1	0.01	0.00839	BP	Up
+GO:1902616	acyl carnitine transmembrane transport	1	1	0.01	0.00839	BP	Down
+GO:0002229	defense response to oomycetes	1	1	0.01	0.00839	BP	Up
+GO:0035641	locomotory exploration behavior	1	1	0.01	0.00839	BP	Up
+GO:0060189	positive regulation of protein desumoyla...	1	1	0.01	0.00839	BP	Up
+GO:0050728	negative regulation of inflammatory resp...	1	1	0.01	0.00839	BP	Up
+GO:0030643	cellular phosphate ion homeostasis	1	1	0.01	0.00839	BP	Up
+GO:0010529	negative regulation of transposition	17	2	0.14	0.00864	BP	Down
+GO:0035009	negative regulation of melanization defe...	2	1	0.02	0.01671	BP	Up
+GO:0019441	tryptophan catabolic process to kynureni...	2	1	0.02	0.01671	BP	Down
+GO:0015802	basic amino acid transport	2	1	0.02	0.01671	BP	Up
+GO:0071421	manganese ion transmembrane transport	2	1	0.02	0.01671	BP	Up
+GO:0060586	multicellular organismal iron ion homeos...	2	1	0.02	0.01671	BP	Up
+GO:0019217	regulation of fatty acid metabolic proce...	2	1	0.02	0.01671	BP	Up
+GO:0034761	positive regulation of iron ion transmem...	2	1	0.02	0.01671	BP	Up
+GO:0030148	sphingolipid biosynthetic process	24	2	0.2	0.0169	BP	Up
+GO:0045187	regulation of circadian sleep/wake cycle...	27	2	0.23	0.02115	BP	Down
+GO:0035434	copper ion transmembrane transport	3	1	0.03	0.02497	BP	Up
+GO:0046718	viral entry into host cell	3	1	0.03	0.02497	BP	Up
+GO:0071361	cellular response to ethanol	3	1	0.03	0.02497	BP	Up
+GO:0009249	protein lipoylation	3	1	0.03	0.02497	BP	Down
+GO:0033387	putrescine biosynthetic process from orn...	3	1	0.03	0.02497	BP	Up
+GO:0007526	larval somatic muscle development	31	2	0.26	0.02744	BP	Down
+GO:0014065	phosphatidylinositol 3-kinase signaling	17	2	0.14	0.0325	BP	Up
+GO:0048067	cuticle pigmentation	34	2	0.29	0.03258	BP	Up
+GO:0006812	cation transport	222	3	1.86	0.03302	BP	Up
+GO:0045464	R8 cell fate specification	4	1	0.03	0.03315	BP	Down
+GO:0051289	protein homotetramerization	4	1	0.03	0.03315	BP	Down
+GO:0033212	iron import into cell	4	1	0.03	0.03315	BP	Up
+GO:0015677	copper ion import	4	1	0.03	0.03315	BP	Up
+GO:0097688	glutamate receptor clustering	4	1	0.03	0.03315	BP	Up
+GO:0051607	defense response to virus	35	2	0.29	0.03438	BP	Up
+GO:0008152	metabolic process	3408	33	28.6	0.03644	BP	Up
+GO:0097237	cellular response to toxic substance	25	2	0.21	0.04052	BP	Up
+GO:0006967	positive regulation of antifungal peptid...	5	1	0.04	0.04127	BP	Up
+GO:0014068	positive regulation of phosphatidylinosi...	5	1	0.04	0.04127	BP	Up
+GO:0007352	zygotic specification of dorsal/ventral ...	5	1	0.04	0.04127	BP	Up
+GO:0006457	protein folding	70	3	0.59	0.04848	BP	Down
+GO:0061099	negative regulation of protein tyrosine ...	6	1	0.05	0.04932	BP	Up
+GO:0080009	mRNA methylation	6	1	0.05	0.04932	BP	Down
+GO:0050916	sensory perception of sweet taste	6	1	0.05	0.04932	BP	Up
+GO:1901216	positive regulation of neuron death	6	1	0.05	0.04932	BP	Down
+GO:0048526	imaginal disc-derived wing expansion	6	1	0.05	0.04932	BP	Up
+GO:0030692	Noc4p-Nop14p complex	2	1	0.02	0.015	CC	Up
+GO:0005705	polytene chromosome interband	29	2	0.22	0.02	CC	Down
+GO:0005741	mitochondrial outer membrane	29	2	0.22	0.02	CC	Up
+GO:0005615	extracellular space	141	4	1.07	0.021	CC	Up
+GO:0009353	mitochondrial oxoglutarate dehydrogenase...	3	1	0.02	0.023	CC	Down
+GO:0031528	microvillus membrane	3	1	0.02	0.023	CC	Up
+GO:0005576	extracellular region	262	8	1.99	0.026	CC	Up
+GO:0009986	cell surface	49	3	0.37	0.037	CC	Up
+GO:0035183	female germline ring canal inner rim	5	1	0.04	0.038	CC	Up
+GO:0036396	RNA N6-methyladenosine methyltransferase...	5	1	0.04	0.038	CC	Down
+GO:0031966	mitochondrial membrane	158	4	1.2	0.043	CC	Up
+GO:0035371	microtubule plus-end	6	1	0.05	0.045	CC	Up
+GO:0030176	integral component of endoplasmic reticu...	45	2	0.34	0.045	CC	Up
+GO:0004867	serine-type endopeptidase inhibitor acti...	8	3	0.07	3.2e-05	MF	Up
+GO:0030911	TPR domain binding	2	2	0.02	7.2e-05	MF	Down
+GO:0001872	(1->3)-beta-D-glucan binding	2	2	0.02	7.2e-05	MF	Up
+GO:0038187	pattern recognition receptor activity	3	2	0.03	0.00022	MF	Up
+GO:0001530	lipopolysaccharide binding	5	2	0.04	0.00071	MF	Up
+GO:0009922	fatty acid elongase activity	12	2	0.1	0.00453	MF	Up
+GO:0051082	unfolded protein binding	40	3	0.35	0.00469	MF	Down
+GO:0004147	dihydrolipoamide branched chain acyltran...	1	1	0.01	0.00863	MF	Down
+GO:0097677	STAT family protein binding	1	1	0.01	0.00863	MF	Up
+GO:0097678	SOCS family protein binding	1	1	0.01	0.00863	MF	Up
+GO:0017118	lipoyltransferase activity	1	1	0.01	0.00863	MF	Down
+GO:0008889	glycerophosphodiester phosphodiesterase ...	1	1	0.01	0.00863	MF	Up
+GO:0016979	lipoate-protein ligase activity	1	1	0.01	0.00863	MF	Down
+GO:0004896	cytokine receptor activity	1	1	0.01	0.00863	MF	Up
+GO:0047389	glycerophosphocholine phosphodiesterase ...	1	1	0.01	0.00863	MF	Up
+GO:0004833	tryptophan 2,3-dioxygenase activity	1	1	0.01	0.00863	MF	Down
+GO:0070976	TIR domain binding	1	1	0.01	0.00863	MF	Up
+GO:0004096	catalase activity	1	1	0.01	0.00863	MF	Up
+GO:0004676	3-phosphoinositide-dependent protein kin...	1	1	0.01	0.00863	MF	Up
+GO:0015227	acyl carnitine transmembrane transporter...	2	1	0.02	0.01718	MF	Down
+GO:0005381	iron ion transmembrane transporter activ...	2	1	0.02	0.01718	MF	Up
+GO:0005384	manganese ion transmembrane transporter ...	2	1	0.02	0.01718	MF	Up
+GO:0004505	phenylalanine 4-monooxygenase activity	2	1	0.02	0.01718	MF	Down
+GO:0008195	phosphatidate phosphatase activity	3	1	0.03	0.02566	MF	Up
+GO:0051010	microtubule plus-end binding	3	1	0.03	0.02566	MF	Up
+GO:0005375	copper ion transmembrane transporter act...	3	1	0.03	0.02566	MF	Up
+GO:0004586	ornithine decarboxylase activity	3	1	0.03	0.02566	MF	Up
+GO:1990782	protein tyrosine kinase binding	4	1	0.03	0.03407	MF	Up
+GO:0004252	serine-type endopeptidase activity	36	2	0.31	0.03796	MF	Up
+GO:0019955	cytokine binding	5	1	0.04	0.04242	MF	Up

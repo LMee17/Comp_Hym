@@ -1,0 +1,76 @@
+GO:0006635	fatty acid beta-oxidation	7	4	0.23	0.00063	BP	Up
+GO:0015701	bicarbonate transport	4	2	0.13	0.0062	BP	Down
+GO:0030301	cholesterol transport	4	2	0.13	0.0062	BP	Down
+GO:0030239	myofibril assembly	28	4	0.93	0.00982	BP	Down
+GO:1901739	regulation of myoblast fusion	5	2	0.17	0.01012	BP	Down
+GO:0010830	regulation of myotube differentiation	5	2	0.17	0.01012	BP	Down
+GO:0036158	outer dynein arm assembly	5	2	0.17	0.01012	BP	Up
+GO:1902476	chloride transmembrane transport	15	3	0.5	0.01189	BP	Down
+GO:0051453	regulation of intracellular pH	15	3	0.5	0.01461	BP	Down
+GO:0044805	late nucleophagy	1	1	0.03	0.03306	BP	Up
+GO:0034727	piecemeal microautophagy of the nucleus	1	1	0.03	0.03306	BP	Up
+GO:0006212	uracil catabolic process	1	1	0.03	0.03306	BP	Up
+GO:0005993	trehalose catabolic process	1	1	0.03	0.03306	BP	Down
+GO:0019483	beta-alanine biosynthetic process	1	1	0.03	0.03306	BP	Up
+GO:0033539	fatty acid beta-oxidation using acyl-CoA...	1	1	0.03	0.03306	BP	Up
+GO:1901840	negative regulation of RNA polymerase I ...	1	1	0.03	0.03306	BP	Down
+GO:1901837	negative regulation of transcription of ...	1	1	0.03	0.03306	BP	Down
+GO:0060586	multicellular organismal iron ion homeos...	1	1	0.03	0.03306	BP	Up
+GO:0071421	manganese ion transmembrane transport	1	1	0.03	0.03306	BP	Up
+GO:0006880	intracellular sequestering of iron ion	1	1	0.03	0.03306	BP	Down
+GO:0017187	peptidyl-glutamic acid carboxylation	1	1	0.03	0.03306	BP	Down
+GO:0045977	positive regulation of mitotic cell cycl...	1	1	0.03	0.03306	BP	Down
+GO:0033212	iron import into cell	1	1	0.03	0.03306	BP	Up
+GO:0032491	detection of molecule of fungal origin	1	1	0.03	0.03306	BP	Up
+GO:0002752	cell surface pattern recognition recepto...	1	1	0.03	0.03306	BP	Up
+GO:0006559	L-phenylalanine catabolic process	1	1	0.03	0.03306	BP	Down
+GO:0040019	positive regulation of embryonic develop...	1	1	0.03	0.03306	BP	Down
+GO:0006530	asparagine catabolic process	1	1	0.03	0.03306	BP	Down
+GO:0010106	cellular response to iron ion starvation	1	1	0.03	0.03306	BP	Down
+GO:0045003	double-strand break repair via synthesis...	1	1	0.03	0.03306	BP	Down
+GO:0097115	neurexin clustering involved in presynap...	1	1	0.03	0.03306	BP	Down
+GO:0006296	nucleotide-excision repair, DNA incision...	1	1	0.03	0.03306	BP	Down
+GO:0060047	heart contraction	9	2	0.3	0.03343	BP	Down
+GO:0006936	muscle contraction	9	2	0.3	0.03343	BP	Down
+GO:0000280	nuclear division	96	3	3.17	0.03355	BP	Down
+GO:0000077	DNA damage checkpoint signaling	10	2	0.33	0.0409	BP	Down
+GO:0017133	mitochondrial electron transfer flavopro...	2	2	0.06	0.00085	CC	Up
+GO:0005576	extracellular region	121	7	3.55	0.00696	CC	Up
+GO:0044297	cell body	38	4	1.12	0.02845	CC	Up
+GO:0016507	mitochondrial fatty acid beta-oxidation ...	1	1	0.03	0.02934	CC	Up
+GO:0099055	integral component of postsynaptic membr...	1	1	0.03	0.02934	CC	Down
+GO:0005861	troponin complex	1	1	0.03	0.02934	CC	Down
+GO:0005862	muscle thin filament tropomyosin	1	1	0.03	0.02934	CC	Down
+GO:0035253	ciliary rootlet	1	1	0.03	0.02934	CC	Up
+GO:0098820	trans-synaptic protein complex	1	1	0.03	0.02934	CC	Down
+GO:0097542	ciliary tip	1	1	0.03	0.02934	CC	Up
+GO:0008010	structural constituent of chitin-based l...	4	2	0.13	0.0061	MF	Down
+GO:0034041	ABC-type sterol transporter activity	4	2	0.13	0.0061	MF	Down
+GO:0015301	anion:anion antiporter activity	4	2	0.13	0.0061	MF	Down
+GO:0008061	chitin binding	7	2	0.23	0.0199	MF	Down
+GO:0015293	symporter activity	19	4	0.62	0.0315	MF	Up
+GO:0004067	asparaginase activity	1	1	0.03	0.0327	MF	Down
+GO:0004068	aspartate 1-decarboxylase activity	1	1	0.03	0.0327	MF	Up
+GO:0000703	oxidized pyrimidine nucleobase lesion DN...	1	1	0.03	0.0327	MF	Down
+GO:0004398	histidine decarboxylase activity	1	1	0.03	0.0327	MF	Down
+GO:0070006	metalloaminopeptidase activity	1	1	0.03	0.0327	MF	Down
+GO:0008510	sodium:bicarbonate symporter activity	1	1	0.03	0.0327	MF	Down
+GO:0008511	sodium:potassium:chloride symporter acti...	1	1	0.03	0.0327	MF	Down
+GO:0001872	(1->3)-beta-D-glucan binding	1	1	0.03	0.0327	MF	Up
+GO:0008195	phosphatidate phosphatase activity	1	1	0.03	0.0327	MF	Up
+GO:0004505	phenylalanine 4-monooxygenase activity	1	1	0.03	0.0327	MF	Down
+GO:0097109	neuroligin family protein binding	1	1	0.03	0.0327	MF	Down
+GO:0004766	spermidine synthase activity	1	1	0.03	0.0327	MF	Down
+GO:0016509	long-chain-3-hydroxyacyl-CoA dehydrogena...	1	1	0.03	0.0327	MF	Up
+GO:0008488	gamma-glutamyl carboxylase activity	1	1	0.03	0.0327	MF	Down
+GO:0008265	Mo-molybdopterin cofactor sulfurase acti...	1	1	0.03	0.0327	MF	Down
+GO:0004555	alpha,alpha-trehalase activity	1	1	0.03	0.0327	MF	Down
+GO:0004556	alpha-amylase activity	1	1	0.03	0.0327	MF	Up
+GO:0005381	iron ion transmembrane transporter activ...	1	1	0.03	0.0327	MF	Up
+GO:0038187	pattern recognition receptor activity	1	1	0.03	0.0327	MF	Up
+GO:0004719	protein-L-isoaspartate (D-aspartate) O-m...	1	1	0.03	0.0327	MF	Down
+GO:0005384	manganese ion transmembrane transporter ...	1	1	0.03	0.0327	MF	Up
+GO:0019778	Atg12 activating enzyme activity	1	1	0.03	0.0327	MF	Up
+GO:0019779	Atg8 activating enzyme activity	1	1	0.03	0.0327	MF	Up
+GO:0003988	acetyl-CoA C-acyltransferase activity	1	1	0.03	0.0327	MF	Up
+GO:0015318	inorganic molecular entity transmembrane...	108	11	3.53	0.0366	MF	Up

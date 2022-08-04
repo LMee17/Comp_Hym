@@ -1,0 +1,48 @@
+GO:0042438	melanin biosynthetic process	4	2	0.01	6.4e-05	BP	Up
+GO:0010951	negative regulation of endopeptidase act...	17	2	0.06	0.0014	BP	Up
+GO:1902616	acyl carnitine transmembrane transport	1	1	0	0.0034	BP	Down
+GO:0007526	larval somatic muscle development	31	2	0.1	0.0047	BP	Down
+GO:0048067	cuticle pigmentation	34	2	0.11	0.0056	BP	Up
+GO:0034761	positive regulation of iron ion transmem...	2	1	0.01	0.0067	BP	Up
+GO:0071421	manganese ion transmembrane transport	2	1	0.01	0.0067	BP	Up
+GO:0035009	negative regulation of melanization defe...	2	1	0.01	0.0067	BP	Up
+GO:0060586	multicellular organismal iron ion homeos...	2	1	0.01	0.0067	BP	Up
+GO:0006965	positive regulation of biosynthetic proc...	3	1	0.01	0.01	BP	Down
+GO:0035434	copper ion transmembrane transport	3	1	0.01	0.01	BP	Up
+GO:0046718	viral entry into host cell	3	1	0.01	0.01	BP	Up
+GO:0015677	copper ion import	4	1	0.01	0.0134	BP	Up
+GO:0033212	iron import into cell	4	1	0.01	0.0134	BP	Up
+GO:0045752	positive regulation of Toll signaling pa...	5	1	0.02	0.0167	BP	Down
+GO:0006967	positive regulation of antifungal peptid...	5	1	0.02	0.0167	BP	Down
+GO:0048526	imaginal disc-derived wing expansion	6	1	0.02	0.02	BP	Up
+GO:0050916	sensory perception of sweet taste	6	1	0.02	0.02	BP	Up
+GO:0009620	response to fungus	46	2	0.15	0.0253	BP	Down
+GO:0000578	embryonic axis specification	121	2	0.41	0.0256	BP	Down
+GO:0000023	maltose metabolic process	8	1	0.03	0.0266	BP	Down
+GO:0046835	carbohydrate phosphorylation	9	1	0.03	0.0298	BP	Down
+GO:0055070	copper ion homeostasis	9	1	0.03	0.0298	BP	Up
+GO:0072488	ammonium transmembrane transport	9	1	0.03	0.0298	BP	Down
+GO:0007519	skeletal muscle tissue development	10	1	0.03	0.0331	BP	Down
+GO:0009631	cold acclimation	12	1	0.04	0.0396	BP	Down
+GO:0045751	negative regulation of Toll signaling pa...	13	1	0.04	0.0428	BP	Up
+GO:0006607	NLS-bearing protein import into nucleus	13	1	0.04	0.0428	BP	Down
+GO:0015695	organic cation transport	13	1	0.04	0.0428	BP	Down
+GO:0043248	proteasome assembly	15	1	0.05	0.0492	BP	Down
+GO:0009353	mitochondrial oxoglutarate dehydrogenase...	3	1	0.01	0.0089	CC	Down
+GO:0005576	extracellular region	262	4	0.78	0.0383	CC	Down
+GO:0004867	serine-type endopeptidase inhibitor acti...	8	2	0.03	0.00027	MF	Up
+GO:0004454	ketohexokinase activity	1	1	0	0.00326	MF	Down
+GO:0004147	dihydrolipoamide branched chain acyltran...	1	1	0	0.00326	MF	Down
+GO:0015227	acyl carnitine transmembrane transporter...	2	1	0.01	0.00652	MF	Down
+GO:0005381	iron ion transmembrane transporter activ...	2	1	0.01	0.00652	MF	Up
+GO:0005384	manganese ion transmembrane transporter ...	2	1	0.01	0.00652	MF	Up
+GO:0008865	fructokinase activity	2	1	0.01	0.00652	MF	Down
+GO:0030911	TPR domain binding	2	1	0.01	0.00652	MF	Down
+GO:0005375	copper ion transmembrane transporter act...	3	1	0.01	0.00976	MF	Up
+GO:0008083	growth factor activity	4	1	0.01	0.013	MF	Down
+GO:0016015	morphogen activity	6	1	0.02	0.01944	MF	Down
+GO:0005121	Toll binding	7	1	0.02	0.02264	MF	Down
+GO:0004016	adenylate cyclase activity	7	1	0.02	0.02264	MF	Down
+GO:0032450	maltose alpha-glucosidase activity	8	1	0.03	0.02584	MF	Down
+GO:0005125	cytokine activity	9	1	0.03	0.02902	MF	Down
+GO:0008519	ammonium transmembrane transporter activ...	9	1	0.03	0.02902	MF	Down

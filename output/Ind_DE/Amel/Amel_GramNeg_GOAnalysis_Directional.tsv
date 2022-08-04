@@ -1,0 +1,163 @@
+GO:0006967	positive regulation of antifungal peptid...	6	4	0.26	5e-05	BP	Up
+GO:0050830	defense response to Gram-positive bacter...	12	5	0.52	9.4e-05	BP	Down
+GO:0045467	R7 cell development	21	6	0.92	2e-04	BP	Up
+GO:0048526	imaginal disc-derived wing expansion	6	3	0.26	0.0015	BP	Up
+GO:0009253	peptidoglycan catabolic process	2	2	0.09	0.0019	BP	Up
+GO:0030097	hemopoiesis	73	8	3.19	0.0025	BP	Up
+GO:0010862	positive regulation of pathway-restricte...	7	3	0.31	0.0025	BP	Down
+GO:0008063	Toll signaling pathway	32	6	1.4	0.0053	BP	Up
+GO:0033539	fatty acid beta-oxidation using acyl-CoA...	3	2	0.13	0.0055	BP	Up
+GO:1905880	negative regulation of oogenesis	3	2	0.13	0.0055	BP	Down
+GO:0016201	synaptic target inhibition	10	3	0.44	0.0079	BP	Down
+GO:0010951	negative regulation of endopeptidase act...	10	3	0.44	0.0079	BP	Up
+GO:0008586	imaginal disc-derived wing vein morphoge...	42	6	1.84	0.0092	BP	Down
+GO:0006013	mannose metabolic process	4	2	0.17	0.0108	BP	Up
+GO:0035284	brain segmentation	4	2	0.17	0.0108	BP	Down
+GO:0006108	malate metabolic process	4	2	0.17	0.0108	BP	Up
+GO:0008152	metabolic process	3318	133	145.08	0.0136	BP	Up
+GO:0007616	long-term memory	61	7	2.67	0.0163	BP	Down
+GO:0007464	R3/R4 cell fate commitment	13	3	0.57	0.017	BP	Down
+GO:0007366	periodic partitioning by pair rule gene	5	2	0.22	0.0174	BP	Down
+GO:0045610	regulation of hemocyte differentiation	30	5	1.31	0.0207	BP	Up
+GO:0009620	response to fungus	43	9	1.88	0.0243	BP	Up
+GO:0034220	ion transmembrane transport	302	19	13.2	0.0245	BP	Down
+GO:0008049	male courtship behavior	46	5	2.01	0.0249	BP	Up
+GO:0006688	glycosphingolipid biosynthetic process	7	3	0.31	0.0252	BP	Up
+GO:0060395	SMAD protein signal transduction	6	2	0.26	0.0254	BP	Down
+GO:0006964	positive regulation of biosynthetic proc...	6	2	0.26	0.0254	BP	Up
+GO:0032869	cellular response to insulin stimulus	52	3	2.27	0.0256	BP	Up
+GO:0007399	nervous system development	874	45	38.22	0.0298	BP	Up
+GO:0048067	cuticle pigmentation	37	5	1.62	0.0341	BP	Up
+GO:0006517	protein deglycosylation	7	2	0.31	0.0346	BP	Up
+GO:0030513	positive regulation of BMP signaling pat...	7	2	0.31	0.0346	BP	Down
+GO:0098656	anion transmembrane transport	120	10	5.25	0.035	BP	Down
+GO:0042416	dopamine biosynthetic process	2	2	0.09	0.0435	BP	Up
+GO:0035007	regulation of melanization defense respo...	3	2	0.13	0.0436	BP	Up
+GO:0042688	crystal cell differentiation	9	2	0.39	0.0436	BP	Up
+GO:0090327	negative regulation of locomotion involv...	1	1	0.04	0.0437	BP	Up
+GO:0018401	peptidyl-proline hydroxylation to 4-hydr...	1	1	0.04	0.0437	BP	Up
+GO:0009298	GDP-mannose biosynthetic process	1	1	0.04	0.0437	BP	Up
+GO:1903428	positive regulation of reactive oxygen s...	1	1	0.04	0.0437	BP	Up
+GO:0031991	regulation of actomyosin contractile rin...	1	1	0.04	0.0437	BP	Up
+GO:0010571	positive regulation of nuclear cell cycl...	1	1	0.04	0.0437	BP	Down
+GO:0009257	10-formyltetrahydrofolate biosynthetic p...	1	1	0.04	0.0437	BP	Down
+GO:0035314	scab formation	1	1	0.04	0.0437	BP	Up
+GO:0006559	L-phenylalanine catabolic process	1	1	0.04	0.0437	BP	Up
+GO:0033215	reductive iron assimilation	1	1	0.04	0.0437	BP	Up
+GO:0006585	dopamine biosynthetic process from tyros...	1	1	0.04	0.0437	BP	Up
+GO:0006587	serotonin biosynthetic process from tryp...	1	1	0.04	0.0437	BP	Up
+GO:0032223	negative regulation of synaptic transmis...	1	1	0.04	0.0437	BP	Up
+GO:0006693	prostaglandin metabolic process	1	1	0.04	0.0437	BP	Up
+GO:0032793	positive regulation of CREB transcriptio...	1	1	0.04	0.0437	BP	Down
+GO:0006679	glucosylceramide biosynthetic process	1	1	0.04	0.0437	BP	Up
+GO:0051045	negative regulation of membrane protein ...	1	1	0.04	0.0437	BP	Up
+GO:0035965	cardiolipin acyl-chain remodeling	1	1	0.04	0.0437	BP	Up
+GO:0048106	establishment of thoracic bristle planar...	1	1	0.04	0.0437	BP	Down
+GO:0019471	4-hydroxyproline metabolic process	1	1	0.04	0.0437	BP	Up
+GO:0045429	positive regulation of nitric oxide bios...	1	1	0.04	0.0437	BP	Up
+GO:0019442	tryptophan catabolic process to acetyl-C...	1	1	0.04	0.0437	BP	Down
+GO:0045992	negative regulation of embryonic develop...	1	1	0.04	0.0437	BP	Down
+GO:0097370	protein O-GlcNAcylation via threonine	1	1	0.04	0.0437	BP	Up
+GO:0015771	trehalose transport	1	1	0.04	0.0437	BP	Down
+GO:0007462	R1/R6 cell fate commitment	1	1	0.04	0.0437	BP	Down
+GO:0000032	cell wall mannoprotein biosynthetic proc...	1	1	0.04	0.0437	BP	Up
+GO:0038084	vascular endothelial growth factor signa...	1	1	0.04	0.0437	BP	Up
+GO:0015870	acetylcholine transport	1	1	0.04	0.0437	BP	Up
+GO:0002229	defense response to oomycetes	1	1	0.04	0.0437	BP	Up
+GO:0016039	absorption of UV light	1	1	0.04	0.0437	BP	Down
+GO:0006435	threonyl-tRNA aminoacylation	1	1	0.04	0.0437	BP	Up
+GO:1902876	negative regulation of embryonic pattern...	1	1	0.04	0.0437	BP	Down
+GO:0030421	defecation	1	1	0.04	0.0437	BP	Up
+GO:0060283	negative regulation of oocyte developmen...	1	1	0.04	0.0437	BP	Down
+GO:0006189	'de novo' IMP biosynthetic process	1	1	0.04	0.0437	BP	Down
+GO:1902559	3'-phospho-5'-adenylyl sulfate transmemb...	1	1	0.04	0.0437	BP	Up
+GO:0035095	behavioral response to nicotine	1	1	0.04	0.0437	BP	Up
+GO:0097107	postsynaptic density assembly	1	1	0.04	0.0437	BP	Down
+GO:0044351	macropinocytosis	1	1	0.04	0.0437	BP	Down
+GO:0045855	negative regulation of pole plasm oskar ...	1	1	0.04	0.0437	BP	Down
+GO:0071320	cellular response to cAMP	1	1	0.04	0.0437	BP	Down
+GO:0006230	TMP biosynthetic process	1	1	0.04	0.0437	BP	Up
+GO:0034196	acylglycerol transport	1	1	0.04	0.0437	BP	Down
+GO:0010817	regulation of hormone levels	59	3	2.58	0.0438	BP	Down
+GO:0007419	ventral cord development	31	4	1.36	0.0444	BP	Down
+GO:0008062	eclosion rhythm	8	2	0.35	0.0448	BP	Up
+GO:0042438	melanin biosynthetic process	8	2	0.35	0.0448	BP	Up
+GO:0046323	glucose import	8	2	0.35	0.0448	BP	Up
+GO:0061331	epithelial cell proliferation involved i...	8	2	0.35	0.0448	BP	Down
+GO:0035010	encapsulation of foreign target	32	3	1.4	0.0448	BP	Up
+GO:0035172	hemocyte proliferation	37	3	1.62	0.0449	BP	Up
+GO:0016360	sensory organ precursor cell fate determ...	19	3	0.83	0.0477	BP	Up
+GO:0045178	basal part of cell	58	5	2.4	0.0049	CC	Down
+GO:0036062	presynaptic periactive zone	3	2	0.12	0.005	CC	Down
+GO:0005615	extracellular space	138	13	5.72	0.0117	CC	Up
+GO:0031594	neuromuscular junction	67	7	2.78	0.0229	CC	Down
+GO:0005886	plasma membrane	708	46	29.33	0.0243	CC	Up
+GO:0005887	integral component of plasma membrane	280	19	11.6	0.0364	CC	Down
+GO:0002102	podosome	1	1	0.04	0.0414	CC	Up
+GO:0033256	I-kappaB/NF-kappaB complex	1	1	0.04	0.0414	CC	Up
+GO:0005683	U7 snRNP	1	1	0.04	0.0414	CC	Down
+GO:0071204	histone pre-mRNA 3'end processing comple...	1	1	0.04	0.0414	CC	Down
+GO:0070825	micropyle	1	1	0.04	0.0414	CC	Up
+GO:0033573	high-affinity iron permease complex	1	1	0.04	0.0414	CC	Up
+GO:0003997	acyl-CoA oxidase activity	2	2	0.09	0.0019	MF	Up
+GO:0004473	malate dehydrogenase (decarboxylating) (...	2	2	0.09	0.0019	MF	Up
+GO:0008745	N-acetylmuramoyl-L-alanine amidase activ...	2	2	0.09	0.0019	MF	Up
+GO:0042834	peptidoglycan binding	8	3	0.35	0.0039	MF	Up
+GO:0004867	serine-type endopeptidase inhibitor acti...	4	2	0.18	0.0108	MF	Up
+GO:0004879	nuclear receptor activity	13	3	0.57	0.017	MF	Down
+GO:0003995	acyl-CoA dehydrogenase activity	5	2	0.22	0.0174	MF	Up
+GO:0005160	transforming growth factor beta receptor...	6	2	0.26	0.0254	MF	Down
+GO:0015293	symporter activity	34	4	1.49	0.0434	MF	Up
+GO:0004559	alpha-mannosidase activity	7	2	0.31	0.0436	MF	Up
+GO:0046964	3'-phosphoadenosine 5'-phosphosulfate tr...	1	1	0.04	0.0438	MF	Up
+GO:0004511	tyrosine 3-monooxygenase activity	1	1	0.04	0.0438	MF	Up
+GO:0004516	nicotinate phosphoribosyltransferase act...	1	1	0.04	0.0438	MF	Up
+GO:0030160	synaptic receptor adaptor activity	1	1	0.04	0.0438	MF	Down
+GO:0004096	catalase activity	1	1	0.04	0.0438	MF	Up
+GO:0016262	protein N-acetylglucosaminyltransferase ...	1	1	0.04	0.0438	MF	Up
+GO:0015574	trehalose transmembrane transporter acti...	1	1	0.04	0.0438	MF	Down
+GO:0070325	lipoprotein particle receptor binding	1	1	0.04	0.0438	MF	Down
+GO:0033207	beta-1,4-N-acetylgalactosaminyltransfera...	1	1	0.04	0.0438	MF	Up
+GO:0015250	water channel activity	1	1	0.04	0.0438	MF	Up
+GO:0033842	N-acetyl-beta-glucosaminyl-glycoprotein ...	1	1	0.04	0.0438	MF	Up
+GO:0016361	activin receptor activity, type I	1	1	0.04	0.0438	MF	Down
+GO:0008191	metalloendopeptidase inhibitor activity	1	1	0.04	0.0438	MF	Up
+GO:0004329	formate-tetrahydrofolate ligase activity	1	1	0.04	0.0438	MF	Down
+GO:0004058	aromatic-L-amino-acid decarboxylase acti...	1	1	0.04	0.0438	MF	Up
+GO:0005504	fatty acid binding	1	1	0.04	0.0438	MF	Down
+GO:0071209	U7 snRNA binding	1	1	0.04	0.0438	MF	Down
+GO:0070976	TIR domain binding	1	1	0.04	0.0438	MF	Up
+GO:0004829	threonine-tRNA ligase activity	1	1	0.04	0.0438	MF	Up
+GO:0008020	G protein-coupled photoreceptor activity	1	1	0.04	0.0438	MF	Down
+GO:0031005	filamin binding	1	1	0.04	0.0438	MF	Down
+GO:0005021	vascular endothelial growth factor-activ...	1	1	0.04	0.0438	MF	Up
+GO:0004040	amidase activity	1	1	0.04	0.0438	MF	Up
+GO:0004797	thymidine kinase activity	1	1	0.04	0.0438	MF	Up
+GO:0004833	tryptophan 2,3-dioxygenase activity	1	1	0.04	0.0438	MF	Down
+GO:0017168	5-oxoprolinase (ATP-hydrolyzing) activit...	1	1	0.04	0.0438	MF	Down
+GO:0008031	eclosion hormone activity	1	1	0.04	0.0438	MF	Up
+GO:0008120	ceramide glucosyltransferase activity	1	1	0.04	0.0438	MF	Up
+GO:0016155	formyltetrahydrofolate dehydrogenase act...	1	1	0.04	0.0438	MF	Up
+GO:0004687	myosin light chain kinase activity	1	1	0.04	0.0438	MF	Down
+GO:0004676	3-phosphoinositide-dependent protein kin...	1	1	0.04	0.0438	MF	Up
+GO:0008140	cAMP response element binding protein bi...	1	1	0.04	0.0438	MF	Down
+GO:0019841	retinol binding	1	1	0.04	0.0438	MF	Down
+GO:0046523	S-methyl-5-thioribose-1-phosphate isomer...	1	1	0.04	0.0438	MF	Up
+GO:0004638	phosphoribosylaminoimidazole carboxylase...	1	1	0.04	0.0438	MF	Down
+GO:0004639	phosphoribosylaminoimidazolesuccinocarbo...	1	1	0.04	0.0438	MF	Down
+GO:0032577	phosphatidylcholine:cardiolipin O-linole...	1	1	0.04	0.0438	MF	Up
+GO:0004484	mRNA guanylyltransferase activity	1	1	0.04	0.0438	MF	Up
+GO:0000293	ferric-chelate reductase activity	1	1	0.04	0.0438	MF	Up
+GO:0004561	alpha-N-acetylglucosaminidase activity	1	1	0.04	0.0438	MF	Down
+GO:0052767	mannosyl-oligosaccharide 1,6-alpha-manno...	1	1	0.04	0.0438	MF	Up
+GO:0004476	mannose-6-phosphate isomerase activity	1	1	0.04	0.0438	MF	Up
+GO:0004565	beta-galactosidase activity	1	1	0.04	0.0438	MF	Up
+GO:0031545	peptidyl-proline 4-dioxygenase activity	1	1	0.04	0.0438	MF	Up
+GO:0016723	oxidoreductase activity, acting on metal...	1	1	0.04	0.0438	MF	Up
+GO:0004445	inositol-polyphosphate 5-phosphatase act...	1	1	0.04	0.0438	MF	Up
+GO:0097363	protein O-GlcNAc transferase activity	1	1	0.04	0.0438	MF	Up
+GO:0005351	carbohydrate:proton symporter activity	8	2	0.35	0.0448	MF	Up
+GO:0005355	glucose transmembrane transporter activi...	8	2	0.35	0.0448	MF	Up
+GO:0005125	cytokine activity	8	2	0.35	0.0448	MF	Down
+GO:0061629	RNA polymerase II-specific DNA-binding t...	8	2	0.35	0.0448	MF	Down
+GO:0016298	lipase activity	19	3	0.83	0.0477	MF	Up
