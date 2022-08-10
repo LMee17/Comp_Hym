@@ -90,6 +90,9 @@ ind.res$OrthoGroup[ind.res$OrthoGroup == "Unassigned" &
                      ind.res$Source == "Plan" | ind.res$Source == "Plan_12"] <- "Unassigned_Plan"
 summary(as.factor(ind.res$OrthoGroup))
 
+
+
+
 #make matrix for upsetR
 res.mat <- as.data.frame(unique(ind.res$OrthoGroup))
 names(res.mat) <- "OrthoGroup"
@@ -210,14 +213,18 @@ p <- ggplot() +
 #manually made from a colour mixing site
 p + scale_fill_manual(values = c("#ffa500", "#805380", "#558c8c", "#806980", "#aa3773",
                                       "#80d253", "#aa8c55", "#ff532d", "#005aff", "#0080d2",
-                                      "#5555aa", "#8000ad", "#00ffa5", "#808080", "#ff005a"))
+                                      "#5555aa", "#8000ad", "#00ffa5", "#808080", "#ff005a")) +
+  labs(title = "Wound") +
+  theme(plot.title = element_text(hjust = 0.5, face = "bold"))
 
 #Plot2: colours in red for upregulated
 ggVennDiagram(w.u.venn,
               label = "count") +
   scale_colour_manual(values = c("orange", "orange", "orange", "orange")) +
   scale_fill_gradient(low = "#ffff9d", high = "#ff0000") +
-  labs(title = "test")
+  labs(title = "Wound") +
+  theme(plot.title = element_text(hjust = 0.5, face = "bold"))
+
 
 p <- ggplot() + 
   #region count layer
@@ -1011,6 +1018,7 @@ p <- ggplot() +
 #manually made from a colour mixing site
 p + scale_fill_gradient(low = "#d8d8ff", high = "#0000ff")
 
+######8th August#####
 
 
 
