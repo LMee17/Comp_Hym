@@ -1,0 +1,2960 @@
+OrthoGroup	Function	Contrast	Source	DETot
+OG0000034	Immune	GramNegative	P.lanio	1
+OG0000138	Immune	GramNegative	A.melifera, B.terrestris, C.australensis, P.lanio	4
+OG0000187	Immune	GramNegative	P.lanio	1
+OG0000191	Immune	GramNegative	P.lanio	1
+OG0000268	Immune	GramNegative	B.terrestris	1
+OG0000399	Immune	GramNegative	Aculeata, AgeControlled, Anthophila, Apinae	4
+OG0000446	Immune	GramNegative	Apinae	1
+OG0000493	Immune	GramNegative	A.melifera, P.lanio	2
+OG0000699	Immune	GramNegative	Aculeata, Anthophila, Apinae	3
+OG0000928	Immune	GramNegative	A.melifera, B.terrestris	2
+OG0000946	Immune	GramNegative	B.terrestris	1
+OG0001290	Immune	GramNegative	A.melifera, B.terrestris	2
+OG0001412	Immune	GramNegative	A.melifera	1
+OG0002135	Immune	GramNegative	P.lanio	1
+OG0002409	Immune	GramNegative	B.terrestris	1
+OG0002678	Immune	GramNegative	P.lanio	1
+OG0002707	Immune	GramNegative	B.terrestris	1
+OG0003875	Immune	GramNegative	P.lanio	1
+OG0003959	Immune	GramNegative	A.melifera	1
+OG0004091	Immune	GramNegative	A.melifera	1
+OG0004307	Immune	GramNegative	A.melifera	1
+OG0004507	Immune	GramNegative	P.lanio	1
+OG0004610	Immune	GramNegative	A.melifera, B.terrestris	2
+OG0004717	Immune	GramNegative	A.melifera	1
+OG0004768	Immune	GramNegative	C.australensis	1
+OG0004983	Immune	GramNegative	Apinae	1
+OG0005039	Immune	GramNegative	P.lanio	1
+OG0005230	Immune	GramNegative	A.melifera	1
+OG0005356	Immune	GramNegative	P.lanio	1
+OG0007012	Immune	GramNegative	B.terrestris	1
+OG0008269	Immune	GramNegative	P.lanio	1
+OG0008585	Immune	GramNegative	C.australensis	1
+OG0009097	Immune	GramNegative	A.melifera	1
+OG0009345	Immune	GramNegative	B.terrestris	1
+OG0009651	Immune	GramNegative	A.melifera	1
+OG0009885	Immune	GramNegative	A.melifera	1
+OG0000013	None Immune	GramNegative	P.lanio	1
+OG0000041	None Immune	GramNegative	A.melifera	1
+OG0000048	None Immune	GramNegative	B.terrestris	1
+OG0000051	None Immune	GramNegative	A.melifera, P.lanio	2
+OG0000056	None Immune	GramNegative	P.lanio	1
+OG0000059	None Immune	GramNegative	B.terrestris	1
+OG0000070	None Immune	GramNegative	P.lanio	1
+OG0000099	None Immune	GramNegative	A.melifera	1
+OG0000114	None Immune	GramNegative	P.lanio	1
+OG0000127	None Immune	GramNegative	B.terrestris	1
+OG0000130	None Immune	GramNegative	A.melifera	1
+OG0000137	None Immune	GramNegative	P.lanio	1
+OG0000175	None Immune	GramNegative	P.lanio	1
+OG0000190	None Immune	GramNegative	P.lanio	1
+OG0000231	None Immune	GramNegative	B.terrestris	1
+OG0000248	None Immune	GramNegative	A.melifera	1
+OG0000252	None Immune	GramNegative	B.terrestris	1
+OG0000253	None Immune	GramNegative	P.lanio	1
+OG0000264	None Immune	GramNegative	P.lanio	1
+OG0000272	None Immune	GramNegative	B.terrestris	1
+OG0000290	None Immune	GramNegative	A.melifera	1
+OG0000293	None Immune	GramNegative	A.melifera	1
+OG0000294	None Immune	GramNegative	A.melifera, C.australensis	2
+OG0000307	None Immune	GramNegative	A.melifera, C.australensis	2
+OG0000315	None Immune	GramNegative	P.lanio	1
+OG0000319	None Immune	GramNegative	B.terrestris	1
+OG0000323	None Immune	GramNegative	A.melifera	1
+OG0000334	None Immune	GramNegative	P.lanio	1
+OG0000342	None Immune	GramNegative	B.terrestris	1
+OG0000347	None Immune	GramNegative	A.melifera	1
+OG0000359	None Immune	GramNegative	P.lanio	1
+OG0000363	None Immune	GramNegative	P.lanio	1
+OG0000372	None Immune	GramNegative	B.terrestris	1
+OG0000383	None Immune	GramNegative	A.melifera	1
+OG0000396	None Immune	GramNegative	B.terrestris	1
+OG0000430	None Immune	GramNegative	P.lanio	1
+OG0000440	None Immune	GramNegative	P.lanio	1
+OG0000453	None Immune	GramNegative	P.lanio	1
+OG0000468	None Immune	GramNegative	P.lanio	1
+OG0000475	None Immune	GramNegative	B.terrestris	1
+OG0000478	None Immune	GramNegative	A.melifera	1
+OG0000479	None Immune	GramNegative	P.lanio	1
+OG0000498	None Immune	GramNegative	B.terrestris	1
+OG0000501	None Immune	GramNegative	A.melifera	1
+OG0000509	None Immune	GramNegative	C.australensis	1
+OG0000518	None Immune	GramNegative	A.melifera	1
+OG0000543	None Immune	GramNegative	P.lanio	1
+OG0000547	None Immune	GramNegative	P.lanio	1
+OG0000553	None Immune	GramNegative	A.melifera	1
+OG0000555	None Immune	GramNegative	P.lanio	1
+OG0000558	None Immune	GramNegative	A.melifera	1
+OG0000569	None Immune	GramNegative	B.terrestris	1
+OG0000589	None Immune	GramNegative	P.lanio	1
+OG0000596	None Immune	GramNegative	P.lanio	1
+OG0000603	None Immune	GramNegative	B.terrestris, C.australensis	2
+OG0000613	None Immune	GramNegative	A.melifera	1
+OG0000619	None Immune	GramNegative	P.lanio	1
+OG0000624	None Immune	GramNegative	P.lanio	1
+OG0000629	None Immune	GramNegative	A.melifera	1
+OG0000676	None Immune	GramNegative	P.lanio	1
+OG0000678	None Immune	GramNegative	P.lanio	1
+OG0000698	None Immune	GramNegative	A.melifera	1
+OG0000703	None Immune	GramNegative	B.terrestris	1
+OG0000736	None Immune	GramNegative	P.lanio	1
+OG0000747	None Immune	GramNegative	B.terrestris	1
+OG0000749	None Immune	GramNegative	P.lanio	1
+OG0000751	None Immune	GramNegative	A.melifera	1
+OG0000753	None Immune	GramNegative	P.lanio	1
+OG0000768	None Immune	GramNegative	A.melifera	1
+OG0000772	None Immune	GramNegative	P.lanio	1
+OG0000773	None Immune	GramNegative	A.melifera, P.lanio	2
+OG0000781	None Immune	GramNegative	A.melifera	1
+OG0000799	None Immune	GramNegative	A.melifera	1
+OG0000813	None Immune	GramNegative	P.lanio	1
+OG0000823	None Immune	GramNegative	P.lanio	1
+OG0000855	None Immune	GramNegative	B.terrestris	1
+OG0000863	None Immune	GramNegative	A.melifera	1
+OG0000868	None Immune	GramNegative	P.lanio	1
+OG0000869	None Immune	GramNegative	B.terrestris	1
+OG0000884	None Immune	GramNegative	A.melifera	1
+OG0000888	None Immune	GramNegative	P.lanio	1
+OG0000898	None Immune	GramNegative	P.lanio	1
+OG0000926	None Immune	GramNegative	P.lanio	1
+OG0000930	None Immune	GramNegative	P.lanio	1
+OG0000935	None Immune	GramNegative	P.lanio	1
+OG0000936	None Immune	GramNegative	P.lanio	1
+OG0000941	None Immune	GramNegative	P.lanio	1
+OG0000954	None Immune	GramNegative	Anthophila	1
+OG0000971	None Immune	GramNegative	P.lanio	1
+OG0000977	None Immune	GramNegative	A.melifera, B.terrestris	2
+OG0000978	None Immune	GramNegative	P.lanio	1
+OG0000993	None Immune	GramNegative	A.melifera	1
+OG0000994	None Immune	GramNegative	B.terrestris	1
+OG0001000	None Immune	GramNegative	A.melifera	1
+OG0001007	None Immune	GramNegative	P.lanio	1
+OG0001013	None Immune	GramNegative	A.melifera	1
+OG0001026	None Immune	GramNegative	P.lanio	1
+OG0001030	None Immune	GramNegative	P.lanio	1
+OG0001044	None Immune	GramNegative	B.terrestris	1
+OG0001048	None Immune	GramNegative	B.terrestris	1
+OG0001058	None Immune	GramNegative	A.melifera	1
+OG0001068	None Immune	GramNegative	A.melifera, C.australensis, P.lanio	3
+OG0001086	None Immune	GramNegative	A.melifera	1
+OG0001094	None Immune	GramNegative	P.lanio	1
+OG0001104	None Immune	GramNegative	A.melifera	1
+OG0001116	None Immune	GramNegative	B.terrestris	1
+OG0001120	None Immune	GramNegative	P.lanio	1
+OG0001192	None Immune	GramNegative	A.melifera, P.lanio	2
+OG0001193	None Immune	GramNegative	A.melifera	1
+OG0001212	None Immune	GramNegative	B.terrestris, C.australensis, P.lanio	3
+OG0001213	None Immune	GramNegative	A.melifera	1
+OG0001226	None Immune	GramNegative	P.lanio	1
+OG0001267	None Immune	GramNegative	A.melifera	1
+OG0001285	None Immune	GramNegative	A.melifera	1
+OG0001291	None Immune	GramNegative	P.lanio	1
+OG0001298	None Immune	GramNegative	A.melifera	1
+OG0001333	None Immune	GramNegative	B.terrestris, C.australensis	2
+OG0001351	None Immune	GramNegative	B.terrestris	1
+OG0001352	None Immune	GramNegative	P.lanio	1
+OG0001383	None Immune	GramNegative	A.melifera	1
+OG0001403	None Immune	GramNegative	C.australensis	1
+OG0001406	None Immune	GramNegative	P.lanio	1
+OG0001411	None Immune	GramNegative	P.lanio	1
+OG0001416	None Immune	GramNegative	A.melifera, B.terrestris	2
+OG0001417	None Immune	GramNegative	P.lanio	1
+OG0001423	None Immune	GramNegative	A.melifera	1
+OG0001429	None Immune	GramNegative	P.lanio	1
+OG0001438	None Immune	GramNegative	A.melifera	1
+OG0001454	None Immune	GramNegative	A.melifera, P.lanio	2
+OG0001469	None Immune	GramNegative	A.melifera	1
+OG0001470	None Immune	GramNegative	B.terrestris	1
+OG0001472	None Immune	GramNegative	B.terrestris	1
+OG0001473	None Immune	GramNegative	P.lanio	1
+OG0001474	None Immune	GramNegative	C.australensis	1
+OG0001477	None Immune	GramNegative	P.lanio	1
+OG0001485	None Immune	GramNegative	A.melifera	1
+OG0001508	None Immune	GramNegative	A.melifera	1
+OG0001513	None Immune	GramNegative	P.lanio	1
+OG0001516	None Immune	GramNegative	P.lanio	1
+OG0001530	None Immune	GramNegative	P.lanio	1
+OG0001541	None Immune	GramNegative	A.melifera	1
+OG0001566	None Immune	GramNegative	A.melifera	1
+OG0001573	None Immune	GramNegative	P.lanio	1
+OG0001588	None Immune	GramNegative	C.australensis	1
+OG0001605	None Immune	GramNegative	B.terrestris	1
+OG0001612	None Immune	GramNegative	A.melifera	1
+OG0001613	None Immune	GramNegative	A.melifera	1
+OG0001615	None Immune	GramNegative	P.lanio	1
+OG0001629	None Immune	GramNegative	P.lanio	1
+OG0001641	None Immune	GramNegative	P.lanio	1
+OG0001653	None Immune	GramNegative	A.melifera	1
+OG0001680	None Immune	GramNegative	P.lanio	1
+OG0001681	None Immune	GramNegative	P.lanio	1
+OG0001682	None Immune	GramNegative	P.lanio	1
+OG0001727	None Immune	GramNegative	A.melifera	1
+OG0001742	None Immune	GramNegative	P.lanio	1
+OG0001748	None Immune	GramNegative	B.terrestris	1
+OG0001760	None Immune	GramNegative	P.lanio	1
+OG0001789	None Immune	GramNegative	P.lanio	1
+OG0001797	None Immune	GramNegative	P.lanio	1
+OG0001803	None Immune	GramNegative	A.melifera	1
+OG0001814	None Immune	GramNegative	A.melifera	1
+OG0001816	None Immune	GramNegative	A.melifera	1
+OG0001829	None Immune	GramNegative	B.terrestris	1
+OG0001842	None Immune	GramNegative	A.melifera	1
+OG0001877	None Immune	GramNegative	A.melifera	1
+OG0001882	None Immune	GramNegative	B.terrestris	1
+OG0001890	None Immune	GramNegative	P.lanio	1
+OG0001897	None Immune	GramNegative	B.terrestris	1
+OG0001902	None Immune	GramNegative	P.lanio	1
+OG0001911	None Immune	GramNegative	P.lanio	1
+OG0001931	None Immune	GramNegative	P.lanio	1
+OG0001937	None Immune	GramNegative	P.lanio	1
+OG0001959	None Immune	GramNegative	P.lanio	1
+OG0001961	None Immune	GramNegative	C.australensis	1
+OG0001970	None Immune	GramNegative	P.lanio	1
+OG0001979	None Immune	GramNegative	P.lanio	1
+OG0001986	None Immune	GramNegative	B.terrestris	1
+OG0002012	None Immune	GramNegative	A.melifera	1
+OG0002016	None Immune	GramNegative	A.melifera	1
+OG0002049	None Immune	GramNegative	P.lanio	1
+OG0002054	None Immune	GramNegative	P.lanio	1
+OG0002075	None Immune	GramNegative	A.melifera	1
+OG0002079	None Immune	GramNegative	B.terrestris	1
+OG0002080	None Immune	GramNegative	A.melifera	1
+OG0002095	None Immune	GramNegative	P.lanio	1
+OG0002104	None Immune	GramNegative	P.lanio	1
+OG0002136	None Immune	GramNegative	A.melifera, P.lanio	2
+OG0002156	None Immune	GramNegative	A.melifera	1
+OG0002167	None Immune	GramNegative	A.melifera	1
+OG0002180	None Immune	GramNegative	B.terrestris	1
+OG0002187	None Immune	GramNegative	P.lanio	1
+OG0002203	None Immune	GramNegative	P.lanio	1
+OG0002205	None Immune	GramNegative	Anthophila	1
+OG0002228	None Immune	GramNegative	A.melifera	1
+OG0002250	None Immune	GramNegative	P.lanio	1
+OG0002261	None Immune	GramNegative	B.terrestris, P.lanio	2
+OG0002274	None Immune	GramNegative	B.terrestris	1
+OG0002275	None Immune	GramNegative	P.lanio	1
+OG0002282	None Immune	GramNegative	P.lanio	1
+OG0002292	None Immune	GramNegative	P.lanio	1
+OG0002297	None Immune	GramNegative	P.lanio	1
+OG0002313	None Immune	GramNegative	P.lanio	1
+OG0002323	None Immune	GramNegative	A.melifera	1
+OG0002340	None Immune	GramNegative	B.terrestris	1
+OG0002345	None Immune	GramNegative	P.lanio	1
+OG0002356	None Immune	GramNegative	P.lanio	1
+OG0002373	None Immune	GramNegative	P.lanio	1
+OG0002375	None Immune	GramNegative	A.melifera, P.lanio	2
+OG0002378	None Immune	GramNegative	P.lanio	1
+OG0002392	None Immune	GramNegative	A.melifera, B.terrestris	2
+OG0002398	None Immune	GramNegative	Apinae	1
+OG0002405	None Immune	GramNegative	B.terrestris	1
+OG0002423	None Immune	GramNegative	B.terrestris	1
+OG0002441	None Immune	GramNegative	P.lanio	1
+OG0002470	None Immune	GramNegative	P.lanio	1
+OG0002487	None Immune	GramNegative	A.melifera, P.lanio	2
+OG0002490	None Immune	GramNegative	A.melifera, B.terrestris	2
+OG0002500	None Immune	GramNegative	P.lanio	1
+OG0002513	None Immune	GramNegative	P.lanio	1
+OG0002538	None Immune	GramNegative	P.lanio	1
+OG0002563	None Immune	GramNegative	P.lanio	1
+OG0002575	None Immune	GramNegative	B.terrestris	1
+OG0002588	None Immune	GramNegative	A.melifera	1
+OG0002619	None Immune	GramNegative	B.terrestris	1
+OG0002627	None Immune	GramNegative	A.melifera	1
+OG0002640	None Immune	GramNegative	A.melifera	1
+OG0002647	None Immune	GramNegative	B.terrestris, P.lanio	2
+OG0002670	None Immune	GramNegative	P.lanio	1
+OG0002672	None Immune	GramNegative	A.melifera, P.lanio	2
+OG0002676	None Immune	GramNegative	P.lanio	1
+OG0002694	None Immune	GramNegative	P.lanio	1
+OG0002696	None Immune	GramNegative	P.lanio	1
+OG0002718	None Immune	GramNegative	A.melifera	1
+OG0002719	None Immune	GramNegative	P.lanio	1
+OG0002726	None Immune	GramNegative	A.melifera	1
+OG0002731	None Immune	GramNegative	A.melifera, B.terrestris	2
+OG0002732	None Immune	GramNegative	P.lanio	1
+OG0002774	None Immune	GramNegative	P.lanio	1
+OG0002778	None Immune	GramNegative	B.terrestris	1
+OG0002779	None Immune	GramNegative	P.lanio	1
+OG0002782	None Immune	GramNegative	A.melifera	1
+OG0002794	None Immune	GramNegative	A.melifera	1
+OG0002802	None Immune	GramNegative	A.melifera, P.lanio	2
+OG0002824	None Immune	GramNegative	B.terrestris	1
+OG0002827	None Immune	GramNegative	P.lanio	1
+OG0002829	None Immune	GramNegative	B.terrestris	1
+OG0002840	None Immune	GramNegative	P.lanio	1
+OG0002842	None Immune	GramNegative	A.melifera	1
+OG0002853	None Immune	GramNegative	P.lanio	1
+OG0002871	None Immune	GramNegative	P.lanio	1
+OG0002876	None Immune	GramNegative	A.melifera	1
+OG0002922	None Immune	GramNegative	P.lanio	1
+OG0002960	None Immune	GramNegative	B.terrestris	1
+OG0002969	None Immune	GramNegative	P.lanio	1
+OG0002987	None Immune	GramNegative	P.lanio	1
+OG0002995	None Immune	GramNegative	B.terrestris	1
+OG0003000	None Immune	GramNegative	B.terrestris	1
+OG0003001	None Immune	GramNegative	A.melifera, B.terrestris	2
+OG0003067	None Immune	GramNegative	A.melifera	1
+OG0003074	None Immune	GramNegative	P.lanio	1
+OG0003080	None Immune	GramNegative	P.lanio	1
+OG0003094	None Immune	GramNegative	A.melifera	1
+OG0003103	None Immune	GramNegative	P.lanio	1
+OG0003127	None Immune	GramNegative	A.melifera	1
+OG0003128	None Immune	GramNegative	A.melifera	1
+OG0003131	None Immune	GramNegative	A.melifera	1
+OG0003140	None Immune	GramNegative	P.lanio	1
+OG0003143	None Immune	GramNegative	A.melifera, B.terrestris	2
+OG0003150	None Immune	GramNegative	A.melifera	1
+OG0003156	None Immune	GramNegative	B.terrestris	1
+OG0003157	None Immune	GramNegative	P.lanio	1
+OG0003178	None Immune	GramNegative	A.melifera	1
+OG0003181	None Immune	GramNegative	A.melifera	1
+OG0003193	None Immune	GramNegative	B.terrestris	1
+OG0003198	None Immune	GramNegative	P.lanio	1
+OG0003205	None Immune	GramNegative	A.melifera	1
+OG0003220	None Immune	GramNegative	P.lanio	1
+OG0003221	None Immune	GramNegative	B.terrestris	1
+OG0003224	None Immune	GramNegative	B.terrestris	1
+OG0003248	None Immune	GramNegative	A.melifera	1
+OG0003249	None Immune	GramNegative	P.lanio	1
+OG0003250	None Immune	GramNegative	B.terrestris, C.australensis	2
+OG0003285	None Immune	GramNegative	B.terrestris	1
+OG0003290	None Immune	GramNegative	A.melifera	1
+OG0003291	None Immune	GramNegative	A.melifera	1
+OG0003319	None Immune	GramNegative	P.lanio	1
+OG0003340	None Immune	GramNegative	P.lanio	1
+OG0003360	None Immune	GramNegative	B.terrestris, P.lanio	2
+OG0003383	None Immune	GramNegative	P.lanio	1
+OG0003400	None Immune	GramNegative	P.lanio	1
+OG0003441	None Immune	GramNegative	P.lanio	1
+OG0003533	None Immune	GramNegative	A.melifera, B.terrestris	2
+OG0003549	None Immune	GramNegative	P.lanio	1
+OG0003561	None Immune	GramNegative	B.terrestris	1
+OG0003571	None Immune	GramNegative	A.melifera	1
+OG0003590	None Immune	GramNegative	B.terrestris	1
+OG0003623	None Immune	GramNegative	P.lanio	1
+OG0003696	None Immune	GramNegative	P.lanio	1
+OG0003707	None Immune	GramNegative	P.lanio	1
+OG0003717	None Immune	GramNegative	B.terrestris	1
+OG0003718	None Immune	GramNegative	B.terrestris	1
+OG0003721	None Immune	GramNegative	A.melifera	1
+OG0003724	None Immune	GramNegative	A.melifera	1
+OG0003737	None Immune	GramNegative	P.lanio	1
+OG0003750	None Immune	GramNegative	P.lanio	1
+OG0003755	None Immune	GramNegative	P.lanio	1
+OG0003770	None Immune	GramNegative	B.terrestris	1
+OG0003792	None Immune	GramNegative	P.lanio	1
+OG0003801	None Immune	GramNegative	A.melifera	1
+OG0003803	None Immune	GramNegative	A.melifera	1
+OG0003807	None Immune	GramNegative	A.melifera	1
+OG0003813	None Immune	GramNegative	P.lanio	1
+OG0003843	None Immune	GramNegative	B.terrestris	1
+OG0003850	None Immune	GramNegative	A.melifera	1
+OG0003852	None Immune	GramNegative	P.lanio	1
+OG0003867	None Immune	GramNegative	P.lanio	1
+OG0003869	None Immune	GramNegative	B.terrestris	1
+OG0003882	None Immune	GramNegative	P.lanio	1
+OG0003889	None Immune	GramNegative	A.melifera	1
+OG0003893	None Immune	GramNegative	P.lanio	1
+OG0003903	None Immune	GramNegative	P.lanio	1
+OG0003907	None Immune	GramNegative	P.lanio	1
+OG0003913	None Immune	GramNegative	A.melifera	1
+OG0003924	None Immune	GramNegative	P.lanio	1
+OG0003930	None Immune	GramNegative	A.melifera, P.lanio	2
+OG0003950	None Immune	GramNegative	P.lanio	1
+OG0003956	None Immune	GramNegative	A.melifera	1
+OG0004018	None Immune	GramNegative	P.lanio	1
+OG0004020	None Immune	GramNegative	A.melifera, P.lanio	2
+OG0004030	None Immune	GramNegative	A.melifera, B.terrestris	2
+OG0004031	None Immune	GramNegative	P.lanio	1
+OG0004043	None Immune	GramNegative	A.melifera	1
+OG0004049	None Immune	GramNegative	P.lanio	1
+OG0004071	None Immune	GramNegative	A.melifera	1
+OG0004095	None Immune	GramNegative	A.melifera	1
+OG0004115	None Immune	GramNegative	P.lanio	1
+OG0004118	None Immune	GramNegative	P.lanio	1
+OG0004120	None Immune	GramNegative	P.lanio	1
+OG0004128	None Immune	GramNegative	A.melifera	1
+OG0004129	None Immune	GramNegative	P.lanio	1
+OG0004132	None Immune	GramNegative	A.melifera	1
+OG0004161	None Immune	GramNegative	P.lanio	1
+OG0004181	None Immune	GramNegative	P.lanio	1
+OG0004216	None Immune	GramNegative	A.melifera	1
+OG0004218	None Immune	GramNegative	P.lanio	1
+OG0004219	None Immune	GramNegative	A.melifera	1
+OG0004238	None Immune	GramNegative	B.terrestris	1
+OG0004257	None Immune	GramNegative	A.melifera	1
+OG0004284	None Immune	GramNegative	A.melifera	1
+OG0004343	None Immune	GramNegative	P.lanio	1
+OG0004352	None Immune	GramNegative	B.terrestris	1
+OG0004354	None Immune	GramNegative	A.melifera	1
+OG0004390	None Immune	GramNegative	A.melifera	1
+OG0004403	None Immune	GramNegative	P.lanio	1
+OG0004426	None Immune	GramNegative	A.melifera	1
+OG0004429	None Immune	GramNegative	P.lanio	1
+OG0004434	None Immune	GramNegative	P.lanio	1
+OG0004439	None Immune	GramNegative	A.melifera	1
+OG0004489	None Immune	GramNegative	A.melifera	1
+OG0004509	None Immune	GramNegative	P.lanio	1
+OG0004529	None Immune	GramNegative	A.melifera	1
+OG0004533	None Immune	GramNegative	B.terrestris	1
+OG0004536	None Immune	GramNegative	P.lanio	1
+OG0004543	None Immune	GramNegative	A.melifera	1
+OG0004544	None Immune	GramNegative	A.melifera	1
+OG0004545	None Immune	GramNegative	P.lanio	1
+OG0004554	None Immune	GramNegative	P.lanio	1
+OG0004556	None Immune	GramNegative	P.lanio	1
+OG0004571	None Immune	GramNegative	P.lanio	1
+OG0004581	None Immune	GramNegative	A.melifera	1
+OG0004594	None Immune	GramNegative	B.terrestris	1
+OG0004603	None Immune	GramNegative	A.melifera	1
+OG0004604	None Immune	GramNegative	A.melifera	1
+OG0004608	None Immune	GramNegative	A.melifera	1
+OG0004626	None Immune	GramNegative	B.terrestris	1
+OG0004652	None Immune	GramNegative	P.lanio	1
+OG0004672	None Immune	GramNegative	A.melifera	1
+OG0004687	None Immune	GramNegative	P.lanio	1
+OG0004703	None Immune	GramNegative	A.melifera	1
+OG0004715	None Immune	GramNegative	A.melifera, P.lanio	2
+OG0004730	None Immune	GramNegative	P.lanio	1
+OG0004735	None Immune	GramNegative	B.terrestris	1
+OG0004751	None Immune	GramNegative	A.melifera	1
+OG0004756	None Immune	GramNegative	A.melifera	1
+OG0004776	None Immune	GramNegative	A.melifera	1
+OG0004790	None Immune	GramNegative	P.lanio	1
+OG0004791	None Immune	GramNegative	P.lanio	1
+OG0004800	None Immune	GramNegative	B.terrestris	1
+OG0004815	None Immune	GramNegative	A.melifera	1
+OG0004819	None Immune	GramNegative	P.lanio	1
+OG0004838	None Immune	GramNegative	A.melifera	1
+OG0004850	None Immune	GramNegative	B.terrestris	1
+OG0004861	None Immune	GramNegative	P.lanio	1
+OG0004873	None Immune	GramNegative	B.terrestris	1
+OG0004897	None Immune	GramNegative	A.melifera, P.lanio	2
+OG0004909	None Immune	GramNegative	A.melifera	1
+OG0004921	None Immune	GramNegative	A.melifera	1
+OG0004923	None Immune	GramNegative	A.melifera, B.terrestris	2
+OG0004924	None Immune	GramNegative	A.melifera, B.terrestris	2
+OG0004946	None Immune	GramNegative	A.melifera, P.lanio	2
+OG0004961	None Immune	GramNegative	P.lanio	1
+OG0004962	None Immune	GramNegative	P.lanio	1
+OG0004975	None Immune	GramNegative	B.terrestris	1
+OG0004994	None Immune	GramNegative	P.lanio	1
+OG0005014	None Immune	GramNegative	P.lanio	1
+OG0005033	None Immune	GramNegative	P.lanio	1
+OG0005037	None Immune	GramNegative	B.terrestris	1
+OG0005038	None Immune	GramNegative	B.terrestris	1
+OG0005045	None Immune	GramNegative	P.lanio	1
+OG0005054	None Immune	GramNegative	A.melifera	1
+OG0005056	None Immune	GramNegative	P.lanio	1
+OG0005083	None Immune	GramNegative	A.melifera, B.terrestris	2
+OG0005110	None Immune	GramNegative	A.melifera, P.lanio	2
+OG0005119	None Immune	GramNegative	P.lanio	1
+OG0005143	None Immune	GramNegative	B.terrestris, P.lanio	2
+OG0005152	None Immune	GramNegative	A.melifera	1
+OG0005155	None Immune	GramNegative	Apinae	1
+OG0005165	None Immune	GramNegative	P.lanio	1
+OG0005186	None Immune	GramNegative	P.lanio	1
+OG0005207	None Immune	GramNegative	P.lanio	1
+OG0005214	None Immune	GramNegative	P.lanio	1
+OG0005218	None Immune	GramNegative	Apinae	1
+OG0005219	None Immune	GramNegative	P.lanio	1
+OG0005220	None Immune	GramNegative	P.lanio	1
+OG0005233	None Immune	GramNegative	P.lanio	1
+OG0005234	None Immune	GramNegative	A.melifera, P.lanio	2
+OG0005239	None Immune	GramNegative	P.lanio	1
+OG0005264	None Immune	GramNegative	P.lanio	1
+OG0005266	None Immune	GramNegative	A.melifera, B.terrestris	2
+OG0005280	None Immune	GramNegative	A.melifera, B.terrestris	2
+OG0005285	None Immune	GramNegative	P.lanio	1
+OG0005314	None Immune	GramNegative	A.melifera	1
+OG0005317	None Immune	GramNegative	A.melifera	1
+OG0005340	None Immune	GramNegative	P.lanio	1
+OG0005341	None Immune	GramNegative	P.lanio	1
+OG0005349	None Immune	GramNegative	A.melifera, P.lanio	2
+OG0005358	None Immune	GramNegative	B.terrestris	1
+OG0005366	None Immune	GramNegative	B.terrestris	1
+OG0005372	None Immune	GramNegative	P.lanio	1
+OG0005386	None Immune	GramNegative	A.melifera	1
+OG0005394	None Immune	GramNegative	P.lanio	1
+OG0005414	None Immune	GramNegative	P.lanio	1
+OG0005419	None Immune	GramNegative	A.melifera, B.terrestris	2
+OG0005434	None Immune	GramNegative	P.lanio	1
+OG0005450	None Immune	GramNegative	A.melifera	1
+OG0005462	None Immune	GramNegative	A.melifera	1
+OG0005463	None Immune	GramNegative	B.terrestris	1
+OG0005464	None Immune	GramNegative	A.melifera	1
+OG0005476	None Immune	GramNegative	P.lanio	1
+OG0005479	None Immune	GramNegative	Apinae	1
+OG0005486	None Immune	GramNegative	B.terrestris	1
+OG0005493	None Immune	GramNegative	P.lanio	1
+OG0005530	None Immune	GramNegative	P.lanio	1
+OG0005538	None Immune	GramNegative	P.lanio	1
+OG0005540	None Immune	GramNegative	A.melifera	1
+OG0005553	None Immune	GramNegative	P.lanio	1
+OG0005564	None Immune	GramNegative	B.terrestris	1
+OG0005565	None Immune	GramNegative	A.melifera	1
+OG0005577	None Immune	GramNegative	B.terrestris, P.lanio	2
+OG0005578	None Immune	GramNegative	P.lanio	1
+OG0005603	None Immune	GramNegative	A.melifera, B.terrestris	2
+OG0005607	None Immune	GramNegative	B.terrestris	1
+OG0005609	None Immune	GramNegative	B.terrestris	1
+OG0005627	None Immune	GramNegative	P.lanio	1
+OG0005642	None Immune	GramNegative	P.lanio	1
+OG0005659	None Immune	GramNegative	P.lanio	1
+OG0005667	None Immune	GramNegative	A.melifera	1
+OG0005670	None Immune	GramNegative	A.melifera	1
+OG0005684	None Immune	GramNegative	P.lanio	1
+OG0005698	None Immune	GramNegative	A.melifera, B.terrestris	2
+OG0005706	None Immune	GramNegative	P.lanio	1
+OG0005723	None Immune	GramNegative	B.terrestris	1
+OG0005743	None Immune	GramNegative	P.lanio	1
+OG0005744	None Immune	GramNegative	P.lanio	1
+OG0005768	None Immune	GramNegative	P.lanio	1
+OG0005776	None Immune	GramNegative	B.terrestris	1
+OG0005800	None Immune	GramNegative	A.melifera	1
+OG0005801	None Immune	GramNegative	P.lanio	1
+OG0005810	None Immune	GramNegative	P.lanio	1
+OG0005812	None Immune	GramNegative	A.melifera	1
+OG0005816	None Immune	GramNegative	A.melifera	1
+OG0005824	None Immune	GramNegative	A.melifera	1
+OG0005827	None Immune	GramNegative	A.melifera, B.terrestris	2
+OG0005829	None Immune	GramNegative	P.lanio	1
+OG0005830	None Immune	GramNegative	A.melifera	1
+OG0005892	None Immune	GramNegative	A.melifera	1
+OG0005903	None Immune	GramNegative	B.terrestris	1
+OG0005908	None Immune	GramNegative	P.lanio	1
+OG0005940	None Immune	GramNegative	A.melifera	1
+OG0005943	None Immune	GramNegative	P.lanio	1
+OG0005957	None Immune	GramNegative	P.lanio	1
+OG0005974	None Immune	GramNegative	A.melifera	1
+OG0006005	None Immune	GramNegative	A.melifera	1
+OG0006026	None Immune	GramNegative	P.lanio	1
+OG0006038	None Immune	GramNegative	B.terrestris	1
+OG0006050	None Immune	GramNegative	P.lanio	1
+OG0006052	None Immune	GramNegative	P.lanio	1
+OG0006096	None Immune	GramNegative	B.terrestris	1
+OG0006106	None Immune	GramNegative	A.melifera	1
+OG0006114	None Immune	GramNegative	P.lanio	1
+OG0006119	None Immune	GramNegative	B.terrestris	1
+OG0006131	None Immune	GramNegative	A.melifera, C.australensis, P.lanio	3
+OG0006134	None Immune	GramNegative	P.lanio	1
+OG0006170	None Immune	GramNegative	A.melifera, Apinae	2
+OG0006180	None Immune	GramNegative	A.melifera	1
+OG0006186	None Immune	GramNegative	C.australensis	1
+OG0006201	None Immune	GramNegative	P.lanio	1
+OG0006213	None Immune	GramNegative	P.lanio	1
+OG0006221	None Immune	GramNegative	P.lanio	1
+OG0006227	None Immune	GramNegative	P.lanio	1
+OG0006263	None Immune	GramNegative	P.lanio	1
+OG0006294	None Immune	GramNegative	P.lanio	1
+OG0006299	None Immune	GramNegative	P.lanio	1
+OG0006300	None Immune	GramNegative	C.australensis	1
+OG0006306	None Immune	GramNegative	P.lanio	1
+OG0006310	None Immune	GramNegative	B.terrestris	1
+OG0006316	None Immune	GramNegative	P.lanio	1
+OG0006321	None Immune	GramNegative	A.melifera	1
+OG0006326	None Immune	GramNegative	P.lanio	1
+OG0006330	None Immune	GramNegative	P.lanio	1
+OG0006335	None Immune	GramNegative	P.lanio	1
+OG0006363	None Immune	GramNegative	P.lanio	1
+OG0006364	None Immune	GramNegative	B.terrestris	1
+OG0006367	None Immune	GramNegative	P.lanio	1
+OG0006373	None Immune	GramNegative	A.melifera, B.terrestris	2
+OG0006406	None Immune	GramNegative	A.melifera	1
+OG0006414	None Immune	GramNegative	B.terrestris	1
+OG0006456	None Immune	GramNegative	A.melifera	1
+OG0006459	None Immune	GramNegative	A.melifera	1
+OG0006469	None Immune	GramNegative	B.terrestris, C.australensis	2
+OG0006485	None Immune	GramNegative	C.australensis	1
+OG0006487	None Immune	GramNegative	P.lanio	1
+OG0006488	None Immune	GramNegative	P.lanio	1
+OG0006496	None Immune	GramNegative	P.lanio	1
+OG0006515	None Immune	GramNegative	P.lanio	1
+OG0006541	None Immune	GramNegative	A.melifera, B.terrestris	2
+OG0006555	None Immune	GramNegative	P.lanio	1
+OG0006557	None Immune	GramNegative	A.melifera	1
+OG0006574	None Immune	GramNegative	B.terrestris	1
+OG0006578	None Immune	GramNegative	A.melifera	1
+OG0006595	None Immune	GramNegative	A.melifera	1
+OG0006597	None Immune	GramNegative	P.lanio	1
+OG0006613	None Immune	GramNegative	A.melifera, B.terrestris	2
+OG0006663	None Immune	GramNegative	P.lanio	1
+OG0006665	None Immune	GramNegative	P.lanio	1
+OG0006695	None Immune	GramNegative	P.lanio	1
+OG0006711	None Immune	GramNegative	P.lanio	1
+OG0006718	None Immune	GramNegative	P.lanio	1
+OG0006730	None Immune	GramNegative	P.lanio	1
+OG0006733	None Immune	GramNegative	P.lanio	1
+OG0006743	None Immune	GramNegative	C.australensis	1
+OG0006744	None Immune	GramNegative	P.lanio	1
+OG0006745	None Immune	GramNegative	B.terrestris	1
+OG0006754	None Immune	GramNegative	A.melifera	1
+OG0006756	None Immune	GramNegative	P.lanio	1
+OG0006766	None Immune	GramNegative	A.melifera, C.australensis	2
+OG0006778	None Immune	GramNegative	A.melifera	1
+OG0006786	None Immune	GramNegative	A.melifera	1
+OG0006826	None Immune	GramNegative	P.lanio	1
+OG0006846	None Immune	GramNegative	A.melifera	1
+OG0006854	None Immune	GramNegative	B.terrestris	1
+OG0006892	None Immune	GramNegative	P.lanio	1
+OG0006897	None Immune	GramNegative	B.terrestris	1
+OG0006909	None Immune	GramNegative	A.melifera, B.terrestris	2
+OG0006918	None Immune	GramNegative	P.lanio	1
+OG0006925	None Immune	GramNegative	P.lanio	1
+OG0006934	None Immune	GramNegative	P.lanio	1
+OG0006942	None Immune	GramNegative	P.lanio	1
+OG0006946	None Immune	GramNegative	P.lanio	1
+OG0006963	None Immune	GramNegative	A.melifera	1
+OG0006966	None Immune	GramNegative	A.melifera	1
+OG0006973	None Immune	GramNegative	A.melifera	1
+OG0006990	None Immune	GramNegative	A.melifera	1
+OG0007013	None Immune	GramNegative	A.melifera	1
+OG0007022	None Immune	GramNegative	P.lanio	1
+OG0007025	None Immune	GramNegative	C.australensis	1
+OG0007037	None Immune	GramNegative	C.australensis	1
+OG0007049	None Immune	GramNegative	P.lanio	1
+OG0007050	None Immune	GramNegative	A.melifera	1
+OG0007057	None Immune	GramNegative	P.lanio	1
+OG0007059	None Immune	GramNegative	A.melifera, P.lanio	2
+OG0007060	None Immune	GramNegative	C.australensis	1
+OG0007062	None Immune	GramNegative	P.lanio	1
+OG0007075	None Immune	GramNegative	P.lanio	1
+OG0007093	None Immune	GramNegative	P.lanio	1
+OG0007095	None Immune	GramNegative	B.terrestris	1
+OG0007102	None Immune	GramNegative	P.lanio	1
+OG0007112	None Immune	GramNegative	B.terrestris, P.lanio	2
+OG0007130	None Immune	GramNegative	P.lanio	1
+OG0007138	None Immune	GramNegative	P.lanio	1
+OG0007149	None Immune	GramNegative	P.lanio	1
+OG0007158	None Immune	GramNegative	A.melifera, B.terrestris	2
+OG0007167	None Immune	GramNegative	P.lanio	1
+OG0007181	None Immune	GramNegative	P.lanio	1
+OG0007211	None Immune	GramNegative	A.melifera, P.lanio	2
+OG0007303	None Immune	GramNegative	A.melifera	1
+OG0007365	None Immune	GramNegative	A.melifera	1
+OG0007369	None Immune	GramNegative	P.lanio	1
+OG0007370	None Immune	GramNegative	P.lanio	1
+OG0007398	None Immune	GramNegative	A.melifera	1
+OG0007408	None Immune	GramNegative	A.melifera	1
+OG0007415	None Immune	GramNegative	B.terrestris	1
+OG0007421	None Immune	GramNegative	A.melifera	1
+OG0007428	None Immune	GramNegative	P.lanio	1
+OG0007434	None Immune	GramNegative	A.melifera	1
+OG0007451	None Immune	GramNegative	A.melifera	1
+OG0007454	None Immune	GramNegative	P.lanio	1
+OG0007464	None Immune	GramNegative	B.terrestris	1
+OG0007471	None Immune	GramNegative	A.melifera	1
+OG0007492	None Immune	GramNegative	A.melifera	1
+OG0007493	None Immune	GramNegative	A.melifera	1
+OG0007521	None Immune	GramNegative	P.lanio	1
+OG0007539	None Immune	GramNegative	P.lanio	1
+OG0007548	None Immune	GramNegative	P.lanio	1
+OG0007560	None Immune	GramNegative	A.melifera	1
+OG0007562	None Immune	GramNegative	B.terrestris	1
+OG0007576	None Immune	GramNegative	P.lanio	1
+OG0007622	None Immune	GramNegative	A.melifera	1
+OG0007629	None Immune	GramNegative	A.melifera	1
+OG0007653	None Immune	GramNegative	B.terrestris	1
+OG0007657	None Immune	GramNegative	A.melifera	1
+OG0007667	None Immune	GramNegative	B.terrestris	1
+OG0007683	None Immune	GramNegative	P.lanio	1
+OG0007694	None Immune	GramNegative	B.terrestris	1
+OG0007697	None Immune	GramNegative	P.lanio	1
+OG0007719	None Immune	GramNegative	P.lanio	1
+OG0007767	None Immune	GramNegative	P.lanio	1
+OG0007768	None Immune	GramNegative	P.lanio	1
+OG0007877	None Immune	GramNegative	P.lanio	1
+OG0007886	None Immune	GramNegative	A.melifera	1
+OG0007905	None Immune	GramNegative	A.melifera	1
+OG0007957	None Immune	GramNegative	P.lanio	1
+OG0007986	None Immune	GramNegative	P.lanio	1
+OG0007998	None Immune	GramNegative	P.lanio	1
+OG0008010	None Immune	GramNegative	A.melifera, B.terrestris, P.lanio	3
+OG0008042	None Immune	GramNegative	P.lanio	1
+OG0008064	None Immune	GramNegative	P.lanio	1
+OG0008078	None Immune	GramNegative	A.melifera	1
+OG0008091	None Immune	GramNegative	P.lanio	1
+OG0008094	None Immune	GramNegative	P.lanio	1
+OG0008124	None Immune	GramNegative	A.melifera, P.lanio	2
+OG0008134	None Immune	GramNegative	P.lanio	1
+OG0008135	None Immune	GramNegative	P.lanio	1
+OG0008179	None Immune	GramNegative	A.melifera	1
+OG0008190	None Immune	GramNegative	P.lanio	1
+OG0008235	None Immune	GramNegative	B.terrestris	1
+OG0008246	None Immune	GramNegative	P.lanio	1
+OG0008253	None Immune	GramNegative	A.melifera	1
+OG0008311	None Immune	GramNegative	B.terrestris	1
+OG0008322	None Immune	GramNegative	P.lanio	1
+OG0008330	None Immune	GramNegative	B.terrestris	1
+OG0008340	None Immune	GramNegative	A.melifera	1
+OG0008364	None Immune	GramNegative	A.melifera	1
+OG0008366	None Immune	GramNegative	P.lanio	1
+OG0008375	None Immune	GramNegative	P.lanio	1
+OG0008396	None Immune	GramNegative	P.lanio	1
+OG0008407	None Immune	GramNegative	B.terrestris, P.lanio	2
+OG0008411	None Immune	GramNegative	Apinae	1
+OG0008481	None Immune	GramNegative	P.lanio	1
+OG0008524	None Immune	GramNegative	B.terrestris, P.lanio	2
+OG0008537	None Immune	GramNegative	P.lanio	1
+OG0008538	None Immune	GramNegative	B.terrestris	1
+OG0008541	None Immune	GramNegative	P.lanio	1
+OG0008543	None Immune	GramNegative	P.lanio	1
+OG0008551	None Immune	GramNegative	A.melifera	1
+OG0008555	None Immune	GramNegative	A.melifera	1
+OG0008559	None Immune	GramNegative	C.australensis	1
+OG0008565	None Immune	GramNegative	P.lanio	1
+OG0008591	None Immune	GramNegative	P.lanio	1
+OG0008595	None Immune	GramNegative	B.terrestris	1
+OG0008609	None Immune	GramNegative	A.melifera	1
+OG0008615	None Immune	GramNegative	P.lanio	1
+OG0008703	None Immune	GramNegative	A.melifera	1
+OG0008724	None Immune	GramNegative	B.terrestris	1
+OG0008736	None Immune	GramNegative	P.lanio	1
+OG0008742	None Immune	GramNegative	P.lanio	1
+OG0008763	None Immune	GramNegative	P.lanio	1
+OG0008802	None Immune	GramNegative	P.lanio	1
+OG0008863	None Immune	GramNegative	P.lanio	1
+OG0008867	None Immune	GramNegative	B.terrestris	1
+OG0008893	None Immune	GramNegative	A.melifera	1
+OG0008929	None Immune	GramNegative	P.lanio	1
+OG0008930	None Immune	GramNegative	C.australensis	1
+OG0008938	None Immune	GramNegative	A.melifera	1
+OG0008961	None Immune	GramNegative	B.terrestris	1
+OG0009010	None Immune	GramNegative	A.melifera	1
+OG0009044	None Immune	GramNegative	B.terrestris	1
+OG0009052	None Immune	GramNegative	A.melifera	1
+OG0009093	None Immune	GramNegative	A.melifera	1
+OG0009099	None Immune	GramNegative	A.melifera	1
+OG0009198	None Immune	GramNegative	B.terrestris	1
+OG0009235	None Immune	GramNegative	A.melifera, P.lanio	2
+OG0009291	None Immune	GramNegative	A.melifera	1
+OG0009292	None Immune	GramNegative	P.lanio	1
+OG0009319	None Immune	GramNegative	A.melifera	1
+OG0009352	None Immune	GramNegative	P.lanio	1
+OG0009368	None Immune	GramNegative	A.melifera	1
+OG0009386	None Immune	GramNegative	B.terrestris	1
+OG0009401	None Immune	GramNegative	C.australensis	1
+OG0009429	None Immune	GramNegative	A.melifera	1
+OG0009622	None Immune	GramNegative	B.terrestris	1
+OG0009665	None Immune	GramNegative	A.melifera	1
+OG0009884	None Immune	GramNegative	A.melifera	1
+OG0009887	None Immune	GramNegative	A.melifera	1
+OG0009889	None Immune	GramNegative	B.terrestris	1
+OG0010249	None Immune	GramNegative	A.melifera	1
+OG0010254	None Immune	GramNegative	A.melifera	1
+OG0010301	None Immune	GramNegative	A.melifera	1
+OG0010675	None Immune	GramNegative	A.melifera	1
+OG0010699	None Immune	GramNegative	A.melifera	1
+OG0010739	None Immune	GramNegative	A.melifera	1
+OG0010748	None Immune	GramNegative	A.melifera	1
+OG0010771	None Immune	GramNegative	B.terrestris	1
+OG0010778	None Immune	GramNegative	A.melifera	1
+OG0010797	None Immune	GramNegative	A.melifera	1
+OG0000009	Putative Immune	GramNegative	B.terrestris, P.lanio	2
+OG0000044	Putative Immune	GramNegative	B.terrestris, P.lanio	2
+OG0000054	Putative Immune	GramNegative	P.lanio	1
+OG0000067	Putative Immune	GramNegative	A.melifera, B.terrestris, P.lanio	3
+OG0000068	Putative Immune	GramNegative	P.lanio	1
+OG0000082	Putative Immune	GramNegative	A.melifera, P.lanio	2
+OG0000087	Putative Immune	GramNegative	C.australensis, P.lanio	2
+OG0000090	Putative Immune	GramNegative	A.melifera, B.terrestris	2
+OG0000110	Putative Immune	GramNegative	B.terrestris	1
+OG0000151	Putative Immune	GramNegative	A.melifera, B.terrestris	2
+OG0000244	Putative Immune	GramNegative	A.melifera, Apinae	2
+OG0000266	Putative Immune	GramNegative	A.melifera, B.terrestris	2
+OG0000456	Putative Immune	GramNegative	P.lanio	1
+OG0000597	Putative Immune	GramNegative	A.melifera	1
+OG0000602	Putative Immune	GramNegative	P.lanio	1
+OG0000605	Putative Immune	GramNegative	B.terrestris	1
+OG0000634	Putative Immune	GramNegative	A.melifera	1
+OG0000673	Putative Immune	GramNegative	B.terrestris, P.lanio	2
+OG0000797	Putative Immune	GramNegative	P.lanio	1
+OG0000912	Putative Immune	GramNegative	B.terrestris	1
+OG0000934	Putative Immune	GramNegative	B.terrestris	1
+OG0001052	Putative Immune	GramNegative	B.terrestris	1
+OG0001251	Putative Immune	GramNegative	A.melifera, P.lanio	2
+OG0001255	Putative Immune	GramNegative	A.melifera, B.terrestris, C.australensis	3
+OG0001303	Putative Immune	GramNegative	A.melifera	1
+OG0001697	Putative Immune	GramNegative	A.melifera	1
+OG0001762	Putative Immune	GramNegative	A.melifera, B.terrestris	2
+OG0001768	Putative Immune	GramNegative	Apinae	1
+OG0001783	Putative Immune	GramNegative	P.lanio	1
+OG0001841	Putative Immune	GramNegative	A.melifera	1
+OG0002123	Putative Immune	GramNegative	B.terrestris	1
+OG0002214	Putative Immune	GramNegative	A.melifera	1
+OG0002284	Putative Immune	GramNegative	A.melifera, B.terrestris, C.australensis	3
+OG0002476	Putative Immune	GramNegative	A.melifera	1
+OG0002814	Putative Immune	GramNegative	A.melifera, B.terrestris	2
+OG0002816	Putative Immune	GramNegative	P.lanio	1
+OG0003154	Putative Immune	GramNegative	A.melifera, B.terrestris	2
+OG0003482	Putative Immune	GramNegative	B.terrestris	1
+OG0003567	Putative Immune	GramNegative	P.lanio	1
+OG0004236	Putative Immune	GramNegative	A.melifera	1
+OG0004253	Putative Immune	GramNegative	A.melifera, B.terrestris	2
+OG0004831	Putative Immune	GramNegative	A.melifera, C.australensis	2
+OG0004990	Putative Immune	GramNegative	B.terrestris	1
+OG0005021	Putative Immune	GramNegative	A.melifera	1
+OG0005025	Putative Immune	GramNegative	P.lanio	1
+OG0005082	Putative Immune	GramNegative	B.terrestris	1
+OG0006092	Putative Immune	GramNegative	A.melifera	1
+OG0006477	Putative Immune	GramNegative	B.terrestris	1
+OG0006747	Putative Immune	GramNegative	P.lanio	1
+OG0007193	Putative Immune	GramNegative	B.terrestris	1
+OG0007234	Putative Immune	GramNegative	A.melifera, C.australensis	2
+OG0007668	Putative Immune	GramNegative	B.terrestris	1
+OG0007796	Putative Immune	GramNegative	B.terrestris	1
+OG0008363	Putative Immune	GramNegative	B.terrestris	1
+OG0008376	Putative Immune	GramNegative	A.melifera, P.lanio	2
+OG0008380	Putative Immune	GramNegative	P.lanio	1
+OG0008945	Putative Immune	GramNegative	A.melifera, B.terrestris, C.australensis	3
+OG0009073	Putative Immune	GramNegative	Apinae	1
+OG0009341	Putative Immune	GramNegative	P.lanio	1
+OG0009348	Putative Immune	GramNegative	A.melifera	1
+OG0000014	Unknown	GramNegative	C.australensis	1
+OG0000015	Unknown	GramNegative	P.lanio	1
+OG0000022	Unknown	GramNegative	B.terrestris, P.lanio	2
+OG0000035	Unknown	GramNegative	P.lanio	1
+OG0000057	Unknown	GramNegative	P.lanio	1
+OG0000074	Unknown	GramNegative	B.terrestris	1
+OG0000352	Unknown	GramNegative	P.lanio	1
+OG0001666	Unknown	GramNegative	P.lanio	1
+OG0002097	Unknown	GramNegative	P.lanio	1
+OG0007259	Unknown	GramNegative	P.lanio	1
+OG0007260	Unknown	GramNegative	P.lanio	1
+OG0007549	Unknown	GramNegative	P.lanio	1
+OG0007711	Unknown	GramNegative	P.lanio	1
+OG0007826	Unknown	GramNegative	B.terrestris	1
+OG0008449	Unknown	GramNegative	C.australensis, P.lanio	2
+OG0008469	Unknown	GramNegative	P.lanio	1
+OG0008665	Unknown	GramNegative	B.terrestris, C.australensis	2
+OG0008733	Unknown	GramNegative	B.terrestris	1
+OG0008792	Unknown	GramNegative	P.lanio	1
+OG0008826	Unknown	GramNegative	P.lanio	1
+OG0008860	Unknown	GramNegative	P.lanio	1
+OG0008908	Unknown	GramNegative	B.terrestris	1
+OG0009141	Unknown	GramNegative	B.terrestris	1
+OG0009181	Unknown	GramNegative	P.lanio	1
+OG0009264	Unknown	GramNegative	P.lanio	1
+OG0009299	Unknown	GramNegative	P.lanio	1
+OG0009301	Unknown	GramNegative	P.lanio	1
+OG0009310	Unknown	GramNegative	P.lanio	1
+OG0009332	Unknown	GramNegative	P.lanio	1
+OG0009440	Unknown	GramNegative	P.lanio	1
+OG0009470	Unknown	GramNegative	P.lanio	1
+OG0009494	Unknown	GramNegative	P.lanio	1
+OG0009520	Unknown	GramNegative	P.lanio	1
+OG0009537	Unknown	GramNegative	B.terrestris	1
+OG0009562	Unknown	GramNegative	P.lanio	1
+OG0009586	Unknown	GramNegative	P.lanio	1
+OG0009597	Unknown	GramNegative	P.lanio	1
+OG0009758	Unknown	GramNegative	P.lanio	1
+OG0009970	Unknown	GramNegative	B.terrestris	1
+OG0010043	Unknown	GramNegative	P.lanio	1
+OG0010323	Unknown	GramNegative	B.terrestris	1
+OG0010396	Unknown	GramNegative	C.australensis	1
+OG0010629	Unknown	GramNegative	P.lanio	1
+OG0010631	Unknown	GramNegative	P.lanio	1
+OG0010643	Unknown	GramNegative	P.lanio	1
+OG0010648	Unknown	GramNegative	P.lanio	1
+OG0011011	Unknown	GramNegative	P.lanio	1
+OG0011022	Unknown	GramNegative	P.lanio	1
+Unassigned_Amel_46	Unknown	GramNegative	A.melifera	1
+Unassigned_Amel_47	Unknown	GramNegative	A.melifera	1
+Unassigned_Amel_48	Unknown	GramNegative	A.melifera	1
+Unassigned_Amel_49	Unknown	GramNegative	A.melifera	1
+Unassigned_Amel_50	Unknown	GramNegative	A.melifera	1
+Unassigned_Amel_51	Unknown	GramNegative	A.melifera	1
+Unassigned_Amel_52	Unknown	GramNegative	A.melifera	1
+Unassigned_Amel_53	Unknown	GramNegative	A.melifera	1
+Unassigned_Amel_54	Unknown	GramNegative	A.melifera	1
+Unassigned_Amel_55	Unknown	GramNegative	A.melifera	1
+Unassigned_Amel_56	Unknown	GramNegative	A.melifera	1
+Unassigned_Amel_57	Unknown	GramNegative	A.melifera	1
+Unassigned_Amel_58	Unknown	GramNegative	A.melifera	1
+Unassigned_Amel_59	Unknown	GramNegative	A.melifera	1
+Unassigned_Amel_60	Unknown	GramNegative	A.melifera	1
+Unassigned_Amel_61	Unknown	GramNegative	A.melifera	1
+Unassigned_Amel_62	Unknown	GramNegative	A.melifera	1
+Unassigned_Amel_63	Unknown	GramNegative	A.melifera	1
+Unassigned_Amel_64	Unknown	GramNegative	A.melifera	1
+Unassigned_Amel_65	Unknown	GramNegative	A.melifera	1
+Unassigned_Amel_66	Unknown	GramNegative	A.melifera	1
+Unassigned_Amel_67	Unknown	GramNegative	A.melifera	1
+Unassigned_Amel_68	Unknown	GramNegative	A.melifera	1
+Unassigned_Amel_69	Unknown	GramNegative	A.melifera	1
+Unassigned_Amel_70	Unknown	GramNegative	A.melifera	1
+Unassigned_Amel_71	Unknown	GramNegative	A.melifera	1
+Unassigned_Amel_72	Unknown	GramNegative	A.melifera	1
+Unassigned_Amel_73	Unknown	GramNegative	A.melifera	1
+Unassigned_Amel_74	Unknown	GramNegative	A.melifera	1
+Unassigned_Amel_75	Unknown	GramNegative	A.melifera	1
+Unassigned_Amel_76	Unknown	GramNegative	A.melifera	1
+Unassigned_Amel_77	Unknown	GramNegative	A.melifera	1
+Unassigned_Amel_78	Unknown	GramNegative	A.melifera	1
+Unassigned_Amel_79	Unknown	GramNegative	A.melifera	1
+Unassigned_Amel_80	Unknown	GramNegative	A.melifera	1
+Unassigned_Amel_81	Unknown	GramNegative	A.melifera	1
+Unassigned_Amel_82	Unknown	GramNegative	A.melifera	1
+Unassigned_Amel_83	Unknown	GramNegative	A.melifera	1
+Unassigned_Amel_84	Unknown	GramNegative	A.melifera	1
+Unassigned_Amel_85	Unknown	GramNegative	A.melifera	1
+Unassigned_Amel_86	Unknown	GramNegative	A.melifera	1
+Unassigned_Amel_87	Unknown	GramNegative	A.melifera	1
+Unassigned_Amel_88	Unknown	GramNegative	A.melifera	1
+Unassigned_Amel_89	Unknown	GramNegative	A.melifera	1
+Unassigned_Amel_90	Unknown	GramNegative	A.melifera	1
+Unassigned_Amel_91	Unknown	GramNegative	A.melifera	1
+Unassigned_Amel_92	Unknown	GramNegative	A.melifera	1
+Unassigned_Amel_93	Unknown	GramNegative	A.melifera	1
+Unassigned_Amel_94	Unknown	GramNegative	A.melifera	1
+Unassigned_Bter_114	Unknown	GramNegative	B.terrestris	1
+Unassigned_Bter_115	Unknown	GramNegative	B.terrestris	1
+Unassigned_Bter_116	Unknown	GramNegative	B.terrestris	1
+Unassigned_Bter_117	Unknown	GramNegative	B.terrestris	1
+Unassigned_Bter_118	Unknown	GramNegative	B.terrestris	1
+Unassigned_Bter_119	Unknown	GramNegative	B.terrestris	1
+Unassigned_Bter_120	Unknown	GramNegative	B.terrestris	1
+Unassigned_Bter_121	Unknown	GramNegative	B.terrestris	1
+Unassigned_Bter_122	Unknown	GramNegative	B.terrestris	1
+Unassigned_Bter_123	Unknown	GramNegative	B.terrestris	1
+Unassigned_Bter_124	Unknown	GramNegative	B.terrestris	1
+Unassigned_Bter_125	Unknown	GramNegative	B.terrestris	1
+Unassigned_Bter_126	Unknown	GramNegative	B.terrestris	1
+Unassigned_Bter_127	Unknown	GramNegative	B.terrestris	1
+Unassigned_Bter_128	Unknown	GramNegative	B.terrestris	1
+Unassigned_Bter_129	Unknown	GramNegative	B.terrestris	1
+Unassigned_Bter_130	Unknown	GramNegative	B.terrestris	1
+Unassigned_Bter_131	Unknown	GramNegative	B.terrestris	1
+Unassigned_Caus_174	Unknown	GramNegative	C.australensis	1
+Unassigned_Caus_175	Unknown	GramNegative	C.australensis	1
+Unassigned_Caus_176	Unknown	GramNegative	C.australensis	1
+Unassigned_Caus_177	Unknown	GramNegative	C.australensis	1
+Unassigned_Caus_178	Unknown	GramNegative	C.australensis	1
+Unassigned_Caus_179	Unknown	GramNegative	C.australensis	1
+Unassigned_Caus_180	Unknown	GramNegative	C.australensis	1
+Unassigned_Caus_181	Unknown	GramNegative	C.australensis	1
+Unassigned_Caus_182	Unknown	GramNegative	C.australensis	1
+Unassigned_Plan_218	Unknown	GramNegative	P.lanio	1
+Unassigned_Plan_219	Unknown	GramNegative	P.lanio	1
+Unassigned_Plan_220	Unknown	GramNegative	P.lanio	1
+Unassigned_Plan_221	Unknown	GramNegative	P.lanio	1
+Unassigned_Plan_222	Unknown	GramNegative	P.lanio	1
+Unassigned_Plan_223	Unknown	GramNegative	P.lanio	1
+Unassigned_Plan_224	Unknown	GramNegative	P.lanio	1
+Unassigned_Plan_225	Unknown	GramNegative	P.lanio	1
+Unassigned_Plan_226	Unknown	GramNegative	P.lanio	1
+Unassigned_Plan_227	Unknown	GramNegative	P.lanio	1
+Unassigned_Plan_228	Unknown	GramNegative	P.lanio	1
+Unassigned_Plan_229	Unknown	GramNegative	P.lanio	1
+Unassigned_Plan_230	Unknown	GramNegative	P.lanio	1
+Unassigned_Plan_231	Unknown	GramNegative	P.lanio	1
+Unassigned_Plan_232	Unknown	GramNegative	P.lanio	1
+Unassigned_Plan_233	Unknown	GramNegative	P.lanio	1
+Unassigned_Plan_234	Unknown	GramNegative	P.lanio	1
+Unassigned_Plan_235	Unknown	GramNegative	P.lanio	1
+Unassigned_Plan_236	Unknown	GramNegative	P.lanio	1
+Unassigned_Plan_237	Unknown	GramNegative	P.lanio	1
+Unassigned_Plan_238	Unknown	GramNegative	P.lanio	1
+Unassigned_Plan_239	Unknown	GramNegative	P.lanio	1
+Unassigned_Plan_240	Unknown	GramNegative	P.lanio	1
+Unassigned_Plan_241	Unknown	GramNegative	P.lanio	1
+Unassigned_Plan_242	Unknown	GramNegative	P.lanio	1
+Unassigned_Plan_243	Unknown	GramNegative	P.lanio	1
+OG0000399	Immune	GramNegative, GramPositive	A.melifera, B.terrestris, P.lanio	3
+OG0000635	Immune	GramNegative, GramPositive	Anthophila, Apinae	2
+OG0000699	Immune	GramNegative, GramPositive	A.melifera, B.terrestris	2
+OG0002761	Immune	GramNegative, GramPositive	P.lanio	1
+OG0002872	Immune	GramNegative, GramPositive	A.melifera, B.terrestris	2
+OG0003982	Immune	GramNegative, GramPositive	Aculeata, AgeControlled, Anthophila, Apinae	4
+OG0005529	Immune	GramNegative, GramPositive	P.lanio	1
+OG0005749	Immune	GramNegative, GramPositive	A.melifera	1
+OG0008514	Immune	GramNegative, GramPositive	A.melifera, B.terrestris, C.australensis	3
+OG0000117	None Immune	GramNegative, GramPositive	P.lanio	1
+OG0000140	None Immune	GramNegative, GramPositive	P.lanio	1
+OG0000216	None Immune	GramNegative, GramPositive	P.lanio	1
+OG0000222	None Immune	GramNegative, GramPositive	P.lanio	1
+OG0000254	None Immune	GramNegative, GramPositive	A.melifera, P.lanio	2
+OG0000419	None Immune	GramNegative, GramPositive	A.melifera	1
+OG0000465	None Immune	GramNegative, GramPositive	A.melifera	1
+OG0000486	None Immune	GramNegative, GramPositive	P.lanio	1
+OG0000511	None Immune	GramNegative, GramPositive	A.melifera	1
+OG0000534	None Immune	GramNegative, GramPositive	P.lanio	1
+OG0000695	None Immune	GramNegative, GramPositive	A.melifera	1
+OG0000708	None Immune	GramNegative, GramPositive	C.australensis	1
+OG0000856	None Immune	GramNegative, GramPositive	A.melifera	1
+OG0000952	None Immune	GramNegative, GramPositive	C.australensis	1
+OG0001012	None Immune	GramNegative, GramPositive	C.australensis	1
+OG0001084	None Immune	GramNegative, GramPositive	P.lanio	1
+OG0001114	None Immune	GramNegative, GramPositive	P.lanio	1
+OG0001123	None Immune	GramNegative, GramPositive	P.lanio	1
+OG0001200	None Immune	GramNegative, GramPositive	A.melifera	1
+OG0001214	None Immune	GramNegative, GramPositive	P.lanio	1
+OG0001218	None Immune	GramNegative, GramPositive	P.lanio	1
+OG0001242	None Immune	GramNegative, GramPositive	P.lanio	1
+OG0001245	None Immune	GramNegative, GramPositive	P.lanio	1
+OG0001254	None Immune	GramNegative, GramPositive	P.lanio	1
+OG0001262	None Immune	GramNegative, GramPositive	P.lanio	1
+OG0001268	None Immune	GramNegative, GramPositive	P.lanio	1
+OG0001289	None Immune	GramNegative, GramPositive	P.lanio	1
+OG0001410	None Immune	GramNegative, GramPositive	P.lanio	1
+OG0001537	None Immune	GramNegative, GramPositive	P.lanio	1
+OG0001568	None Immune	GramNegative, GramPositive	P.lanio	1
+OG0001687	None Immune	GramNegative, GramPositive	A.melifera	1
+OG0001733	None Immune	GramNegative, GramPositive	A.melifera	1
+OG0001828	None Immune	GramNegative, GramPositive	A.melifera	1
+OG0001865	None Immune	GramNegative, GramPositive	P.lanio	1
+OG0002101	None Immune	GramNegative, GramPositive	A.melifera	1
+OG0002113	None Immune	GramNegative, GramPositive	P.lanio	1
+OG0002151	None Immune	GramNegative, GramPositive	P.lanio	1
+OG0002177	None Immune	GramNegative, GramPositive	P.lanio	1
+OG0002205	None Immune	GramNegative, GramPositive	A.melifera	1
+OG0002223	None Immune	GramNegative, GramPositive	Apinae	1
+OG0002246	None Immune	GramNegative, GramPositive	A.melifera	1
+OG0002307	None Immune	GramNegative, GramPositive	A.melifera	1
+OG0002320	None Immune	GramNegative, GramPositive	P.lanio	1
+OG0002343	None Immune	GramNegative, GramPositive	P.lanio	1
+OG0002444	None Immune	GramNegative, GramPositive	A.melifera	1
+OG0002496	None Immune	GramNegative, GramPositive	A.melifera	1
+OG0002547	None Immune	GramNegative, GramPositive	P.lanio	1
+OG0002549	None Immune	GramNegative, GramPositive	A.melifera	1
+OG0002654	None Immune	GramNegative, GramPositive	P.lanio	1
+OG0002663	None Immune	GramNegative, GramPositive	A.melifera	1
+OG0002688	None Immune	GramNegative, GramPositive	A.melifera	1
+OG0002690	None Immune	GramNegative, GramPositive	A.melifera	1
+OG0002704	None Immune	GramNegative, GramPositive	B.terrestris, C.australensis	2
+OG0002727	None Immune	GramNegative, GramPositive	P.lanio	1
+OG0002743	None Immune	GramNegative, GramPositive	P.lanio	1
+OG0002863	None Immune	GramNegative, GramPositive	P.lanio	1
+OG0002943	None Immune	GramNegative, GramPositive	P.lanio	1
+OG0003076	None Immune	GramNegative, GramPositive	P.lanio	1
+OG0003141	None Immune	GramNegative, GramPositive	A.melifera	1
+OG0003216	None Immune	GramNegative, GramPositive	A.melifera	1
+OG0003273	None Immune	GramNegative, GramPositive	P.lanio	1
+OG0003297	None Immune	GramNegative, GramPositive	A.melifera	1
+OG0003524	None Immune	GramNegative, GramPositive	A.melifera	1
+OG0003547	None Immune	GramNegative, GramPositive	A.melifera	1
+OG0003568	None Immune	GramNegative, GramPositive	P.lanio	1
+OG0003775	None Immune	GramNegative, GramPositive	A.melifera	1
+OG0003799	None Immune	GramNegative, GramPositive	P.lanio	1
+OG0003840	None Immune	GramNegative, GramPositive	A.melifera	1
+OG0003918	None Immune	GramNegative, GramPositive	B.terrestris	1
+OG0003958	None Immune	GramNegative, GramPositive	C.australensis	1
+OG0003964	None Immune	GramNegative, GramPositive	P.lanio	1
+OG0004001	None Immune	GramNegative, GramPositive	A.melifera	1
+OG0004088	None Immune	GramNegative, GramPositive	P.lanio	1
+OG0004125	None Immune	GramNegative, GramPositive	P.lanio	1
+OG0004141	None Immune	GramNegative, GramPositive	C.australensis	1
+OG0004173	None Immune	GramNegative, GramPositive	P.lanio	1
+OG0004293	None Immune	GramNegative, GramPositive	C.australensis	1
+OG0004324	None Immune	GramNegative, GramPositive	P.lanio	1
+OG0004380	None Immune	GramNegative, GramPositive	A.melifera	1
+OG0004397	None Immune	GramNegative, GramPositive	P.lanio	1
+OG0004463	None Immune	GramNegative, GramPositive	A.melifera	1
+OG0004505	None Immune	GramNegative, GramPositive	P.lanio	1
+OG0004558	None Immune	GramNegative, GramPositive	P.lanio	1
+OG0004713	None Immune	GramNegative, GramPositive	P.lanio	1
+OG0004729	None Immune	GramNegative, GramPositive	P.lanio	1
+OG0004766	None Immune	GramNegative, GramPositive	C.australensis	1
+OG0004836	None Immune	GramNegative, GramPositive	A.melifera	1
+OG0004864	None Immune	GramNegative, GramPositive	P.lanio	1
+OG0004939	None Immune	GramNegative, GramPositive	C.australensis	1
+OG0004987	None Immune	GramNegative, GramPositive	B.terrestris	1
+OG0005122	None Immune	GramNegative, GramPositive	P.lanio	1
+OG0005154	None Immune	GramNegative, GramPositive	P.lanio	1
+OG0005155	None Immune	GramNegative, GramPositive	A.melifera, B.terrestris	2
+OG0005170	None Immune	GramNegative, GramPositive	A.melifera	1
+OG0005268	None Immune	GramNegative, GramPositive	A.melifera	1
+OG0005279	None Immune	GramNegative, GramPositive	P.lanio	1
+OG0005362	None Immune	GramNegative, GramPositive	A.melifera	1
+OG0005472	None Immune	GramNegative, GramPositive	P.lanio	1
+OG0005520	None Immune	GramNegative, GramPositive	P.lanio	1
+OG0005671	None Immune	GramNegative, GramPositive	A.melifera	1
+OG0005715	None Immune	GramNegative, GramPositive	P.lanio	1
+OG0005774	None Immune	GramNegative, GramPositive	C.australensis	1
+OG0005845	None Immune	GramNegative, GramPositive	P.lanio	1
+OG0005967	None Immune	GramNegative, GramPositive	C.australensis	1
+OG0006128	None Immune	GramNegative, GramPositive	P.lanio	1
+OG0006142	None Immune	GramNegative, GramPositive	P.lanio	1
+OG0006379	None Immune	GramNegative, GramPositive	P.lanio	1
+OG0006401	None Immune	GramNegative, GramPositive	P.lanio	1
+OG0006429	None Immune	GramNegative, GramPositive	C.australensis	1
+OG0006443	None Immune	GramNegative, GramPositive	P.lanio	1
+OG0006450	None Immune	GramNegative, GramPositive	P.lanio	1
+OG0006461	None Immune	GramNegative, GramPositive	B.terrestris	1
+OG0006664	None Immune	GramNegative, GramPositive	A.melifera	1
+OG0006671	None Immune	GramNegative, GramPositive	A.melifera	1
+OG0006674	None Immune	GramNegative, GramPositive	A.melifera	1
+OG0006690	None Immune	GramNegative, GramPositive	B.terrestris	1
+OG0006757	None Immune	GramNegative, GramPositive	P.lanio	1
+OG0006789	None Immune	GramNegative, GramPositive	P.lanio	1
+OG0006834	None Immune	GramNegative, GramPositive	C.australensis	1
+OG0006843	None Immune	GramNegative, GramPositive	P.lanio	1
+OG0006971	None Immune	GramNegative, GramPositive	A.melifera	1
+OG0007008	None Immune	GramNegative, GramPositive	A.melifera	1
+OG0007089	None Immune	GramNegative, GramPositive	A.melifera	1
+OG0007195	None Immune	GramNegative, GramPositive	B.terrestris	1
+OG0007287	None Immune	GramNegative, GramPositive	B.terrestris	1
+OG0007293	None Immune	GramNegative, GramPositive	A.melifera	1
+OG0007550	None Immune	GramNegative, GramPositive	P.lanio	1
+OG0007735	None Immune	GramNegative, GramPositive	P.lanio	1
+OG0007736	None Immune	GramNegative, GramPositive	A.melifera	1
+OG0007816	None Immune	GramNegative, GramPositive	A.melifera, B.terrestris	2
+OG0007928	None Immune	GramNegative, GramPositive	A.melifera	1
+OG0008095	None Immune	GramNegative, GramPositive	A.melifera	1
+OG0008183	None Immune	GramNegative, GramPositive	A.melifera	1
+OG0008197	None Immune	GramNegative, GramPositive	A.melifera	1
+OG0008223	None Immune	GramNegative, GramPositive	P.lanio	1
+OG0008308	None Immune	GramNegative, GramPositive	P.lanio	1
+OG0008343	None Immune	GramNegative, GramPositive	P.lanio	1
+OG0008606	None Immune	GramNegative, GramPositive	C.australensis	1
+OG0008713	None Immune	GramNegative, GramPositive	A.melifera	1
+OG0008962	None Immune	GramNegative, GramPositive	P.lanio	1
+OG0009012	None Immune	GramNegative, GramPositive	A.melifera	1
+OG0009065	None Immune	GramNegative, GramPositive	P.lanio	1
+OG0009077	None Immune	GramNegative, GramPositive	P.lanio	1
+OG0009131	None Immune	GramNegative, GramPositive	P.lanio	1
+OG0009670	None Immune	GramNegative, GramPositive	A.melifera	1
+OG0009908	None Immune	GramNegative, GramPositive	B.terrestris	1
+OG0010272	None Immune	GramNegative, GramPositive	A.melifera	1
+OG0010850	None Immune	GramNegative, GramPositive	B.terrestris	1
+OG0000530	Putative Immune	GramNegative, GramPositive	C.australensis	1
+OG0000916	Putative Immune	GramNegative, GramPositive	P.lanio	1
+OG0001610	Putative Immune	GramNegative, GramPositive	P.lanio	1
+OG0001639	Putative Immune	GramNegative, GramPositive	A.melifera	1
+OG0001762	Putative Immune	GramNegative, GramPositive	Apinae	1
+OG0001768	Putative Immune	GramNegative, GramPositive	A.melifera	1
+OG0002387	Putative Immune	GramNegative, GramPositive	A.melifera	1
+OG0003746	Putative Immune	GramNegative, GramPositive	P.lanio	1
+OG0004202	Putative Immune	GramNegative, GramPositive	A.melifera	1
+OG0004468	Putative Immune	GramNegative, GramPositive	A.melifera	1
+OG0004829	Putative Immune	GramNegative, GramPositive	P.lanio	1
+OG0006763	Putative Immune	GramNegative, GramPositive	A.melifera	1
+OG0006900	Putative Immune	GramNegative, GramPositive	A.melifera, B.terrestris	2
+OG0007943	Putative Immune	GramNegative, GramPositive	A.melifera	1
+OG0008950	Putative Immune	GramNegative, GramPositive	B.terrestris	1
+OG0000019	Unknown	GramNegative, GramPositive	B.terrestris	1
+OG0000259	Unknown	GramNegative, GramPositive	B.terrestris	1
+OG0002939	Unknown	GramNegative, GramPositive	P.lanio	1
+OG0007280	Unknown	GramNegative, GramPositive	P.lanio	1
+OG0008421	Unknown	GramNegative, GramPositive	B.terrestris	1
+OG0009190	Unknown	GramNegative, GramPositive	C.australensis	1
+OG0009548	Unknown	GramNegative, GramPositive	P.lanio	1
+OG0009563	Unknown	GramNegative, GramPositive	P.lanio	1
+OG0009754	Unknown	GramNegative, GramPositive	P.lanio	1
+OG0009759	Unknown	GramNegative, GramPositive	P.lanio	1
+OG0010050	Unknown	GramNegative, GramPositive	P.lanio	1
+OG0010589	Unknown	GramNegative, GramPositive	P.lanio	1
+OG0010636	Unknown	GramNegative, GramPositive	P.lanio	1
+OG0010641	Unknown	GramNegative, GramPositive	P.lanio	1
+OG0010900	Unknown	GramNegative, GramPositive	B.terrestris	1
+OG0000635	Immune	GramNegative, GramPositive, Wound	A.melifera, B.terrestris	2
+OG0001495	Immune	GramNegative, GramPositive, Wound	C.australensis	1
+OG0002784	Immune	GramNegative, GramPositive, Wound	P.lanio	1
+OG0003982	Immune	GramNegative, GramPositive, Wound	A.melifera, B.terrestris	2
+OG0004983	Immune	GramNegative, GramPositive, Wound	A.melifera, B.terrestris, C.australensis	3
+OG0004992	Immune	GramNegative, GramPositive, Wound	C.australensis	1
+OG0008855	Immune	GramNegative, GramPositive, Wound	A.melifera	1
+OG0011065	Immune	GramNegative, GramPositive, Wound	B.terrestris	1
+OG0000047	None Immune	GramNegative, GramPositive, Wound	P.lanio	1
+OG0000080	None Immune	GramNegative, GramPositive, Wound	B.terrestris	1
+OG0000081	None Immune	GramNegative, GramPositive, Wound	B.terrestris	1
+OG0000107	None Immune	GramNegative, GramPositive, Wound	Apinae	1
+OG0000392	None Immune	GramNegative, GramPositive, Wound	P.lanio	1
+OG0000442	None Immune	GramNegative, GramPositive, Wound	P.lanio	1
+OG0000491	None Immune	GramNegative, GramPositive, Wound	A.melifera	1
+OG0000499	None Immune	GramNegative, GramPositive, Wound	C.australensis	1
+OG0000516	None Immune	GramNegative, GramPositive, Wound	P.lanio	1
+OG0000552	None Immune	GramNegative, GramPositive, Wound	P.lanio	1
+OG0000617	None Immune	GramNegative, GramPositive, Wound	C.australensis	1
+OG0000685	None Immune	GramNegative, GramPositive, Wound	C.australensis	1
+OG0000692	None Immune	GramNegative, GramPositive, Wound	C.australensis	1
+OG0000826	None Immune	GramNegative, GramPositive, Wound	A.melifera	1
+OG0001054	None Immune	GramNegative, GramPositive, Wound	P.lanio	1
+OG0001073	None Immune	GramNegative, GramPositive, Wound	C.australensis	1
+OG0001136	None Immune	GramNegative, GramPositive, Wound	C.australensis	1
+OG0001164	None Immune	GramNegative, GramPositive, Wound	A.melifera	1
+OG0001190	None Immune	GramNegative, GramPositive, Wound	C.australensis	1
+OG0001224	None Immune	GramNegative, GramPositive, Wound	P.lanio	1
+OG0001373	None Immune	GramNegative, GramPositive, Wound	A.melifera	1
+OG0001395	None Immune	GramNegative, GramPositive, Wound	P.lanio	1
+OG0001580	None Immune	GramNegative, GramPositive, Wound	A.melifera	1
+OG0001739	None Immune	GramNegative, GramPositive, Wound	P.lanio	1
+OG0001949	None Immune	GramNegative, GramPositive, Wound	P.lanio	1
+OG0001990	None Immune	GramNegative, GramPositive, Wound	P.lanio	1
+OG0002172	None Immune	GramNegative, GramPositive, Wound	P.lanio	1
+OG0002223	None Immune	GramNegative, GramPositive, Wound	A.melifera	1
+OG0002339	None Immune	GramNegative, GramPositive, Wound	P.lanio	1
+OG0002395	None Immune	GramNegative, GramPositive, Wound	P.lanio	1
+OG0002413	None Immune	GramNegative, GramPositive, Wound	P.lanio	1
+OG0002510	None Immune	GramNegative, GramPositive, Wound	A.melifera	1
+OG0002541	None Immune	GramNegative, GramPositive, Wound	C.australensis	1
+OG0002752	None Immune	GramNegative, GramPositive, Wound	A.melifera	1
+OG0002754	None Immune	GramNegative, GramPositive, Wound	A.melifera, B.terrestris, Apinae	3
+OG0003318	None Immune	GramNegative, GramPositive, Wound	P.lanio	1
+OG0003351	None Immune	GramNegative, GramPositive, Wound	C.australensis	1
+OG0003367	None Immune	GramNegative, GramPositive, Wound	P.lanio	1
+OG0003450	None Immune	GramNegative, GramPositive, Wound	P.lanio	1
+OG0003511	None Immune	GramNegative, GramPositive, Wound	A.melifera	1
+OG0003562	None Immune	GramNegative, GramPositive, Wound	A.melifera	1
+OG0003666	None Immune	GramNegative, GramPositive, Wound	P.lanio	1
+OG0003704	None Immune	GramNegative, GramPositive, Wound	P.lanio	1
+OG0003936	None Immune	GramNegative, GramPositive, Wound	C.australensis	1
+OG0003951	None Immune	GramNegative, GramPositive, Wound	P.lanio	1
+OG0004188	None Immune	GramNegative, GramPositive, Wound	A.melifera	1
+OG0004322	None Immune	GramNegative, GramPositive, Wound	P.lanio	1
+OG0004341	None Immune	GramNegative, GramPositive, Wound	P.lanio	1
+OG0004549	None Immune	GramNegative, GramPositive, Wound	C.australensis	1
+OG0004607	None Immune	GramNegative, GramPositive, Wound	C.australensis	1
+OG0004711	None Immune	GramNegative, GramPositive, Wound	P.lanio	1
+OG0004830	None Immune	GramNegative, GramPositive, Wound	P.lanio	1
+OG0004882	None Immune	GramNegative, GramPositive, Wound	P.lanio	1
+OG0004914	None Immune	GramNegative, GramPositive, Wound	C.australensis	1
+OG0004953	None Immune	GramNegative, GramPositive, Wound	A.melifera	1
+OG0005141	None Immune	GramNegative, GramPositive, Wound	P.lanio	1
+OG0005276	None Immune	GramNegative, GramPositive, Wound	P.lanio	1
+OG0005302	None Immune	GramNegative, GramPositive, Wound	A.melifera	1
+OG0005309	None Immune	GramNegative, GramPositive, Wound	P.lanio	1
+OG0005426	None Immune	GramNegative, GramPositive, Wound	P.lanio	1
+OG0005479	None Immune	GramNegative, GramPositive, Wound	A.melifera	1
+OG0005594	None Immune	GramNegative, GramPositive, Wound	P.lanio	1
+OG0005732	None Immune	GramNegative, GramPositive, Wound	A.melifera	1
+OG0005818	None Immune	GramNegative, GramPositive, Wound	A.melifera	1
+OG0005885	None Immune	GramNegative, GramPositive, Wound	C.australensis	1
+OG0006150	None Immune	GramNegative, GramPositive, Wound	P.lanio	1
+OG0006616	None Immune	GramNegative, GramPositive, Wound	A.melifera	1
+OG0006640	None Immune	GramNegative, GramPositive, Wound	A.melifera	1
+OG0006773	None Immune	GramNegative, GramPositive, Wound	B.terrestris	1
+OG0006987	None Immune	GramNegative, GramPositive, Wound	C.australensis	1
+OG0007082	None Immune	GramNegative, GramPositive, Wound	A.melifera	1
+OG0007120	None Immune	GramNegative, GramPositive, Wound	P.lanio	1
+OG0007366	None Immune	GramNegative, GramPositive, Wound	A.melifera	1
+OG0007701	None Immune	GramNegative, GramPositive, Wound	B.terrestris	1
+OG0007788	None Immune	GramNegative, GramPositive, Wound	P.lanio	1
+OG0007879	None Immune	GramNegative, GramPositive, Wound	A.melifera, P.lanio	2
+OG0008073	None Immune	GramNegative, GramPositive, Wound	B.terrestris	1
+OG0008161	None Immune	GramNegative, GramPositive, Wound	B.terrestris	1
+OG0008250	None Immune	GramNegative, GramPositive, Wound	P.lanio	1
+OG0008252	None Immune	GramNegative, GramPositive, Wound	P.lanio	1
+OG0008362	None Immune	GramNegative, GramPositive, Wound	P.lanio	1
+OG0008369	None Immune	GramNegative, GramPositive, Wound	P.lanio	1
+OG0008496	None Immune	GramNegative, GramPositive, Wound	A.melifera	1
+OG0008617	None Immune	GramNegative, GramPositive, Wound	P.lanio	1
+OG0008627	None Immune	GramNegative, GramPositive, Wound	A.melifera	1
+OG0009128	None Immune	GramNegative, GramPositive, Wound	P.lanio	1
+OG0009619	None Immune	GramNegative, GramPositive, Wound	P.lanio	1
+OG0009626	None Immune	GramNegative, GramPositive, Wound	A.melifera	1
+OG0009650	None Immune	GramNegative, GramPositive, Wound	C.australensis	1
+OG0000016	Putative Immune	GramNegative, GramPositive, Wound	P.lanio	1
+OG0000065	Putative Immune	GramNegative, GramPositive, Wound	A.melifera	1
+OG0000627	Putative Immune	GramNegative, GramPositive, Wound	A.melifera, B.terrestris, C.australensis	3
+OG0001247	Putative Immune	GramNegative, GramPositive, Wound	C.australensis, P.lanio	2
+OG0002961	Putative Immune	GramNegative, GramPositive, Wound	A.melifera, B.terrestris, C.australensis	3
+OG0003208	Putative Immune	GramNegative, GramPositive, Wound	B.terrestris	1
+OG0003289	Putative Immune	GramNegative, GramPositive, Wound	C.australensis	1
+OG0007376	Putative Immune	GramNegative, GramPositive, Wound	P.lanio	1
+OG0008153	Putative Immune	GramNegative, GramPositive, Wound	A.melifera, B.terrestris, C.australensis, Anthophila, Apinae	5
+OG0008452	Putative Immune	GramNegative, GramPositive, Wound	B.terrestris	1
+OG0008878	Putative Immune	GramNegative, GramPositive, Wound	A.melifera	1
+OG0008945	Putative Immune	GramNegative, GramPositive, Wound	Anthophila, Apinae	2
+OG0009073	Putative Immune	GramNegative, GramPositive, Wound	B.terrestris	1
+OG0009874	Putative Immune	GramNegative, GramPositive, Wound	B.terrestris	1
+OG0000026	Unknown	GramNegative, GramPositive, Wound	P.lanio	1
+OG0000139	Unknown	GramNegative, GramPositive, Wound	P.lanio	1
+OG0001128	Unknown	GramNegative, GramPositive, Wound	P.lanio	1
+OG0002689	Unknown	GramNegative, GramPositive, Wound	C.australensis	1
+OG0005221	Unknown	GramNegative, GramPositive, Wound	C.australensis	1
+OG0007475	Unknown	GramNegative, GramPositive, Wound	P.lanio	1
+OG0008189	Unknown	GramNegative, GramPositive, Wound	B.terrestris	1
+OG0008672	Unknown	GramNegative, GramPositive, Wound	B.terrestris	1
+OG0009471	Unknown	GramNegative, GramPositive, Wound	P.lanio	1
+OG0010644	Unknown	GramNegative, GramPositive, Wound	P.lanio	1
+OG0011046	Unknown	GramNegative, GramPositive, Wound	P.lanio	1
+OG0000042	Immune	GramNegative, Wound	P.lanio	1
+OG0002872	Immune	GramNegative, Wound	Apinae	1
+OG0003168	Immune	GramNegative, Wound	P.lanio	1
+OG0003299	Immune	GramNegative, Wound	A.melifera	1
+OG0000003	None Immune	GramNegative, Wound	P.lanio	1
+OG0000017	None Immune	GramNegative, Wound	P.lanio	1
+OG0000038	None Immune	GramNegative, Wound	P.lanio	1
+OG0000107	None Immune	GramNegative, Wound	A.melifera, B.terrestris	2
+OG0000157	None Immune	GramNegative, Wound	C.australensis	1
+OG0000174	None Immune	GramNegative, Wound	P.lanio	1
+OG0000177	None Immune	GramNegative, Wound	P.lanio	1
+OG0000178	None Immune	GramNegative, Wound	C.australensis	1
+OG0000179	None Immune	GramNegative, Wound	C.australensis	1
+OG0000205	None Immune	GramNegative, Wound	P.lanio	1
+OG0000218	None Immune	GramNegative, Wound	P.lanio	1
+OG0000221	None Immune	GramNegative, Wound	P.lanio	1
+OG0000379	None Immune	GramNegative, Wound	A.melifera	1
+OG0000389	None Immune	GramNegative, Wound	P.lanio	1
+OG0000418	None Immune	GramNegative, Wound	P.lanio	1
+OG0000467	None Immune	GramNegative, Wound	P.lanio	1
+OG0000492	None Immune	GramNegative, Wound	P.lanio	1
+OG0000526	None Immune	GramNegative, Wound	P.lanio	1
+OG0000529	None Immune	GramNegative, Wound	P.lanio	1
+OG0000717	None Immune	GramNegative, Wound	A.melifera	1
+OG0000759	None Immune	GramNegative, Wound	P.lanio	1
+OG0000778	None Immune	GramNegative, Wound	P.lanio	1
+OG0000962	None Immune	GramNegative, Wound	P.lanio	1
+OG0000992	None Immune	GramNegative, Wound	P.lanio	1
+OG0001009	None Immune	GramNegative, Wound	P.lanio	1
+OG0001049	None Immune	GramNegative, Wound	A.melifera	1
+OG0001063	None Immune	GramNegative, Wound	P.lanio	1
+OG0001119	None Immune	GramNegative, Wound	P.lanio	1
+OG0001145	None Immune	GramNegative, Wound	C.australensis	1
+OG0001165	None Immune	GramNegative, Wound	P.lanio	1
+OG0001292	None Immune	GramNegative, Wound	P.lanio	1
+OG0001312	None Immune	GramNegative, Wound	A.melifera	1
+OG0001338	None Immune	GramNegative, Wound	P.lanio	1
+OG0001349	None Immune	GramNegative, Wound	P.lanio	1
+OG0001514	None Immune	GramNegative, Wound	P.lanio	1
+OG0001587	None Immune	GramNegative, Wound	A.melifera	1
+OG0001609	None Immune	GramNegative, Wound	P.lanio	1
+OG0001659	None Immune	GramNegative, Wound	A.melifera	1
+OG0001717	None Immune	GramNegative, Wound	P.lanio	1
+OG0001719	None Immune	GramNegative, Wound	C.australensis	1
+OG0001749	None Immune	GramNegative, Wound	P.lanio	1
+OG0001787	None Immune	GramNegative, Wound	P.lanio	1
+OG0001801	None Immune	GramNegative, Wound	P.lanio	1
+OG0001838	None Immune	GramNegative, Wound	C.australensis	1
+OG0001892	None Immune	GramNegative, Wound	P.lanio	1
+OG0001918	None Immune	GramNegative, Wound	A.melifera	1
+OG0001940	None Immune	GramNegative, Wound	P.lanio	1
+OG0001963	None Immune	GramNegative, Wound	C.australensis	1
+OG0002107	None Immune	GramNegative, Wound	C.australensis	1
+OG0002129	None Immune	GramNegative, Wound	P.lanio	1
+OG0002152	None Immune	GramNegative, Wound	P.lanio	1
+OG0002238	None Immune	GramNegative, Wound	P.lanio	1
+OG0002254	None Immune	GramNegative, Wound	P.lanio	1
+OG0002362	None Immune	GramNegative, Wound	P.lanio	1
+OG0002372	None Immune	GramNegative, Wound	P.lanio	1
+OG0002429	None Immune	GramNegative, Wound	P.lanio	1
+OG0002433	None Immune	GramNegative, Wound	P.lanio	1
+OG0002602	None Immune	GramNegative, Wound	P.lanio	1
+OG0002608	None Immune	GramNegative, Wound	P.lanio	1
+OG0002617	None Immune	GramNegative, Wound	P.lanio	1
+OG0002673	None Immune	GramNegative, Wound	P.lanio	1
+OG0002781	None Immune	GramNegative, Wound	P.lanio	1
+OG0002797	None Immune	GramNegative, Wound	P.lanio	1
+OG0002801	None Immune	GramNegative, Wound	P.lanio	1
+OG0002870	None Immune	GramNegative, Wound	P.lanio	1
+OG0002979	None Immune	GramNegative, Wound	P.lanio	1
+OG0002986	None Immune	GramNegative, Wound	P.lanio	1
+OG0003019	None Immune	GramNegative, Wound	B.terrestris	1
+OG0003023	None Immune	GramNegative, Wound	P.lanio	1
+OG0003026	None Immune	GramNegative, Wound	P.lanio	1
+OG0003112	None Immune	GramNegative, Wound	C.australensis	1
+OG0003151	None Immune	GramNegative, Wound	P.lanio	1
+OG0003199	None Immune	GramNegative, Wound	P.lanio	1
+OG0003211	None Immune	GramNegative, Wound	P.lanio	1
+OG0003244	None Immune	GramNegative, Wound	P.lanio	1
+OG0003263	None Immune	GramNegative, Wound	P.lanio	1
+OG0003323	None Immune	GramNegative, Wound	P.lanio	1
+OG0003335	None Immune	GramNegative, Wound	P.lanio	1
+OG0003374	None Immune	GramNegative, Wound	P.lanio	1
+OG0003551	None Immune	GramNegative, Wound	P.lanio	1
+OG0003566	None Immune	GramNegative, Wound	P.lanio	1
+OG0003636	None Immune	GramNegative, Wound	P.lanio	1
+OG0003685	None Immune	GramNegative, Wound	P.lanio	1
+OG0003690	None Immune	GramNegative, Wound	P.lanio	1
+OG0003791	None Immune	GramNegative, Wound	P.lanio	1
+OG0003916	None Immune	GramNegative, Wound	P.lanio	1
+OG0004033	None Immune	GramNegative, Wound	P.lanio	1
+OG0004034	None Immune	GramNegative, Wound	P.lanio	1
+OG0004080	None Immune	GramNegative, Wound	C.australensis	1
+OG0004109	None Immune	GramNegative, Wound	P.lanio	1
+OG0004131	None Immune	GramNegative, Wound	P.lanio	1
+OG0004271	None Immune	GramNegative, Wound	P.lanio	1
+OG0004294	None Immune	GramNegative, Wound	P.lanio	1
+OG0004309	None Immune	GramNegative, Wound	P.lanio	1
+OG0004412	None Immune	GramNegative, Wound	P.lanio	1
+OG0004476	None Immune	GramNegative, Wound	P.lanio	1
+OG0004532	None Immune	GramNegative, Wound	P.lanio	1
+OG0004547	None Immune	GramNegative, Wound	P.lanio	1
+OG0004562	None Immune	GramNegative, Wound	P.lanio	1
+OG0004655	None Immune	GramNegative, Wound	P.lanio	1
+OG0004669	None Immune	GramNegative, Wound	P.lanio	1
+OG0004686	None Immune	GramNegative, Wound	A.melifera	1
+OG0004754	None Immune	GramNegative, Wound	P.lanio	1
+OG0004900	None Immune	GramNegative, Wound	A.melifera, C.australensis	2
+OG0004928	None Immune	GramNegative, Wound	P.lanio	1
+OG0004930	None Immune	GramNegative, Wound	C.australensis	1
+OG0004968	None Immune	GramNegative, Wound	C.australensis	1
+OG0004991	None Immune	GramNegative, Wound	P.lanio	1
+OG0005020	None Immune	GramNegative, Wound	P.lanio	1
+OG0005084	None Immune	GramNegative, Wound	P.lanio	1
+OG0005095	None Immune	GramNegative, Wound	P.lanio	1
+OG0005103	None Immune	GramNegative, Wound	P.lanio	1
+OG0005115	None Immune	GramNegative, Wound	B.terrestris	1
+OG0005139	None Immune	GramNegative, Wound	P.lanio	1
+OG0005191	None Immune	GramNegative, Wound	P.lanio	1
+OG0005195	None Immune	GramNegative, Wound	C.australensis	1
+OG0005201	None Immune	GramNegative, Wound	P.lanio	1
+OG0005254	None Immune	GramNegative, Wound	P.lanio	1
+OG0005303	None Immune	GramNegative, Wound	P.lanio	1
+OG0005367	None Immune	GramNegative, Wound	C.australensis	1
+OG0005371	None Immune	GramNegative, Wound	P.lanio	1
+OG0005442	None Immune	GramNegative, Wound	P.lanio	1
+OG0005448	None Immune	GramNegative, Wound	P.lanio	1
+OG0005451	None Immune	GramNegative, Wound	P.lanio	1
+OG0005455	None Immune	GramNegative, Wound	C.australensis	1
+OG0005467	None Immune	GramNegative, Wound	P.lanio	1
+OG0005539	None Immune	GramNegative, Wound	P.lanio	1
+OG0005802	None Immune	GramNegative, Wound	P.lanio	1
+OG0005933	None Immune	GramNegative, Wound	P.lanio	1
+OG0005942	None Immune	GramNegative, Wound	P.lanio	1
+OG0005964	None Immune	GramNegative, Wound	A.melifera	1
+OG0006035	None Immune	GramNegative, Wound	A.melifera	1
+OG0006091	None Immune	GramNegative, Wound	P.lanio	1
+OG0006137	None Immune	GramNegative, Wound	P.lanio	1
+OG0006141	None Immune	GramNegative, Wound	P.lanio	1
+OG0006237	None Immune	GramNegative, Wound	B.terrestris	1
+OG0006351	None Immune	GramNegative, Wound	P.lanio	1
+OG0006393	None Immune	GramNegative, Wound	P.lanio	1
+OG0006412	None Immune	GramNegative, Wound	A.melifera	1
+OG0006632	None Immune	GramNegative, Wound	P.lanio	1
+OG0006648	None Immune	GramNegative, Wound	P.lanio	1
+OG0006713	None Immune	GramNegative, Wound	A.melifera	1
+OG0006779	None Immune	GramNegative, Wound	P.lanio	1
+OG0006873	None Immune	GramNegative, Wound	P.lanio	1
+OG0006874	None Immune	GramNegative, Wound	P.lanio	1
+OG0006886	None Immune	GramNegative, Wound	P.lanio	1
+OG0006898	None Immune	GramNegative, Wound	P.lanio	1
+OG0006921	None Immune	GramNegative, Wound	P.lanio	1
+OG0006980	None Immune	GramNegative, Wound	P.lanio	1
+OG0007052	None Immune	GramNegative, Wound	C.australensis	1
+OG0007077	None Immune	GramNegative, Wound	P.lanio	1
+OG0007086	None Immune	GramNegative, Wound	C.australensis	1
+OG0007185	None Immune	GramNegative, Wound	P.lanio	1
+OG0007238	None Immune	GramNegative, Wound	P.lanio	1
+OG0007345	None Immune	GramNegative, Wound	P.lanio	1
+OG0007393	None Immune	GramNegative, Wound	P.lanio	1
+OG0007497	None Immune	GramNegative, Wound	P.lanio	1
+OG0007522	None Immune	GramNegative, Wound	P.lanio	1
+OG0007639	None Immune	GramNegative, Wound	P.lanio	1
+OG0007703	None Immune	GramNegative, Wound	C.australensis	1
+OG0007727	None Immune	GramNegative, Wound	P.lanio	1
+OG0007751	None Immune	GramNegative, Wound	A.melifera	1
+OG0007793	None Immune	GramNegative, Wound	P.lanio	1
+OG0007803	None Immune	GramNegative, Wound	P.lanio	1
+OG0007831	None Immune	GramNegative, Wound	P.lanio	1
+OG0007851	None Immune	GramNegative, Wound	P.lanio	1
+OG0007885	None Immune	GramNegative, Wound	A.melifera	1
+OG0007936	None Immune	GramNegative, Wound	P.lanio	1
+OG0007960	None Immune	GramNegative, Wound	A.melifera	1
+OG0007985	None Immune	GramNegative, Wound	P.lanio	1
+OG0008024	None Immune	GramNegative, Wound	P.lanio	1
+OG0008032	None Immune	GramNegative, Wound	P.lanio	1
+OG0008099	None Immune	GramNegative, Wound	P.lanio	1
+OG0008333	None Immune	GramNegative, Wound	P.lanio	1
+OG0008335	None Immune	GramNegative, Wound	P.lanio	1
+OG0008467	None Immune	GramNegative, Wound	A.melifera	1
+OG0008772	None Immune	GramNegative, Wound	P.lanio	1
+OG0008902	None Immune	GramNegative, Wound	P.lanio	1
+OG0008994	None Immune	GramNegative, Wound	A.melifera	1
+OG0009033	None Immune	GramNegative, Wound	P.lanio	1
+OG0009084	None Immune	GramNegative, Wound	P.lanio	1
+OG0009110	None Immune	GramNegative, Wound	A.melifera, P.lanio	2
+OG0009127	None Immune	GramNegative, Wound	P.lanio	1
+OG0009139	None Immune	GramNegative, Wound	A.melifera	1
+OG0009199	None Immune	GramNegative, Wound	A.melifera	1
+OG0009288	None Immune	GramNegative, Wound	A.melifera	1
+OG0009355	None Immune	GramNegative, Wound	C.australensis	1
+OG0009381	None Immune	GramNegative, Wound	A.melifera	1
+OG0009398	None Immune	GramNegative, Wound	P.lanio	1
+OG0009567	None Immune	GramNegative, Wound	A.melifera	1
+OG0009894	None Immune	GramNegative, Wound	A.melifera	1
+OG0010679	None Immune	GramNegative, Wound	B.terrestris	1
+OG0010711	None Immune	GramNegative, Wound	A.melifera	1
+OG0000050	Putative Immune	GramNegative, Wound	B.terrestris	1
+OG0000142	Putative Immune	GramNegative, Wound	P.lanio	1
+OG0000160	Putative Immune	GramNegative, Wound	C.australensis	1
+OG0000214	Putative Immune	GramNegative, Wound	A.melifera	1
+OG0000333	Putative Immune	GramNegative, Wound	C.australensis	1
+OG0000923	Putative Immune	GramNegative, Wound	P.lanio	1
+OG0002560	Putative Immune	GramNegative, Wound	P.lanio	1
+OG0005109	Putative Immune	GramNegative, Wound	P.lanio	1
+OG0008950	Putative Immune	GramNegative, Wound	Apinae	1
+OG0001184	Unknown	GramNegative, Wound	P.lanio	1
+OG0001665	Unknown	GramNegative, Wound	P.lanio	1
+OG0001668	Unknown	GramNegative, Wound	P.lanio	1
+OG0002808	Unknown	GramNegative, Wound	P.lanio	1
+OG0007264	Unknown	GramNegative, Wound	P.lanio	1
+OG0007450	Unknown	GramNegative, Wound	P.lanio	1
+OG0009156	Unknown	GramNegative, Wound	P.lanio	1
+OG0009157	Unknown	GramNegative, Wound	P.lanio	1
+OG0009201	Unknown	GramNegative, Wound	P.lanio	1
+OG0009990	Unknown	GramNegative, Wound	P.lanio	1
+OG0010626	Unknown	GramNegative, Wound	P.lanio	1
+OG0010632	Unknown	GramNegative, Wound	P.lanio	1
+OG0010633	Unknown	GramNegative, Wound	P.lanio	1
+OG0010659	Unknown	GramNegative, Wound	P.lanio	1
+OG0011055	Unknown	GramNegative, Wound	P.lanio	1
+OG0000034	Immune	GramPositive	C.australensis	1
+OG0000138	Immune	GramPositive	B.terrestris, P.lanio, Apinae	3
+OG0000141	Immune	GramPositive	P.lanio	1
+OG0000324	Immune	GramPositive	C.australensis, P.lanio	2
+OG0000399	Immune	GramPositive	Anthophila, Apinae	2
+OG0000446	Immune	GramPositive	A.melifera, B.terrestris	2
+OG0000699	Immune	GramPositive	Aculeata, AgeControlled, Anthophila, Apinae	4
+OG0000928	Immune	GramPositive	A.melifera	1
+OG0001217	Immune	GramPositive	P.lanio	1
+OG0001290	Immune	GramPositive	B.terrestris	1
+OG0001310	Immune	GramPositive	C.australensis	1
+OG0001412	Immune	GramPositive	Apinae	1
+OG0001431	Immune	GramPositive	C.australensis	1
+OG0002707	Immune	GramPositive	P.lanio	1
+OG0002724	Immune	GramPositive	P.lanio	1
+OG0002737	Immune	GramPositive	B.terrestris	1
+OG0002872	Immune	GramPositive	Anthophila, Apinae	2
+OG0003299	Immune	GramPositive	A.melifera, B.terrestris	2
+OG0003330	Immune	GramPositive	P.lanio	1
+OG0003346	Immune	GramPositive	P.lanio	1
+OG0003593	Immune	GramPositive	P.lanio	1
+OG0003890	Immune	GramPositive	P.lanio	1
+OG0004091	Immune	GramPositive	C.australensis	1
+OG0004242	Immune	GramPositive	P.lanio	1
+OG0004370	Immune	GramPositive	P.lanio	1
+OG0004415	Immune	GramPositive	B.terrestris	1
+OG0004458	Immune	GramPositive	A.melifera	1
+OG0004610	Immune	GramPositive	Anthophila, Apinae	2
+OG0005713	Immune	GramPositive	P.lanio	1
+OG0005991	Immune	GramPositive	A.melifera	1
+OG0006912	Immune	GramPositive	P.lanio	1
+OG0007590	Immune	GramPositive	P.lanio	1
+OG0009885	Immune	GramPositive	Apinae	1
+OG0000041	None Immune	GramPositive	P.lanio	1
+OG0000045	None Immune	GramPositive	C.australensis	1
+OG0000051	None Immune	GramPositive	P.lanio	1
+OG0000088	None Immune	GramPositive	P.lanio	1
+OG0000098	None Immune	GramPositive	B.terrestris	1
+OG0000106	None Immune	GramPositive	A.melifera	1
+OG0000107	None Immune	GramPositive	B.terrestris	1
+OG0000134	None Immune	GramPositive	C.australensis	1
+OG0000155	None Immune	GramPositive	C.australensis	1
+OG0000159	None Immune	GramPositive	C.australensis	1
+OG0000161	None Immune	GramPositive	P.lanio	1
+OG0000179	None Immune	GramPositive	B.terrestris	1
+OG0000237	None Immune	GramPositive	C.australensis, P.lanio	2
+OG0000251	None Immune	GramPositive	P.lanio	1
+OG0000252	None Immune	GramPositive	C.australensis	1
+OG0000258	None Immune	GramPositive	C.australensis	1
+OG0000260	None Immune	GramPositive	C.australensis	1
+OG0000285	None Immune	GramPositive	C.australensis	1
+OG0000286	None Immune	GramPositive	A.melifera	1
+OG0000289	None Immune	GramPositive	C.australensis	1
+OG0000290	None Immune	GramPositive	C.australensis	1
+OG0000293	None Immune	GramPositive	C.australensis	1
+OG0000294	None Immune	GramPositive	A.melifera	1
+OG0000304	None Immune	GramPositive	P.lanio	1
+OG0000307	None Immune	GramPositive	C.australensis	1
+OG0000312	None Immune	GramPositive	P.lanio	1
+OG0000317	None Immune	GramPositive	P.lanio	1
+OG0000319	None Immune	GramPositive	C.australensis	1
+OG0000323	None Immune	GramPositive	Apinae	1
+OG0000344	None Immune	GramPositive	C.australensis	1
+OG0000353	None Immune	GramPositive	P.lanio	1
+OG0000373	None Immune	GramPositive	P.lanio	1
+OG0000379	None Immune	GramPositive	P.lanio	1
+OG0000385	None Immune	GramPositive	C.australensis	1
+OG0000395	None Immune	GramPositive	P.lanio	1
+OG0000396	None Immune	GramPositive	B.terrestris, C.australensis	2
+OG0000408	None Immune	GramPositive	P.lanio	1
+OG0000497	None Immune	GramPositive	P.lanio	1
+OG0000507	None Immune	GramPositive	P.lanio	1
+OG0000519	None Immune	GramPositive	B.terrestris	1
+OG0000526	None Immune	GramPositive	C.australensis	1
+OG0000527	None Immune	GramPositive	C.australensis, P.lanio	2
+OG0000528	None Immune	GramPositive	P.lanio	1
+OG0000535	None Immune	GramPositive	C.australensis	1
+OG0000561	None Immune	GramPositive	P.lanio	1
+OG0000567	None Immune	GramPositive	C.australensis	1
+OG0000582	None Immune	GramPositive	C.australensis	1
+OG0000591	None Immune	GramPositive	P.lanio	1
+OG0000603	None Immune	GramPositive	C.australensis	1
+OG0000613	None Immune	GramPositive	C.australensis	1
+OG0000616	None Immune	GramPositive	P.lanio	1
+OG0000618	None Immune	GramPositive	P.lanio	1
+OG0000636	None Immune	GramPositive	C.australensis	1
+OG0000664	None Immune	GramPositive	C.australensis	1
+OG0000675	None Immune	GramPositive	C.australensis	1
+OG0000695	None Immune	GramPositive	Apinae	1
+OG0000706	None Immune	GramPositive	A.melifera, C.australensis	2
+OG0000717	None Immune	GramPositive	A.melifera, C.australensis, Apinae	3
+OG0000737	None Immune	GramPositive	P.lanio	1
+OG0000744	None Immune	GramPositive	P.lanio	1
+OG0000750	None Immune	GramPositive	P.lanio	1
+OG0000782	None Immune	GramPositive	P.lanio	1
+OG0000804	None Immune	GramPositive	C.australensis	1
+OG0000826	None Immune	GramPositive	Apinae	1
+OG0000849	None Immune	GramPositive	P.lanio	1
+OG0000858	None Immune	GramPositive	P.lanio	1
+OG0000883	None Immune	GramPositive	B.terrestris	1
+OG0000885	None Immune	GramPositive	P.lanio	1
+OG0000901	None Immune	GramPositive	C.australensis	1
+OG0000907	None Immune	GramPositive	P.lanio	1
+OG0000914	None Immune	GramPositive	P.lanio	1
+OG0000920	None Immune	GramPositive	P.lanio	1
+OG0000954	None Immune	GramPositive	P.lanio	1
+OG0000957	None Immune	GramPositive	C.australensis	1
+OG0000966	None Immune	GramPositive	P.lanio	1
+OG0000968	None Immune	GramPositive	P.lanio	1
+OG0000972	None Immune	GramPositive	C.australensis	1
+OG0000974	None Immune	GramPositive	C.australensis	1
+OG0000989	None Immune	GramPositive	P.lanio	1
+OG0000994	None Immune	GramPositive	Apinae	1
+OG0000996	None Immune	GramPositive	P.lanio	1
+OG0001002	None Immune	GramPositive	P.lanio	1
+OG0001008	None Immune	GramPositive	C.australensis	1
+OG0001032	None Immune	GramPositive	P.lanio	1
+OG0001043	None Immune	GramPositive	P.lanio	1
+OG0001048	None Immune	GramPositive	Apinae	1
+OG0001049	None Immune	GramPositive	A.melifera, P.lanio	2
+OG0001068	None Immune	GramPositive	C.australensis	1
+OG0001071	None Immune	GramPositive	AgeControlled	1
+OG0001091	None Immune	GramPositive	P.lanio	1
+OG0001142	None Immune	GramPositive	C.australensis	1
+OG0001147	None Immune	GramPositive	P.lanio	1
+OG0001160	None Immune	GramPositive	P.lanio	1
+OG0001164	None Immune	GramPositive	AgeControlled, Apinae	2
+OG0001168	None Immune	GramPositive	P.lanio	1
+OG0001172	None Immune	GramPositive	P.lanio	1
+OG0001177	None Immune	GramPositive	P.lanio	1
+OG0001198	None Immune	GramPositive	P.lanio	1
+OG0001212	None Immune	GramPositive	C.australensis	1
+OG0001258	None Immune	GramPositive	C.australensis	1
+OG0001269	None Immune	GramPositive	C.australensis	1
+OG0001287	None Immune	GramPositive	A.melifera	1
+OG0001333	None Immune	GramPositive	C.australensis	1
+OG0001372	None Immune	GramPositive	P.lanio	1
+OG0001386	None Immune	GramPositive	P.lanio	1
+OG0001388	None Immune	GramPositive	P.lanio	1
+OG0001394	None Immune	GramPositive	C.australensis	1
+OG0001416	None Immune	GramPositive	Apinae	1
+OG0001432	None Immune	GramPositive	P.lanio	1
+OG0001443	None Immune	GramPositive	P.lanio	1
+OG0001447	None Immune	GramPositive	C.australensis, P.lanio	2
+OG0001450	None Immune	GramPositive	P.lanio	1
+OG0001463	None Immune	GramPositive	C.australensis	1
+OG0001468	None Immune	GramPositive	P.lanio	1
+OG0001484	None Immune	GramPositive	P.lanio	1
+OG0001492	None Immune	GramPositive	P.lanio	1
+OG0001518	None Immune	GramPositive	P.lanio	1
+OG0001520	None Immune	GramPositive	P.lanio	1
+OG0001522	None Immune	GramPositive	A.melifera	1
+OG0001554	None Immune	GramPositive	C.australensis	1
+OG0001573	None Immune	GramPositive	Apinae	1
+OG0001581	None Immune	GramPositive	P.lanio	1
+OG0001587	None Immune	GramPositive	A.melifera, P.lanio	2
+OG0001594	None Immune	GramPositive	P.lanio	1
+OG0001595	None Immune	GramPositive	P.lanio	1
+OG0001598	None Immune	GramPositive	C.australensis	1
+OG0001603	None Immune	GramPositive	P.lanio	1
+OG0001606	None Immune	GramPositive	P.lanio	1
+OG0001609	None Immune	GramPositive	C.australensis	1
+OG0001613	None Immune	GramPositive	A.melifera, P.lanio	2
+OG0001626	None Immune	GramPositive	B.terrestris	1
+OG0001687	None Immune	GramPositive	Apinae	1
+OG0001703	None Immune	GramPositive	P.lanio	1
+OG0001719	None Immune	GramPositive	C.australensis, P.lanio	2
+OG0001727	None Immune	GramPositive	A.melifera, B.terrestris, P.lanio	3
+OG0001766	None Immune	GramPositive	C.australensis	1
+OG0001770	None Immune	GramPositive	A.melifera, P.lanio	2
+OG0001784	None Immune	GramPositive	C.australensis, P.lanio	2
+OG0001785	None Immune	GramPositive	C.australensis	1
+OG0001795	None Immune	GramPositive	P.lanio	1
+OG0001836	None Immune	GramPositive	C.australensis	1
+OG0001847	None Immune	GramPositive	A.melifera	1
+OG0001860	None Immune	GramPositive	P.lanio	1
+OG0001887	None Immune	GramPositive	C.australensis	1
+OG0001897	None Immune	GramPositive	P.lanio	1
+OG0001920	None Immune	GramPositive	A.melifera	1
+OG0001957	None Immune	GramPositive	P.lanio	1
+OG0001969	None Immune	GramPositive	P.lanio	1
+OG0001971	None Immune	GramPositive	P.lanio	1
+OG0001977	None Immune	GramPositive	P.lanio	1
+OG0002001	None Immune	GramPositive	A.melifera, C.australensis	2
+OG0002006	None Immune	GramPositive	P.lanio	1
+OG0002022	None Immune	GramPositive	P.lanio	1
+OG0002023	None Immune	GramPositive	A.melifera, B.terrestris	2
+OG0002038	None Immune	GramPositive	P.lanio	1
+OG0002073	None Immune	GramPositive	A.melifera	1
+OG0002128	None Immune	GramPositive	P.lanio	1
+OG0002154	None Immune	GramPositive	P.lanio	1
+OG0002156	None Immune	GramPositive	C.australensis, P.lanio	2
+OG0002171	None Immune	GramPositive	P.lanio	1
+OG0002176	None Immune	GramPositive	C.australensis	1
+OG0002180	None Immune	GramPositive	P.lanio	1
+OG0002199	None Immune	GramPositive	C.australensis	1
+OG0002205	None Immune	GramPositive	Apinae	1
+OG0002234	None Immune	GramPositive	B.terrestris	1
+OG0002239	None Immune	GramPositive	P.lanio	1
+OG0002249	None Immune	GramPositive	A.melifera	1
+OG0002257	None Immune	GramPositive	P.lanio	1
+OG0002270	None Immune	GramPositive	C.australensis, P.lanio	2
+OG0002278	None Immune	GramPositive	C.australensis	1
+OG0002281	None Immune	GramPositive	P.lanio	1
+OG0002289	None Immune	GramPositive	B.terrestris	1
+OG0002293	None Immune	GramPositive	C.australensis	1
+OG0002324	None Immune	GramPositive	P.lanio	1
+OG0002352	None Immune	GramPositive	P.lanio	1
+OG0002382	None Immune	GramPositive	C.australensis	1
+OG0002384	None Immune	GramPositive	C.australensis	1
+OG0002392	None Immune	GramPositive	Aculeata, Anthophila	2
+OG0002397	None Immune	GramPositive	C.australensis	1
+OG0002398	None Immune	GramPositive	B.terrestris	1
+OG0002411	None Immune	GramPositive	P.lanio	1
+OG0002414	None Immune	GramPositive	P.lanio	1
+OG0002434	None Immune	GramPositive	C.australensis	1
+OG0002439	None Immune	GramPositive	P.lanio	1
+OG0002453	None Immune	GramPositive	C.australensis	1
+OG0002454	None Immune	GramPositive	P.lanio	1
+OG0002459	None Immune	GramPositive	P.lanio	1
+OG0002465	None Immune	GramPositive	P.lanio	1
+OG0002478	None Immune	GramPositive	C.australensis	1
+OG0002479	None Immune	GramPositive	A.melifera	1
+OG0002483	None Immune	GramPositive	P.lanio	1
+OG0002490	None Immune	GramPositive	Apinae	1
+OG0002505	None Immune	GramPositive	C.australensis	1
+OG0002510	None Immune	GramPositive	Apinae	1
+OG0002516	None Immune	GramPositive	C.australensis	1
+OG0002538	None Immune	GramPositive	C.australensis, P.lanio	2
+OG0002540	None Immune	GramPositive	P.lanio	1
+OG0002552	None Immune	GramPositive	C.australensis	1
+OG0002565	None Immune	GramPositive	P.lanio	1
+OG0002568	None Immune	GramPositive	P.lanio	1
+OG0002602	None Immune	GramPositive	C.australensis	1
+OG0002605	None Immune	GramPositive	C.australensis	1
+OG0002606	None Immune	GramPositive	C.australensis	1
+OG0002608	None Immune	GramPositive	C.australensis	1
+OG0002616	None Immune	GramPositive	C.australensis	1
+OG0002638	None Immune	GramPositive	A.melifera	1
+OG0002641	None Immune	GramPositive	P.lanio	1
+OG0002664	None Immune	GramPositive	C.australensis	1
+OG0002672	None Immune	GramPositive	P.lanio	1
+OG0002673	None Immune	GramPositive	C.australensis	1
+OG0002688	None Immune	GramPositive	Apinae	1
+OG0002692	None Immune	GramPositive	Apinae	1
+OG0002702	None Immune	GramPositive	B.terrestris	1
+OG0002709	None Immune	GramPositive	C.australensis	1
+OG0002711	None Immune	GramPositive	P.lanio	1
+OG0002714	None Immune	GramPositive	C.australensis	1
+OG0002728	None Immune	GramPositive	C.australensis	1
+OG0002731	None Immune	GramPositive	P.lanio	1
+OG0002738	None Immune	GramPositive	P.lanio	1
+OG0002740	None Immune	GramPositive	P.lanio	1
+OG0002757	None Immune	GramPositive	P.lanio	1
+OG0002777	None Immune	GramPositive	C.australensis	1
+OG0002809	None Immune	GramPositive	P.lanio	1
+OG0002827	None Immune	GramPositive	C.australensis, P.lanio	2
+OG0002832	None Immune	GramPositive	A.melifera	1
+OG0002853	None Immune	GramPositive	C.australensis	1
+OG0002858	None Immune	GramPositive	A.melifera	1
+OG0002875	None Immune	GramPositive	C.australensis	1
+OG0002885	None Immune	GramPositive	P.lanio	1
+OG0002890	None Immune	GramPositive	P.lanio	1
+OG0002936	None Immune	GramPositive	P.lanio	1
+OG0002948	None Immune	GramPositive	P.lanio	1
+OG0002993	None Immune	GramPositive	P.lanio	1
+OG0003003	None Immune	GramPositive	P.lanio	1
+OG0003012	None Immune	GramPositive	C.australensis	1
+OG0003025	None Immune	GramPositive	C.australensis	1
+OG0003032	None Immune	GramPositive	P.lanio	1
+OG0003039	None Immune	GramPositive	P.lanio	1
+OG0003040	None Immune	GramPositive	A.melifera	1
+OG0003052	None Immune	GramPositive	P.lanio	1
+OG0003057	None Immune	GramPositive	C.australensis	1
+OG0003074	None Immune	GramPositive	C.australensis	1
+OG0003083	None Immune	GramPositive	A.melifera	1
+OG0003099	None Immune	GramPositive	P.lanio	1
+OG0003123	None Immune	GramPositive	P.lanio	1
+OG0003127	None Immune	GramPositive	Apinae	1
+OG0003143	None Immune	GramPositive	Apinae	1
+OG0003159	None Immune	GramPositive	P.lanio	1
+OG0003181	None Immune	GramPositive	A.melifera, P.lanio	2
+OG0003184	None Immune	GramPositive	P.lanio	1
+OG0003200	None Immune	GramPositive	P.lanio	1
+OG0003224	None Immune	GramPositive	A.melifera, P.lanio	2
+OG0003250	None Immune	GramPositive	A.melifera, C.australensis	2
+OG0003263	None Immune	GramPositive	A.melifera	1
+OG0003285	None Immune	GramPositive	Apinae	1
+OG0003297	None Immune	GramPositive	Anthophila	1
+OG0003303	None Immune	GramPositive	P.lanio	1
+OG0003360	None Immune	GramPositive	P.lanio	1
+OG0003365	None Immune	GramPositive	P.lanio	1
+OG0003370	None Immune	GramPositive	P.lanio	1
+OG0003379	None Immune	GramPositive	P.lanio	1
+OG0003388	None Immune	GramPositive	P.lanio	1
+OG0003403	None Immune	GramPositive	P.lanio	1
+OG0003440	None Immune	GramPositive	C.australensis, P.lanio	2
+OG0003455	None Immune	GramPositive	C.australensis	1
+OG0003461	None Immune	GramPositive	C.australensis	1
+OG0003474	None Immune	GramPositive	B.terrestris	1
+OG0003501	None Immune	GramPositive	P.lanio	1
+OG0003502	None Immune	GramPositive	P.lanio	1
+OG0003513	None Immune	GramPositive	B.terrestris	1
+OG0003515	None Immune	GramPositive	P.lanio	1
+OG0003533	None Immune	GramPositive	A.melifera	1
+OG0003544	None Immune	GramPositive	C.australensis	1
+OG0003548	None Immune	GramPositive	A.melifera	1
+OG0003588	None Immune	GramPositive	A.melifera	1
+OG0003612	None Immune	GramPositive	P.lanio	1
+OG0003658	None Immune	GramPositive	C.australensis	1
+OG0003663	None Immune	GramPositive	P.lanio	1
+OG0003687	None Immune	GramPositive	P.lanio	1
+OG0003727	None Immune	GramPositive	B.terrestris	1
+OG0003737	None Immune	GramPositive	C.australensis	1
+OG0003773	None Immune	GramPositive	P.lanio	1
+OG0003788	None Immune	GramPositive	P.lanio	1
+OG0003803	None Immune	GramPositive	Anthophila, Apinae	2
+OG0003818	None Immune	GramPositive	C.australensis	1
+OG0003823	None Immune	GramPositive	P.lanio	1
+OG0003846	None Immune	GramPositive	C.australensis	1
+OG0003915	None Immune	GramPositive	P.lanio	1
+OG0003930	None Immune	GramPositive	P.lanio	1
+OG0003937	None Immune	GramPositive	P.lanio	1
+OG0003940	None Immune	GramPositive	C.australensis	1
+OG0003947	None Immune	GramPositive	P.lanio	1
+OG0003954	None Immune	GramPositive	P.lanio	1
+OG0003955	None Immune	GramPositive	P.lanio	1
+OG0003978	None Immune	GramPositive	P.lanio	1
+OG0003998	None Immune	GramPositive	A.melifera	1
+OG0004019	None Immune	GramPositive	P.lanio	1
+OG0004032	None Immune	GramPositive	P.lanio	1
+OG0004058	None Immune	GramPositive	A.melifera	1
+OG0004071	None Immune	GramPositive	C.australensis	1
+OG0004124	None Immune	GramPositive	C.australensis	1
+OG0004128	None Immune	GramPositive	P.lanio	1
+OG0004136	None Immune	GramPositive	C.australensis	1
+OG0004177	None Immune	GramPositive	C.australensis	1
+OG0004195	None Immune	GramPositive	P.lanio	1
+OG0004200	None Immune	GramPositive	A.melifera	1
+OG0004226	None Immune	GramPositive	C.australensis	1
+OG0004238	None Immune	GramPositive	C.australensis	1
+OG0004265	None Immune	GramPositive	C.australensis	1
+OG0004269	None Immune	GramPositive	C.australensis	1
+OG0004270	None Immune	GramPositive	P.lanio	1
+OG0004275	None Immune	GramPositive	P.lanio	1
+OG0004277	None Immune	GramPositive	C.australensis	1
+OG0004346	None Immune	GramPositive	P.lanio	1
+OG0004352	None Immune	GramPositive	Apinae	1
+OG0004359	None Immune	GramPositive	P.lanio	1
+OG0004369	None Immune	GramPositive	C.australensis	1
+OG0004421	None Immune	GramPositive	P.lanio	1
+OG0004426	None Immune	GramPositive	B.terrestris	1
+OG0004491	None Immune	GramPositive	P.lanio	1
+OG0004529	None Immune	GramPositive	P.lanio	1
+OG0004540	None Immune	GramPositive	P.lanio	1
+OG0004543	None Immune	GramPositive	Apinae	1
+OG0004547	None Immune	GramPositive	C.australensis	1
+OG0004551	None Immune	GramPositive	P.lanio	1
+OG0004553	None Immune	GramPositive	P.lanio	1
+OG0004584	None Immune	GramPositive	C.australensis	1
+OG0004615	None Immune	GramPositive	P.lanio	1
+OG0004639	None Immune	GramPositive	P.lanio	1
+OG0004641	None Immune	GramPositive	P.lanio	1
+OG0004648	None Immune	GramPositive	P.lanio	1
+OG0004672	None Immune	GramPositive	A.melifera, C.australensis	2
+OG0004686	None Immune	GramPositive	P.lanio	1
+OG0004700	None Immune	GramPositive	A.melifera, P.lanio	2
+OG0004703	None Immune	GramPositive	B.terrestris	1
+OG0004715	None Immune	GramPositive	C.australensis	1
+OG0004748	None Immune	GramPositive	A.melifera	1
+OG0004751	None Immune	GramPositive	P.lanio	1
+OG0004757	None Immune	GramPositive	P.lanio	1
+OG0004773	None Immune	GramPositive	P.lanio	1
+OG0004782	None Immune	GramPositive	C.australensis	1
+OG0004816	None Immune	GramPositive	P.lanio	1
+OG0004823	None Immune	GramPositive	C.australensis	1
+OG0004854	None Immune	GramPositive	P.lanio	1
+OG0004865	None Immune	GramPositive	P.lanio	1
+OG0004866	None Immune	GramPositive	C.australensis, P.lanio	2
+OG0004869	None Immune	GramPositive	P.lanio	1
+OG0004879	None Immune	GramPositive	C.australensis	1
+OG0004885	None Immune	GramPositive	P.lanio	1
+OG0004886	None Immune	GramPositive	A.melifera	1
+OG0004900	None Immune	GramPositive	A.melifera	1
+OG0004912	None Immune	GramPositive	P.lanio	1
+OG0004914	None Immune	GramPositive	Anthophila	1
+OG0004921	None Immune	GramPositive	C.australensis	1
+OG0004923	None Immune	GramPositive	A.melifera	1
+OG0004924	None Immune	GramPositive	Aculeata, AgeControlled, Anthophila, Apinae	4
+OG0004946	None Immune	GramPositive	P.lanio	1
+OG0004975	None Immune	GramPositive	P.lanio	1
+OG0005023	None Immune	GramPositive	P.lanio	1
+OG0005024	None Immune	GramPositive	P.lanio	1
+OG0005033	None Immune	GramPositive	B.terrestris	1
+OG0005037	None Immune	GramPositive	C.australensis	1
+OG0005044	None Immune	GramPositive	P.lanio	1
+OG0005056	None Immune	GramPositive	C.australensis, P.lanio	2
+OG0005071	None Immune	GramPositive	A.melifera	1
+OG0005072	None Immune	GramPositive	P.lanio	1
+OG0005083	None Immune	GramPositive	A.melifera	1
+OG0005086	None Immune	GramPositive	P.lanio	1
+OG0005100	None Immune	GramPositive	P.lanio	1
+OG0005115	None Immune	GramPositive	C.australensis	1
+OG0005118	None Immune	GramPositive	P.lanio	1
+OG0005121	None Immune	GramPositive	C.australensis	1
+OG0005123	None Immune	GramPositive	P.lanio	1
+OG0005133	None Immune	GramPositive	P.lanio	1
+OG0005152	None Immune	GramPositive	A.melifera, P.lanio	2
+OG0005170	None Immune	GramPositive	Apinae	1
+OG0005193	None Immune	GramPositive	C.australensis	1
+OG0005195	None Immune	GramPositive	B.terrestris, C.australensis	2
+OG0005197	None Immune	GramPositive	A.melifera	1
+OG0005217	None Immune	GramPositive	P.lanio	1
+OG0005247	None Immune	GramPositive	P.lanio	1
+OG0005253	None Immune	GramPositive	P.lanio	1
+OG0005266	None Immune	GramPositive	B.terrestris	1
+OG0005280	None Immune	GramPositive	A.melifera, P.lanio, Aculeata, AgeControlled, Anthophila, Apinae	6
+OG0005316	None Immune	GramPositive	P.lanio	1
+OG0005319	None Immune	GramPositive	P.lanio	1
+OG0005327	None Immune	GramPositive	P.lanio	1
+OG0005331	None Immune	GramPositive	AgeControlled, Apinae	2
+OG0005348	None Immune	GramPositive	P.lanio	1
+OG0005371	None Immune	GramPositive	C.australensis	1
+OG0005373	None Immune	GramPositive	A.melifera	1
+OG0005413	None Immune	GramPositive	P.lanio	1
+OG0005424	None Immune	GramPositive	C.australensis	1
+OG0005427	None Immune	GramPositive	P.lanio	1
+OG0005434	None Immune	GramPositive	C.australensis	1
+OG0005446	None Immune	GramPositive	P.lanio	1
+OG0005452	None Immune	GramPositive	P.lanio	1
+OG0005453	None Immune	GramPositive	P.lanio	1
+OG0005477	None Immune	GramPositive	C.australensis	1
+OG0005483	None Immune	GramPositive	C.australensis	1
+OG0005492	None Immune	GramPositive	P.lanio	1
+OG0005505	None Immune	GramPositive	P.lanio	1
+OG0005507	None Immune	GramPositive	P.lanio	1
+OG0005508	None Immune	GramPositive	P.lanio	1
+OG0005528	None Immune	GramPositive	P.lanio	1
+OG0005535	None Immune	GramPositive	C.australensis	1
+OG0005536	None Immune	GramPositive	P.lanio	1
+OG0005555	None Immune	GramPositive	P.lanio	1
+OG0005591	None Immune	GramPositive	P.lanio	1
+OG0005597	None Immune	GramPositive	P.lanio	1
+OG0005600	None Immune	GramPositive	P.lanio	1
+OG0005606	None Immune	GramPositive	P.lanio	1
+OG0005640	None Immune	GramPositive	A.melifera	1
+OG0005694	None Immune	GramPositive	A.melifera	1
+OG0005698	None Immune	GramPositive	Apinae	1
+OG0005701	None Immune	GramPositive	P.lanio	1
+OG0005702	None Immune	GramPositive	P.lanio	1
+OG0005716	None Immune	GramPositive	C.australensis	1
+OG0005722	None Immune	GramPositive	P.lanio	1
+OG0005725	None Immune	GramPositive	P.lanio	1
+OG0005767	None Immune	GramPositive	P.lanio	1
+OG0005776	None Immune	GramPositive	C.australensis, P.lanio	2
+OG0005799	None Immune	GramPositive	C.australensis	1
+OG0005814	None Immune	GramPositive	P.lanio	1
+OG0005827	None Immune	GramPositive	A.melifera	1
+OG0005830	None Immune	GramPositive	C.australensis	1
+OG0005831	None Immune	GramPositive	C.australensis	1
+OG0005841	None Immune	GramPositive	C.australensis	1
+OG0005862	None Immune	GramPositive	P.lanio	1
+OG0005929	None Immune	GramPositive	C.australensis	1
+OG0005959	None Immune	GramPositive	P.lanio	1
+OG0005961	None Immune	GramPositive	C.australensis	1
+OG0005964	None Immune	GramPositive	A.melifera, C.australensis	2
+OG0005971	None Immune	GramPositive	P.lanio	1
+OG0005996	None Immune	GramPositive	P.lanio	1
+OG0006003	None Immune	GramPositive	C.australensis, P.lanio	2
+OG0006004	None Immune	GramPositive	P.lanio	1
+OG0006027	None Immune	GramPositive	P.lanio	1
+OG0006055	None Immune	GramPositive	P.lanio	1
+OG0006064	None Immune	GramPositive	P.lanio	1
+OG0006075	None Immune	GramPositive	C.australensis	1
+OG0006086	None Immune	GramPositive	C.australensis	1
+OG0006106	None Immune	GramPositive	P.lanio	1
+OG0006127	None Immune	GramPositive	C.australensis	1
+OG0006131	None Immune	GramPositive	P.lanio	1
+OG0006145	None Immune	GramPositive	P.lanio	1
+OG0006155	None Immune	GramPositive	P.lanio	1
+OG0006172	None Immune	GramPositive	P.lanio	1
+OG0006180	None Immune	GramPositive	P.lanio	1
+OG0006213	None Immune	GramPositive	AgeControlled	1
+OG0006215	None Immune	GramPositive	P.lanio	1
+OG0006239	None Immune	GramPositive	P.lanio	1
+OG0006244	None Immune	GramPositive	C.australensis	1
+OG0006260	None Immune	GramPositive	P.lanio	1
+OG0006267	None Immune	GramPositive	P.lanio	1
+OG0006273	None Immune	GramPositive	P.lanio	1
+OG0006284	None Immune	GramPositive	P.lanio	1
+OG0006292	None Immune	GramPositive	P.lanio	1
+OG0006303	None Immune	GramPositive	P.lanio	1
+OG0006317	None Immune	GramPositive	P.lanio	1
+OG0006327	None Immune	GramPositive	A.melifera	1
+OG0006336	None Immune	GramPositive	P.lanio	1
+OG0006337	None Immune	GramPositive	P.lanio	1
+OG0006348	None Immune	GramPositive	P.lanio	1
+OG0006373	None Immune	GramPositive	Apinae	1
+OG0006394	None Immune	GramPositive	P.lanio	1
+OG0006460	None Immune	GramPositive	A.melifera	1
+OG0006475	None Immune	GramPositive	P.lanio	1
+OG0006533	None Immune	GramPositive	C.australensis	1
+OG0006535	None Immune	GramPositive	C.australensis	1
+OG0006541	None Immune	GramPositive	A.melifera	1
+OG0006544	None Immune	GramPositive	C.australensis	1
+OG0006562	None Immune	GramPositive	P.lanio	1
+OG0006563	None Immune	GramPositive	P.lanio	1
+OG0006613	None Immune	GramPositive	AgeControlled, Apinae	2
+OG0006617	None Immune	GramPositive	P.lanio	1
+OG0006620	None Immune	GramPositive	P.lanio	1
+OG0006623	None Immune	GramPositive	C.australensis	1
+OG0006629	None Immune	GramPositive	P.lanio	1
+OG0006697	None Immune	GramPositive	P.lanio	1
+OG0006713	None Immune	GramPositive	Apinae	1
+OG0006720	None Immune	GramPositive	P.lanio	1
+OG0006722	None Immune	GramPositive	P.lanio	1
+OG0006754	None Immune	GramPositive	A.melifera, C.australensis	2
+OG0006806	None Immune	GramPositive	P.lanio	1
+OG0006809	None Immune	GramPositive	P.lanio	1
+OG0006824	None Immune	GramPositive	P.lanio	1
+OG0006833	None Immune	GramPositive	C.australensis	1
+OG0006847	None Immune	GramPositive	Apinae	1
+OG0006852	None Immune	GramPositive	P.lanio	1
+OG0006854	None Immune	GramPositive	P.lanio, AgeControlled, Apinae	3
+OG0006867	None Immune	GramPositive	C.australensis	1
+OG0006891	None Immune	GramPositive	P.lanio	1
+OG0006902	None Immune	GramPositive	P.lanio	1
+OG0006903	None Immune	GramPositive	P.lanio	1
+OG0006907	None Immune	GramPositive	P.lanio	1
+OG0006909	None Immune	GramPositive	A.melifera	1
+OG0006938	None Immune	GramPositive	P.lanio	1
+OG0006968	None Immune	GramPositive	C.australensis	1
+OG0006990	None Immune	GramPositive	C.australensis	1
+OG0007008	None Immune	GramPositive	Anthophila, Apinae	2
+OG0007033	None Immune	GramPositive	P.lanio	1
+OG0007038	None Immune	GramPositive	C.australensis	1
+OG0007044	None Immune	GramPositive	P.lanio	1
+OG0007051	None Immune	GramPositive	P.lanio	1
+OG0007059	None Immune	GramPositive	AgeControlled	1
+OG0007082	None Immune	GramPositive	Apinae	1
+OG0007116	None Immune	GramPositive	P.lanio	1
+OG0007132	None Immune	GramPositive	P.lanio	1
+OG0007158	None Immune	GramPositive	Anthophila, Apinae	2
+OG0007163	None Immune	GramPositive	P.lanio	1
+OG0007173	None Immune	GramPositive	P.lanio	1
+OG0007197	None Immune	GramPositive	C.australensis	1
+OG0007211	None Immune	GramPositive	P.lanio	1
+OG0007213	None Immune	GramPositive	C.australensis	1
+OG0007226	None Immune	GramPositive	C.australensis	1
+OG0007244	None Immune	GramPositive	C.australensis	1
+OG0007247	None Immune	GramPositive	C.australensis	1
+OG0007288	None Immune	GramPositive	P.lanio	1
+OG0007347	None Immune	GramPositive	P.lanio	1
+OG0007360	None Immune	GramPositive	P.lanio	1
+OG0007408	None Immune	GramPositive	Apinae	1
+OG0007412	None Immune	GramPositive	C.australensis	1
+OG0007415	None Immune	GramPositive	Apinae	1
+OG0007527	None Immune	GramPositive	P.lanio	1
+OG0007558	None Immune	GramPositive	P.lanio	1
+OG0007559	None Immune	GramPositive	P.lanio	1
+OG0007560	None Immune	GramPositive	C.australensis	1
+OG0007561	None Immune	GramPositive	P.lanio	1
+OG0007593	None Immune	GramPositive	P.lanio	1
+OG0007597	None Immune	GramPositive	P.lanio	1
+OG0007598	None Immune	GramPositive	P.lanio	1
+OG0007622	None Immune	GramPositive	C.australensis, P.lanio	2
+OG0007630	None Immune	GramPositive	P.lanio	1
+OG0007638	None Immune	GramPositive	P.lanio	1
+OG0007645	None Immune	GramPositive	P.lanio	1
+OG0007654	None Immune	GramPositive	P.lanio	1
+OG0007657	None Immune	GramPositive	P.lanio	1
+OG0007667	None Immune	GramPositive	A.melifera	1
+OG0007690	None Immune	GramPositive	P.lanio	1
+OG0007713	None Immune	GramPositive	P.lanio	1
+OG0007728	None Immune	GramPositive	P.lanio	1
+OG0007762	None Immune	GramPositive	P.lanio	1
+OG0007790	None Immune	GramPositive	B.terrestris	1
+OG0007802	None Immune	GramPositive	P.lanio	1
+OG0007816	None Immune	GramPositive	Apinae	1
+OG0007879	None Immune	GramPositive	AgeControlled, Apinae	2
+OG0007890	None Immune	GramPositive	P.lanio	1
+OG0007901	None Immune	GramPositive	P.lanio	1
+OG0007945	None Immune	GramPositive	P.lanio	1
+OG0007946	None Immune	GramPositive	A.melifera	1
+OG0008010	None Immune	GramPositive	P.lanio	1
+OG0008030	None Immune	GramPositive	P.lanio	1
+OG0008060	None Immune	GramPositive	P.lanio	1
+OG0008078	None Immune	GramPositive	Apinae	1
+OG0008094	None Immune	GramPositive	C.australensis	1
+OG0008096	None Immune	GramPositive	P.lanio	1
+OG0008124	None Immune	GramPositive	Apinae	1
+OG0008132	None Immune	GramPositive	P.lanio	1
+OG0008150	None Immune	GramPositive	C.australensis	1
+OG0008162	None Immune	GramPositive	A.melifera	1
+OG0008163	None Immune	GramPositive	C.australensis	1
+OG0008171	None Immune	GramPositive	P.lanio	1
+OG0008180	None Immune	GramPositive	C.australensis, P.lanio	2
+OG0008265	None Immune	GramPositive	P.lanio	1
+OG0008267	None Immune	GramPositive	P.lanio	1
+OG0008342	None Immune	GramPositive	P.lanio	1
+OG0008403	None Immune	GramPositive	P.lanio	1
+OG0008411	None Immune	GramPositive	B.terrestris	1
+OG0008420	None Immune	GramPositive	P.lanio	1
+OG0008475	None Immune	GramPositive	P.lanio	1
+OG0008497	None Immune	GramPositive	P.lanio	1
+OG0008498	None Immune	GramPositive	C.australensis	1
+OG0008516	None Immune	GramPositive	P.lanio	1
+OG0008546	None Immune	GramPositive	P.lanio	1
+OG0008565	None Immune	GramPositive	C.australensis, P.lanio	2
+OG0008574	None Immune	GramPositive	C.australensis	1
+OG0008579	None Immune	GramPositive	C.australensis	1
+OG0008605	None Immune	GramPositive	C.australensis	1
+OG0008611	None Immune	GramPositive	P.lanio	1
+OG0008614	None Immune	GramPositive	P.lanio	1
+OG0008626	None Immune	GramPositive	P.lanio	1
+OG0008629	None Immune	GramPositive	C.australensis, P.lanio	2
+OG0008635	None Immune	GramPositive	P.lanio	1
+OG0008647	None Immune	GramPositive	A.melifera	1
+OG0008648	None Immune	GramPositive	P.lanio	1
+OG0008649	None Immune	GramPositive	P.lanio	1
+OG0008659	None Immune	GramPositive	C.australensis, P.lanio	2
+OG0008731	None Immune	GramPositive	P.lanio	1
+OG0008743	None Immune	GramPositive	C.australensis	1
+OG0008776	None Immune	GramPositive	P.lanio	1
+OG0008829	None Immune	GramPositive	A.melifera	1
+OG0008840	None Immune	GramPositive	C.australensis	1
+OG0008891	None Immune	GramPositive	P.lanio	1
+OG0008898	None Immune	GramPositive	C.australensis	1
+OG0008925	None Immune	GramPositive	P.lanio	1
+OG0008928	None Immune	GramPositive	P.lanio	1
+OG0008993	None Immune	GramPositive	C.australensis	1
+OG0009012	None Immune	GramPositive	Apinae	1
+OG0009025	None Immune	GramPositive	P.lanio	1
+OG0009064	None Immune	GramPositive	C.australensis	1
+OG0009100	None Immune	GramPositive	P.lanio	1
+OG0009120	None Immune	GramPositive	P.lanio	1
+OG0009191	None Immune	GramPositive	C.australensis	1
+OG0009224	None Immune	GramPositive	A.melifera	1
+OG0009235	None Immune	GramPositive	A.melifera	1
+OG0009350	None Immune	GramPositive	C.australensis	1
+OG0009396	None Immune	GramPositive	P.lanio	1
+OG0009408	None Immune	GramPositive	C.australensis	1
+OG0009895	None Immune	GramPositive	C.australensis	1
+OG0000009	Putative Immune	GramPositive	C.australensis	1
+OG0000067	Putative Immune	GramPositive	B.terrestris, C.australensis	2
+OG0000136	Putative Immune	GramPositive	B.terrestris	1
+OG0000160	Putative Immune	GramPositive	P.lanio	1
+OG0000163	Putative Immune	GramPositive	B.terrestris	1
+OG0000214	Putative Immune	GramPositive	A.melifera, B.terrestris	2
+OG0000220	Putative Immune	GramPositive	C.australensis	1
+OG0000266	Putative Immune	GramPositive	A.melifera	1
+OG0000333	Putative Immune	GramPositive	P.lanio	1
+OG0000415	Putative Immune	GramPositive	P.lanio	1
+OG0000539	Putative Immune	GramPositive	C.australensis, P.lanio	2
+OG0000559	Putative Immune	GramPositive	C.australensis	1
+OG0000605	Putative Immune	GramPositive	C.australensis	1
+OG0000673	Putative Immune	GramPositive	P.lanio	1
+OG0001255	Putative Immune	GramPositive	A.melifera, Anthophila	2
+OG0001489	Putative Immune	GramPositive	P.lanio	1
+OG0001596	Putative Immune	GramPositive	P.lanio	1
+OG0002123	Putative Immune	GramPositive	A.melifera, B.terrestris	2
+OG0002227	Putative Immune	GramPositive	P.lanio	1
+OG0002284	Putative Immune	GramPositive	A.melifera, C.australensis, Apinae	3
+OG0002476	Putative Immune	GramPositive	A.melifera, C.australensis	2
+OG0002560	Putative Immune	GramPositive	C.australensis, P.lanio	2
+OG0002814	Putative Immune	GramPositive	B.terrestris, C.australensis	2
+OG0002921	Putative Immune	GramPositive	C.australensis	1
+OG0003154	Putative Immune	GramPositive	Apinae	1
+OG0003702	Putative Immune	GramPositive	B.terrestris	1
+OG0004253	Putative Immune	GramPositive	Anthophila, Apinae	2
+OG0004495	Putative Immune	GramPositive	P.lanio	1
+OG0005343	Putative Immune	GramPositive	A.melifera	1
+OG0005914	Putative Immune	GramPositive	C.australensis	1
+OG0006427	Putative Immune	GramPositive	P.lanio	1
+OG0006763	Putative Immune	GramPositive	Apinae	1
+OG0006957	Putative Immune	GramPositive	C.australensis	1
+OG0007234	Putative Immune	GramPositive	C.australensis	1
+OG0007743	Putative Immune	GramPositive	B.terrestris	1
+OG0007796	Putative Immune	GramPositive	Apinae	1
+OG0008109	Putative Immune	GramPositive	A.melifera, B.terrestris	2
+OG0008363	Putative Immune	GramPositive	AgeControlled, Apinae	2
+OG0008945	Putative Immune	GramPositive	A.melifera, B.terrestris	2
+OG0009433	Putative Immune	GramPositive	B.terrestris, P.lanio	2
+OG0010676	Putative Immune	GramPositive	A.melifera	1
+OG0000022	Unknown	GramPositive	B.terrestris	1
+OG0000829	Unknown	GramPositive	C.australensis	1
+OG0001806	Unknown	GramPositive	C.australensis	1
+OG0002175	Unknown	GramPositive	P.lanio	1
+OG0002221	Unknown	GramPositive	P.lanio	1
+OG0002756	Unknown	GramPositive	P.lanio	1
+OG0004557	Unknown	GramPositive	C.australensis	1
+OG0007310	Unknown	GramPositive	P.lanio	1
+OG0007620	Unknown	GramPositive	P.lanio	1
+OG0007726	Unknown	GramPositive	P.lanio	1
+OG0007898	Unknown	GramPositive	P.lanio	1
+OG0007997	Unknown	GramPositive	P.lanio	1
+OG0008034	Unknown	GramPositive	P.lanio	1
+OG0008239	Unknown	GramPositive	P.lanio	1
+OG0008387	Unknown	GramPositive	P.lanio	1
+OG0008673	Unknown	GramPositive	C.australensis	1
+OG0008727	Unknown	GramPositive	C.australensis	1
+OG0009016	Unknown	GramPositive	P.lanio	1
+OG0009273	Unknown	GramPositive	C.australensis	1
+OG0009467	Unknown	GramPositive	P.lanio	1
+OG0009500	Unknown	GramPositive	P.lanio	1
+OG0009516	Unknown	GramPositive	P.lanio	1
+OG0009570	Unknown	GramPositive	P.lanio	1
+OG0009584	Unknown	GramPositive	P.lanio	1
+OG0009721	Unknown	GramPositive	C.australensis	1
+OG0009726	Unknown	GramPositive	C.australensis	1
+OG0009732	Unknown	GramPositive	C.australensis	1
+OG0009799	Unknown	GramPositive	P.lanio	1
+OG0009806	Unknown	GramPositive	P.lanio	1
+OG0009857	Unknown	GramPositive	P.lanio	1
+OG0010005	Unknown	GramPositive	P.lanio	1
+OG0010017	Unknown	GramPositive	C.australensis	1
+OG0010052	Unknown	GramPositive	P.lanio	1
+OG0010139	Unknown	GramPositive	C.australensis	1
+OG0010398	Unknown	GramPositive	C.australensis	1
+OG0010614	Unknown	GramPositive	P.lanio	1
+OG0010908	Unknown	GramPositive	B.terrestris	1
+OG0011045	Unknown	GramPositive	P.lanio	1
+OG0011053	Unknown	GramPositive	P.lanio	1
+Unassigned_Amel_29	Unknown	GramPositive	A.melifera	1
+Unassigned_Amel_30	Unknown	GramPositive	A.melifera	1
+Unassigned_Amel_31	Unknown	GramPositive	A.melifera	1
+Unassigned_Amel_32	Unknown	GramPositive	A.melifera	1
+Unassigned_Amel_33	Unknown	GramPositive	A.melifera	1
+Unassigned_Amel_34	Unknown	GramPositive	A.melifera	1
+Unassigned_Amel_35	Unknown	GramPositive	A.melifera	1
+Unassigned_Amel_36	Unknown	GramPositive	A.melifera	1
+Unassigned_Amel_37	Unknown	GramPositive	A.melifera	1
+Unassigned_Amel_38	Unknown	GramPositive	A.melifera	1
+Unassigned_Amel_39	Unknown	GramPositive	A.melifera	1
+Unassigned_Amel_40	Unknown	GramPositive	A.melifera	1
+Unassigned_Amel_41	Unknown	GramPositive	A.melifera	1
+Unassigned_Amel_42	Unknown	GramPositive	A.melifera	1
+Unassigned_Amel_43	Unknown	GramPositive	A.melifera	1
+Unassigned_Amel_44	Unknown	GramPositive	A.melifera	1
+Unassigned_Amel_45	Unknown	GramPositive	A.melifera	1
+Unassigned_Bter_100	Unknown	GramPositive	B.terrestris	1
+Unassigned_Bter_101	Unknown	GramPositive	B.terrestris	1
+Unassigned_Bter_102	Unknown	GramPositive	B.terrestris	1
+Unassigned_Bter_103	Unknown	GramPositive	B.terrestris	1
+Unassigned_Bter_104	Unknown	GramPositive	B.terrestris	1
+Unassigned_Bter_105	Unknown	GramPositive	B.terrestris	1
+Unassigned_Bter_106	Unknown	GramPositive	B.terrestris	1
+Unassigned_Bter_107	Unknown	GramPositive	B.terrestris	1
+Unassigned_Bter_108	Unknown	GramPositive	B.terrestris	1
+Unassigned_Bter_109	Unknown	GramPositive	B.terrestris	1
+Unassigned_Bter_110	Unknown	GramPositive	B.terrestris	1
+Unassigned_Bter_111	Unknown	GramPositive	B.terrestris	1
+Unassigned_Bter_112	Unknown	GramPositive	B.terrestris	1
+Unassigned_Bter_113	Unknown	GramPositive	B.terrestris	1
+Unassigned_Bter_99	Unknown	GramPositive	B.terrestris	1
+Unassigned_Caus_153	Unknown	GramPositive	C.australensis	1
+Unassigned_Caus_154	Unknown	GramPositive	C.australensis	1
+Unassigned_Caus_155	Unknown	GramPositive	C.australensis	1
+Unassigned_Caus_156	Unknown	GramPositive	C.australensis	1
+Unassigned_Caus_157	Unknown	GramPositive	C.australensis	1
+Unassigned_Caus_158	Unknown	GramPositive	C.australensis	1
+Unassigned_Caus_159	Unknown	GramPositive	C.australensis	1
+Unassigned_Caus_160	Unknown	GramPositive	C.australensis	1
+Unassigned_Caus_161	Unknown	GramPositive	C.australensis	1
+Unassigned_Caus_162	Unknown	GramPositive	C.australensis	1
+Unassigned_Caus_163	Unknown	GramPositive	C.australensis	1
+Unassigned_Caus_164	Unknown	GramPositive	C.australensis	1
+Unassigned_Caus_165	Unknown	GramPositive	C.australensis	1
+Unassigned_Caus_166	Unknown	GramPositive	C.australensis	1
+Unassigned_Caus_167	Unknown	GramPositive	C.australensis	1
+Unassigned_Caus_168	Unknown	GramPositive	C.australensis	1
+Unassigned_Caus_169	Unknown	GramPositive	C.australensis	1
+Unassigned_Caus_170	Unknown	GramPositive	C.australensis	1
+Unassigned_Caus_171	Unknown	GramPositive	C.australensis	1
+Unassigned_Caus_172	Unknown	GramPositive	C.australensis	1
+Unassigned_Caus_173	Unknown	GramPositive	C.australensis	1
+Unassigned_Plan_201	Unknown	GramPositive	P.lanio	1
+Unassigned_Plan_202	Unknown	GramPositive	P.lanio	1
+Unassigned_Plan_203	Unknown	GramPositive	P.lanio	1
+Unassigned_Plan_204	Unknown	GramPositive	P.lanio	1
+Unassigned_Plan_205	Unknown	GramPositive	P.lanio	1
+Unassigned_Plan_206	Unknown	GramPositive	P.lanio	1
+Unassigned_Plan_207	Unknown	GramPositive	P.lanio	1
+Unassigned_Plan_208	Unknown	GramPositive	P.lanio	1
+Unassigned_Plan_209	Unknown	GramPositive	P.lanio	1
+Unassigned_Plan_210	Unknown	GramPositive	P.lanio	1
+Unassigned_Plan_211	Unknown	GramPositive	P.lanio	1
+Unassigned_Plan_212	Unknown	GramPositive	P.lanio	1
+Unassigned_Plan_213	Unknown	GramPositive	P.lanio	1
+Unassigned_Plan_214	Unknown	GramPositive	P.lanio	1
+Unassigned_Plan_215	Unknown	GramPositive	P.lanio	1
+Unassigned_Plan_216	Unknown	GramPositive	P.lanio	1
+Unassigned_Plan_217	Unknown	GramPositive	P.lanio	1
+OG0001340	Immune	GramPositive, Wound	A.melifera	1
+OG0004610	Immune	GramPositive, Wound	B.terrestris	1
+OG0006107	Immune	GramPositive, Wound	P.lanio	1
+OG0007441	Immune	GramPositive, Wound	P.lanio	1
+OG0009345	Immune	GramPositive, Wound	C.australensis	1
+OG0000013	None Immune	GramPositive, Wound	C.australensis, P.lanio	2
+OG0000066	None Immune	GramPositive, Wound	P.lanio	1
+OG0000171	None Immune	GramPositive, Wound	P.lanio	1
+OG0000447	None Immune	GramPositive, Wound	P.lanio	1
+OG0000466	None Immune	GramPositive, Wound	P.lanio	1
+OG0000488	None Immune	GramPositive, Wound	P.lanio	1
+OG0000509	None Immune	GramPositive, Wound	C.australensis, P.lanio	2
+OG0000578	None Immune	GramPositive, Wound	P.lanio	1
+OG0000580	None Immune	GramPositive, Wound	P.lanio	1
+OG0000614	None Immune	GramPositive, Wound	P.lanio	1
+OG0000659	None Immune	GramPositive, Wound	P.lanio	1
+OG0000684	None Immune	GramPositive, Wound	A.melifera	1
+OG0000698	None Immune	GramPositive, Wound	P.lanio	1
+OG0000800	None Immune	GramPositive, Wound	C.australensis	1
+OG0000839	None Immune	GramPositive, Wound	P.lanio	1
+OG0000892	None Immune	GramPositive, Wound	C.australensis	1
+OG0000929	None Immune	GramPositive, Wound	P.lanio	1
+OG0000975	None Immune	GramPositive, Wound	P.lanio	1
+OG0001040	None Immune	GramPositive, Wound	P.lanio	1
+OG0001071	None Immune	GramPositive, Wound	P.lanio	1
+OG0001102	None Immune	GramPositive, Wound	P.lanio	1
+OG0001109	None Immune	GramPositive, Wound	P.lanio	1
+OG0001180	None Immune	GramPositive, Wound	P.lanio	1
+OG0001182	None Immune	GramPositive, Wound	P.lanio	1
+OG0001266	None Immune	GramPositive, Wound	P.lanio	1
+OG0001299	None Immune	GramPositive, Wound	P.lanio	1
+OG0001334	None Immune	GramPositive, Wound	P.lanio	1
+OG0001462	None Immune	GramPositive, Wound	P.lanio	1
+OG0001469	None Immune	GramPositive, Wound	P.lanio	1
+OG0001470	None Immune	GramPositive, Wound	P.lanio	1
+OG0001493	None Immune	GramPositive, Wound	P.lanio	1
+OG0001547	None Immune	GramPositive, Wound	P.lanio	1
+OG0001679	None Immune	GramPositive, Wound	P.lanio	1
+OG0001745	None Immune	GramPositive, Wound	P.lanio	1
+OG0001748	None Immune	GramPositive, Wound	P.lanio	1
+OG0001809	None Immune	GramPositive, Wound	P.lanio	1
+OG0001827	None Immune	GramPositive, Wound	P.lanio	1
+OG0001960	None Immune	GramPositive, Wound	P.lanio	1
+OG0001982	None Immune	GramPositive, Wound	P.lanio	1
+OG0001986	None Immune	GramPositive, Wound	P.lanio	1
+OG0001987	None Immune	GramPositive, Wound	P.lanio	1
+OG0001996	None Immune	GramPositive, Wound	P.lanio	1
+OG0002032	None Immune	GramPositive, Wound	P.lanio	1
+OG0002045	None Immune	GramPositive, Wound	P.lanio	1
+OG0002075	None Immune	GramPositive, Wound	P.lanio	1
+OG0002078	None Immune	GramPositive, Wound	P.lanio	1
+OG0002108	None Immune	GramPositive, Wound	B.terrestris	1
+OG0002130	None Immune	GramPositive, Wound	P.lanio	1
+OG0002143	None Immune	GramPositive, Wound	P.lanio	1
+OG0002197	None Immune	GramPositive, Wound	P.lanio	1
+OG0002280	None Immune	GramPositive, Wound	P.lanio	1
+OG0002290	None Immune	GramPositive, Wound	P.lanio	1
+OG0002357	None Immune	GramPositive, Wound	P.lanio	1
+OG0002392	None Immune	GramPositive, Wound	A.melifera, P.lanio	2
+OG0002394	None Immune	GramPositive, Wound	P.lanio	1
+OG0002435	None Immune	GramPositive, Wound	A.melifera, P.lanio	2
+OG0002495	None Immune	GramPositive, Wound	P.lanio	1
+OG0002554	None Immune	GramPositive, Wound	P.lanio	1
+OG0002703	None Immune	GramPositive, Wound	A.melifera	1
+OG0002802	None Immune	GramPositive, Wound	P.lanio	1
+OG0002828	None Immune	GramPositive, Wound	P.lanio	1
+OG0002873	None Immune	GramPositive, Wound	P.lanio	1
+OG0003192	None Immune	GramPositive, Wound	P.lanio	1
+OG0003288	None Immune	GramPositive, Wound	P.lanio	1
+OG0003295	None Immune	GramPositive, Wound	P.lanio	1
+OG0003366	None Immune	GramPositive, Wound	P.lanio	1
+OG0003406	None Immune	GramPositive, Wound	P.lanio	1
+OG0003559	None Immune	GramPositive, Wound	P.lanio	1
+OG0003584	None Immune	GramPositive, Wound	P.lanio	1
+OG0003598	None Immune	GramPositive, Wound	P.lanio	1
+OG0003644	None Immune	GramPositive, Wound	A.melifera	1
+OG0003720	None Immune	GramPositive, Wound	P.lanio	1
+OG0003910	None Immune	GramPositive, Wound	P.lanio	1
+OG0003932	None Immune	GramPositive, Wound	A.melifera	1
+OG0004037	None Immune	GramPositive, Wound	P.lanio	1
+OG0004192	None Immune	GramPositive, Wound	P.lanio	1
+OG0004315	None Immune	GramPositive, Wound	P.lanio	1
+OG0004379	None Immune	GramPositive, Wound	P.lanio	1
+OG0004396	None Immune	GramPositive, Wound	C.australensis	1
+OG0004543	None Immune	GramPositive, Wound	A.melifera, P.lanio	2
+OG0004575	None Immune	GramPositive, Wound	P.lanio	1
+OG0004636	None Immune	GramPositive, Wound	P.lanio	1
+OG0004663	None Immune	GramPositive, Wound	P.lanio	1
+OG0004693	None Immune	GramPositive, Wound	P.lanio	1
+OG0004701	None Immune	GramPositive, Wound	P.lanio	1
+OG0004719	None Immune	GramPositive, Wound	P.lanio	1
+OG0004760	None Immune	GramPositive, Wound	C.australensis	1
+OG0004841	None Immune	GramPositive, Wound	P.lanio	1
+OG0004924	None Immune	GramPositive, Wound	A.melifera	1
+OG0004959	None Immune	GramPositive, Wound	P.lanio	1
+OG0004960	None Immune	GramPositive, Wound	A.melifera	1
+OG0004999	None Immune	GramPositive, Wound	P.lanio	1
+OG0005076	None Immune	GramPositive, Wound	P.lanio	1
+OG0005078	None Immune	GramPositive, Wound	P.lanio	1
+OG0005106	None Immune	GramPositive, Wound	P.lanio	1
+OG0005157	None Immune	GramPositive, Wound	P.lanio	1
+OG0005184	None Immune	GramPositive, Wound	P.lanio	1
+OG0005196	None Immune	GramPositive, Wound	P.lanio	1
+OG0005218	None Immune	GramPositive, Wound	B.terrestris	1
+OG0005255	None Immune	GramPositive, Wound	P.lanio	1
+OG0005286	None Immune	GramPositive, Wound	P.lanio	1
+OG0005366	None Immune	GramPositive, Wound	P.lanio	1
+OG0005395	None Immune	GramPositive, Wound	P.lanio	1
+OG0005398	None Immune	GramPositive, Wound	P.lanio	1
+OG0005416	None Immune	GramPositive, Wound	P.lanio	1
+OG0005563	None Immune	GramPositive, Wound	P.lanio	1
+OG0005583	None Immune	GramPositive, Wound	P.lanio	1
+OG0005586	None Immune	GramPositive, Wound	P.lanio	1
+OG0005719	None Immune	GramPositive, Wound	P.lanio	1
+OG0005806	None Immune	GramPositive, Wound	P.lanio	1
+OG0005839	None Immune	GramPositive, Wound	P.lanio	1
+OG0005856	None Immune	GramPositive, Wound	P.lanio	1
+OG0005878	None Immune	GramPositive, Wound	P.lanio	1
+OG0005880	None Immune	GramPositive, Wound	P.lanio	1
+OG0005892	None Immune	GramPositive, Wound	A.melifera, P.lanio	2
+OG0005930	None Immune	GramPositive, Wound	P.lanio	1
+OG0005952	None Immune	GramPositive, Wound	P.lanio	1
+OG0006011	None Immune	GramPositive, Wound	P.lanio	1
+OG0006084	None Immune	GramPositive, Wound	P.lanio	1
+OG0006202	None Immune	GramPositive, Wound	P.lanio	1
+OG0006217	None Immune	GramPositive, Wound	P.lanio	1
+OG0006286	None Immune	GramPositive, Wound	P.lanio	1
+OG0006311	None Immune	GramPositive, Wound	P.lanio	1
+OG0006390	None Immune	GramPositive, Wound	P.lanio	1
+OG0006407	None Immune	GramPositive, Wound	P.lanio	1
+OG0006501	None Immune	GramPositive, Wound	P.lanio	1
+OG0006514	None Immune	GramPositive, Wound	P.lanio	1
+OG0006625	None Immune	GramPositive, Wound	P.lanio	1
+OG0006706	None Immune	GramPositive, Wound	A.melifera	1
+OG0006753	None Immune	GramPositive, Wound	P.lanio	1
+OG0006762	None Immune	GramPositive, Wound	P.lanio	1
+OG0007158	None Immune	GramPositive, Wound	A.melifera	1
+OG0007216	None Immune	GramPositive, Wound	P.lanio	1
+OG0007219	None Immune	GramPositive, Wound	P.lanio	1
+OG0007375	None Immune	GramPositive, Wound	P.lanio	1
+OG0007564	None Immune	GramPositive, Wound	P.lanio	1
+OG0007572	None Immune	GramPositive, Wound	P.lanio	1
+OG0007656	None Immune	GramPositive, Wound	P.lanio	1
+OG0007949	None Immune	GramPositive, Wound	P.lanio	1
+OG0007983	None Immune	GramPositive, Wound	P.lanio	1
+OG0008009	None Immune	GramPositive, Wound	P.lanio	1
+OG0008092	None Immune	GramPositive, Wound	P.lanio	1
+OG0008093	None Immune	GramPositive, Wound	P.lanio	1
+OG0008229	None Immune	GramPositive, Wound	P.lanio	1
+OG0008271	None Immune	GramPositive, Wound	B.terrestris	1
+OG0008345	None Immune	GramPositive, Wound	P.lanio	1
+OG0008407	None Immune	GramPositive, Wound	B.terrestris	1
+OG0008412	None Immune	GramPositive, Wound	P.lanio	1
+OG0008417	None Immune	GramPositive, Wound	P.lanio	1
+OG0008628	None Immune	GramPositive, Wound	P.lanio	1
+OG0008728	None Immune	GramPositive, Wound	P.lanio	1
+OG0008793	None Immune	GramPositive, Wound	B.terrestris	1
+OG0000054	Putative Immune	GramPositive, Wound	C.australensis	1
+OG0000090	Putative Immune	GramPositive, Wound	A.melifera	1
+OG0000456	Putative Immune	GramPositive, Wound	B.terrestris, P.lanio	2
+OG0001762	Putative Immune	GramPositive, Wound	A.melifera	1
+OG0001841	Putative Immune	GramPositive, Wound	P.lanio	1
+OG0002620	Putative Immune	GramPositive, Wound	P.lanio	1
+OG0004831	Putative Immune	GramPositive, Wound	C.australensis	1
+OG0006121	Putative Immune	GramPositive, Wound	B.terrestris	1
+OG0006477	Putative Immune	GramPositive, Wound	P.lanio	1
+OG0006948	Putative Immune	GramPositive, Wound	P.lanio	1
+OG0000005	Unknown	GramPositive, Wound	C.australensis	1
+OG0001125	Unknown	GramPositive, Wound	P.lanio	1
+OG0007261	Unknown	GramPositive, Wound	P.lanio	1
+OG0007457	Unknown	GramPositive, Wound	P.lanio	1
+OG0007677	Unknown	GramPositive, Wound	P.lanio	1
+OG0008004	Unknown	GramPositive, Wound	C.australensis	1
+OG0008824	Unknown	GramPositive, Wound	P.lanio	1
+OG0009150	Unknown	GramPositive, Wound	P.lanio	1
+OG0009285	Unknown	GramPositive, Wound	P.lanio	1
+OG0009502	Unknown	GramPositive, Wound	P.lanio	1
+OG0009594	Unknown	GramPositive, Wound	P.lanio	1
+OG0009757	Unknown	GramPositive, Wound	P.lanio	1
+OG0010613	Unknown	GramPositive, Wound	P.lanio	1
+OG0010617	Unknown	GramPositive, Wound	P.lanio	1
+OG0000138	Immune	Wound	A.melifera, P.lanio	2
+OG0000187	Immune	Wound	B.terrestris	1
+OG0000268	Immune	Wound	P.lanio	1
+OG0000367	Immune	Wound	P.lanio	1
+OG0000399	Immune	Wound	A.melifera, Apinae	2
+OG0000446	Immune	Wound	A.melifera	1
+OG0000493	Immune	Wound	P.lanio	1
+OG0000522	Immune	Wound	C.australensis	1
+OG0000635	Immune	Wound	Apinae	1
+OG0000699	Immune	Wound	A.melifera, C.australensis	2
+OG0001174	Immune	Wound	A.melifera	1
+OG0001290	Immune	Wound	C.australensis	1
+OG0002308	Immune	Wound	C.australensis	1
+OG0002761	Immune	Wound	C.australensis, P.lanio	2
+OG0002818	Immune	Wound	P.lanio	1
+OG0002872	Immune	Wound	A.melifera	1
+OG0003284	Immune	Wound	P.lanio	1
+OG0004437	Immune	Wound	C.australensis	1
+OG0005757	Immune	Wound	P.lanio	1
+OG0006103	Immune	Wound	C.australensis	1
+OG0007012	Immune	Wound	C.australensis	1
+OG0008514	Immune	Wound	C.australensis	1
+OG0000025	None Immune	Wound	A.melifera	1
+OG0000056	None Immune	Wound	A.melifera, P.lanio	2
+OG0000059	None Immune	Wound	C.australensis	1
+OG0000060	None Immune	Wound	A.melifera	1
+OG0000064	None Immune	Wound	P.lanio	1
+OG0000073	None Immune	Wound	P.lanio	1
+OG0000117	None Immune	Wound	C.australensis	1
+OG0000133	None Immune	Wound	P.lanio	1
+OG0000140	None Immune	Wound	C.australensis, P.lanio	2
+OG0000161	None Immune	Wound	C.australensis	1
+OG0000231	None Immune	Wound	C.australensis	1
+OG0000241	None Immune	Wound	P.lanio	1
+OG0000247	None Immune	Wound	P.lanio	1
+OG0000253	None Immune	Wound	A.melifera	1
+OG0000254	None Immune	Wound	A.melifera	1
+OG0000292	None Immune	Wound	C.australensis	1
+OG0000294	None Immune	Wound	C.australensis	1
+OG0000315	None Immune	Wound	C.australensis	1
+OG0000396	None Immune	Wound	C.australensis	1
+OG0000424	None Immune	Wound	P.lanio	1
+OG0000440	None Immune	Wound	A.melifera	1
+OG0000453	None Immune	Wound	C.australensis	1
+OG0000500	None Immune	Wound	C.australensis	1
+OG0000501	None Immune	Wound	C.australensis	1
+OG0000511	None Immune	Wound	P.lanio	1
+OG0000517	None Immune	Wound	C.australensis	1
+OG0000566	None Immune	Wound	P.lanio	1
+OG0000584	None Immune	Wound	A.melifera	1
+OG0000590	None Immune	Wound	C.australensis	1
+OG0000596	None Immune	Wound	C.australensis	1
+OG0000621	None Immune	Wound	C.australensis	1
+OG0000628	None Immune	Wound	P.lanio	1
+OG0000657	None Immune	Wound	P.lanio	1
+OG0000661	None Immune	Wound	C.australensis	1
+OG0000676	None Immune	Wound	C.australensis	1
+OG0000719	None Immune	Wound	C.australensis	1
+OG0000724	None Immune	Wound	C.australensis	1
+OG0000730	None Immune	Wound	C.australensis	1
+OG0000773	None Immune	Wound	A.melifera	1
+OG0000799	None Immune	Wound	C.australensis	1
+OG0000805	None Immune	Wound	C.australensis	1
+OG0000821	None Immune	Wound	P.lanio	1
+OG0000856	None Immune	Wound	A.melifera, P.lanio	2
+OG0000865	None Immune	Wound	P.lanio	1
+OG0000937	None Immune	Wound	P.lanio	1
+OG0000942	None Immune	Wound	P.lanio	1
+OG0000954	None Immune	Wound	A.melifera	1
+OG0000959	None Immune	Wound	C.australensis	1
+OG0000977	None Immune	Wound	P.lanio	1
+OG0001020	None Immune	Wound	P.lanio	1
+OG0001098	None Immune	Wound	C.australensis	1
+OG0001161	None Immune	Wound	C.australensis	1
+OG0001194	None Immune	Wound	P.lanio	1
+OG0001200	None Immune	Wound	P.lanio	1
+OG0001206	None Immune	Wound	A.melifera	1
+OG0001211	None Immune	Wound	P.lanio	1
+OG0001275	None Immune	Wound	P.lanio	1
+OG0001276	None Immune	Wound	P.lanio	1
+OG0001313	None Immune	Wound	C.australensis	1
+OG0001326	None Immune	Wound	B.terrestris	1
+OG0001351	None Immune	Wound	P.lanio	1
+OG0001414	None Immune	Wound	P.lanio	1
+OG0001416	None Immune	Wound	C.australensis	1
+OG0001430	None Immune	Wound	C.australensis	1
+OG0001447	None Immune	Wound	P.lanio	1
+OG0001454	None Immune	Wound	P.lanio	1
+OG0001476	None Immune	Wound	P.lanio	1
+OG0001485	None Immune	Wound	C.australensis	1
+OG0001500	None Immune	Wound	C.australensis	1
+OG0001560	None Immune	Wound	P.lanio	1
+OG0001571	None Immune	Wound	C.australensis	1
+OG0001613	None Immune	Wound	P.lanio	1
+OG0001617	None Immune	Wound	P.lanio	1
+OG0001695	None Immune	Wound	P.lanio	1
+OG0001725	None Immune	Wound	P.lanio	1
+OG0001727	None Immune	Wound	A.melifera, B.terrestris	2
+OG0001770	None Immune	Wound	A.melifera	1
+OG0001815	None Immune	Wound	P.lanio	1
+OG0001854	None Immune	Wound	P.lanio	1
+OG0001915	None Immune	Wound	C.australensis	1
+OG0001945	None Immune	Wound	P.lanio	1
+OG0002027	None Immune	Wound	A.melifera	1
+OG0002071	None Immune	Wound	C.australensis	1
+OG0002072	None Immune	Wound	C.australensis	1
+OG0002076	None Immune	Wound	C.australensis	1
+OG0002119	None Immune	Wound	P.lanio	1
+OG0002125	None Immune	Wound	C.australensis	1
+OG0002150	None Immune	Wound	A.melifera	1
+OG0002153	None Immune	Wound	C.australensis	1
+OG0002156	None Immune	Wound	P.lanio	1
+OG0002174	None Immune	Wound	C.australensis	1
+OG0002177	None Immune	Wound	C.australensis, P.lanio	2
+OG0002237	None Immune	Wound	P.lanio	1
+OG0002241	None Immune	Wound	C.australensis	1
+OG0002245	None Immune	Wound	C.australensis	1
+OG0002246	None Immune	Wound	C.australensis	1
+OG0002259	None Immune	Wound	C.australensis	1
+OG0002263	None Immune	Wound	C.australensis	1
+OG0002307	None Immune	Wound	C.australensis	1
+OG0002309	None Immune	Wound	C.australensis	1
+OG0002337	None Immune	Wound	P.lanio	1
+OG0002356	None Immune	Wound	C.australensis	1
+OG0002376	None Immune	Wound	P.lanio	1
+OG0002380	None Immune	Wound	C.australensis	1
+OG0002427	None Immune	Wound	C.australensis	1
+OG0002479	None Immune	Wound	P.lanio	1
+OG0002487	None Immune	Wound	A.melifera	1
+OG0002493	None Immune	Wound	P.lanio	1
+OG0002542	None Immune	Wound	C.australensis, P.lanio	2
+OG0002552	None Immune	Wound	P.lanio	1
+OG0002567	None Immune	Wound	A.melifera	1
+OG0002627	None Immune	Wound	C.australensis	1
+OG0002647	None Immune	Wound	P.lanio	1
+OG0002662	None Immune	Wound	P.lanio	1
+OG0002666	None Immune	Wound	C.australensis	1
+OG0002674	None Immune	Wound	P.lanio	1
+OG0002722	None Immune	Wound	P.lanio	1
+OG0002734	None Immune	Wound	C.australensis	1
+OG0002788	None Immune	Wound	C.australensis	1
+OG0002800	None Immune	Wound	C.australensis	1
+OG0002810	None Immune	Wound	A.melifera	1
+OG0002815	None Immune	Wound	P.lanio	1
+OG0002827	None Immune	Wound	C.australensis	1
+OG0002884	None Immune	Wound	P.lanio	1
+OG0002976	None Immune	Wound	C.australensis	1
+OG0002995	None Immune	Wound	B.terrestris, C.australensis, P.lanio	3
+OG0002999	None Immune	Wound	C.australensis	1
+OG0003017	None Immune	Wound	C.australensis	1
+OG0003076	None Immune	Wound	A.melifera	1
+OG0003104	None Immune	Wound	P.lanio	1
+OG0003132	None Immune	Wound	C.australensis	1
+OG0003181	None Immune	Wound	P.lanio	1
+OG0003255	None Immune	Wound	P.lanio	1
+OG0003265	None Immune	Wound	P.lanio	1
+OG0003275	None Immune	Wound	C.australensis	1
+OG0003287	None Immune	Wound	C.australensis	1
+OG0003302	None Immune	Wound	P.lanio	1
+OG0003333	None Immune	Wound	P.lanio	1
+OG0003337	None Immune	Wound	P.lanio	1
+OG0003385	None Immune	Wound	C.australensis	1
+OG0003394	None Immune	Wound	C.australensis	1
+OG0003407	None Immune	Wound	P.lanio	1
+OG0003414	None Immune	Wound	C.australensis	1
+OG0003448	None Immune	Wound	C.australensis	1
+OG0003486	None Immune	Wound	P.lanio	1
+OG0003505	None Immune	Wound	C.australensis	1
+OG0003515	None Immune	Wound	C.australensis, P.lanio	2
+OG0003533	None Immune	Wound	P.lanio	1
+OG0003539	None Immune	Wound	A.melifera	1
+OG0003576	None Immune	Wound	P.lanio	1
+OG0003581	None Immune	Wound	P.lanio	1
+OG0003589	None Immune	Wound	C.australensis	1
+OG0003597	None Immune	Wound	P.lanio	1
+OG0003625	None Immune	Wound	P.lanio	1
+OG0003640	None Immune	Wound	P.lanio	1
+OG0003651	None Immune	Wound	P.lanio	1
+OG0003679	None Immune	Wound	C.australensis	1
+OG0003684	None Immune	Wound	P.lanio	1
+OG0003688	None Immune	Wound	A.melifera	1
+OG0003736	None Immune	Wound	C.australensis	1
+OG0003747	None Immune	Wound	P.lanio	1
+OG0003749	None Immune	Wound	P.lanio	1
+OG0003794	None Immune	Wound	P.lanio	1
+OG0003795	None Immune	Wound	C.australensis	1
+OG0003812	None Immune	Wound	P.lanio	1
+OG0003869	None Immune	Wound	P.lanio	1
+OG0003887	None Immune	Wound	C.australensis	1
+OG0003904	None Immune	Wound	C.australensis	1
+OG0003930	None Immune	Wound	A.melifera	1
+OG0004005	None Immune	Wound	P.lanio	1
+OG0004016	None Immune	Wound	P.lanio	1
+OG0004020	None Immune	Wound	P.lanio	1
+OG0004029	None Immune	Wound	P.lanio	1
+OG0004050	None Immune	Wound	P.lanio	1
+OG0004134	None Immune	Wound	A.melifera	1
+OG0004161	None Immune	Wound	A.melifera, P.lanio	2
+OG0004184	None Immune	Wound	P.lanio	1
+OG0004189	None Immune	Wound	P.lanio	1
+OG0004217	None Immune	Wound	P.lanio	1
+OG0004226	None Immune	Wound	P.lanio	1
+OG0004238	None Immune	Wound	A.melifera	1
+OG0004275	None Immune	Wound	C.australensis	1
+OG0004312	None Immune	Wound	P.lanio	1
+OG0004414	None Immune	Wound	P.lanio	1
+OG0004424	None Immune	Wound	C.australensis	1
+OG0004435	None Immune	Wound	C.australensis	1
+OG0004510	None Immune	Wound	P.lanio	1
+OG0004556	None Immune	Wound	C.australensis	1
+OG0004625	None Immune	Wound	P.lanio	1
+OG0004648	None Immune	Wound	C.australensis, P.lanio	2
+OG0004697	None Immune	Wound	P.lanio	1
+OG0004715	None Immune	Wound	P.lanio	1
+OG0004739	None Immune	Wound	C.australensis	1
+OG0004741	None Immune	Wound	P.lanio	1
+OG0004793	None Immune	Wound	P.lanio	1
+OG0004802	None Immune	Wound	A.melifera	1
+OG0004807	None Immune	Wound	P.lanio	1
+OG0004838	None Immune	Wound	P.lanio	1
+OG0004844	None Immune	Wound	C.australensis	1
+OG0004887	None Immune	Wound	P.lanio	1
+OG0004897	None Immune	Wound	C.australensis, P.lanio	2
+OG0004925	None Immune	Wound	P.lanio	1
+OG0004988	None Immune	Wound	C.australensis	1
+OG0005026	None Immune	Wound	C.australensis	1
+OG0005030	None Immune	Wound	P.lanio	1
+OG0005038	None Immune	Wound	B.terrestris, P.lanio	2
+OG0005049	None Immune	Wound	P.lanio	1
+OG0005062	None Immune	Wound	P.lanio	1
+OG0005143	None Immune	Wound	P.lanio	1
+OG0005152	None Immune	Wound	P.lanio	1
+OG0005153	None Immune	Wound	C.australensis	1
+OG0005155	None Immune	Wound	A.melifera	1
+OG0005168	None Immune	Wound	P.lanio	1
+OG0005169	None Immune	Wound	C.australensis	1
+OG0005202	None Immune	Wound	C.australensis	1
+OG0005210	None Immune	Wound	P.lanio	1
+OG0005234	None Immune	Wound	A.melifera	1
+OG0005257	None Immune	Wound	P.lanio	1
+OG0005283	None Immune	Wound	P.lanio	1
+OG0005321	None Immune	Wound	A.melifera	1
+OG0005365	None Immune	Wound	A.melifera	1
+OG0005378	None Immune	Wound	C.australensis	1
+OG0005397	None Immune	Wound	P.lanio	1
+OG0005408	None Immune	Wound	C.australensis	1
+OG0005445	None Immune	Wound	C.australensis	1
+OG0005485	None Immune	Wound	P.lanio	1
+OG0005517	None Immune	Wound	P.lanio	1
+OG0005634	None Immune	Wound	P.lanio	1
+OG0005636	None Immune	Wound	P.lanio	1
+OG0005640	None Immune	Wound	C.australensis	1
+OG0005665	None Immune	Wound	P.lanio	1
+OG0005686	None Immune	Wound	P.lanio	1
+OG0005692	None Immune	Wound	C.australensis	1
+OG0005694	None Immune	Wound	C.australensis, P.lanio	2
+OG0005708	None Immune	Wound	C.australensis	1
+OG0005717	None Immune	Wound	C.australensis	1
+OG0005752	None Immune	Wound	C.australensis	1
+OG0005812	None Immune	Wound	P.lanio	1
+OG0005824	None Immune	Wound	C.australensis	1
+OG0005830	None Immune	Wound	P.lanio	1
+OG0005857	None Immune	Wound	P.lanio	1
+OG0005861	None Immune	Wound	C.australensis	1
+OG0005863	None Immune	Wound	P.lanio	1
+OG0005875	None Immune	Wound	P.lanio	1
+OG0005883	None Immune	Wound	P.lanio	1
+OG0005918	None Immune	Wound	P.lanio	1
+OG0005931	None Immune	Wound	C.australensis	1
+OG0005968	None Immune	Wound	P.lanio	1
+OG0005981	None Immune	Wound	C.australensis	1
+OG0005983	None Immune	Wound	C.australensis	1
+OG0006025	None Immune	Wound	C.australensis	1
+OG0006070	None Immune	Wound	P.lanio	1
+OG0006102	None Immune	Wound	P.lanio	1
+OG0006120	None Immune	Wound	P.lanio	1
+OG0006184	None Immune	Wound	P.lanio	1
+OG0006240	None Immune	Wound	P.lanio	1
+OG0006253	None Immune	Wound	C.australensis	1
+OG0006259	None Immune	Wound	P.lanio	1
+OG0006261	None Immune	Wound	C.australensis	1
+OG0006291	None Immune	Wound	P.lanio	1
+OG0006355	None Immune	Wound	P.lanio	1
+OG0006360	None Immune	Wound	P.lanio	1
+OG0006364	None Immune	Wound	P.lanio	1
+OG0006469	None Immune	Wound	C.australensis	1
+OG0006483	None Immune	Wound	C.australensis	1
+OG0006541	None Immune	Wound	B.terrestris	1
+OG0006555	None Immune	Wound	C.australensis	1
+OG0006584	None Immune	Wound	P.lanio	1
+OG0006627	None Immune	Wound	C.australensis	1
+OG0006714	None Immune	Wound	P.lanio	1
+OG0006776	None Immune	Wound	C.australensis	1
+OG0006836	None Immune	Wound	A.melifera	1
+OG0006838	None Immune	Wound	A.melifera	1
+OG0006839	None Immune	Wound	B.terrestris	1
+OG0006864	None Immune	Wound	P.lanio	1
+OG0006911	None Immune	Wound	C.australensis	1
+OG0006929	None Immune	Wound	P.lanio	1
+OG0006961	None Immune	Wound	P.lanio	1
+OG0006963	None Immune	Wound	C.australensis	1
+OG0007021	None Immune	Wound	C.australensis	1
+OG0007066	None Immune	Wound	P.lanio	1
+OG0007068	None Immune	Wound	C.australensis	1
+OG0007089	None Immune	Wound	A.melifera, C.australensis	2
+OG0007106	None Immune	Wound	P.lanio	1
+OG0007112	None Immune	Wound	P.lanio	1
+OG0007138	None Immune	Wound	C.australensis, P.lanio	2
+OG0007154	None Immune	Wound	C.australensis	1
+OG0007194	None Immune	Wound	P.lanio	1
+OG0007343	None Immune	Wound	P.lanio	1
+OG0007348	None Immune	Wound	P.lanio	1
+OG0007369	None Immune	Wound	C.australensis	1
+OG0007428	None Immune	Wound	C.australensis	1
+OG0007438	None Immune	Wound	P.lanio	1
+OG0007508	None Immune	Wound	P.lanio	1
+OG0007552	None Immune	Wound	P.lanio	1
+OG0007556	None Immune	Wound	P.lanio	1
+OG0007562	None Immune	Wound	P.lanio	1
+OG0007604	None Immune	Wound	P.lanio	1
+OG0007617	None Immune	Wound	P.lanio	1
+OG0007622	None Immune	Wound	B.terrestris, P.lanio	2
+OG0007712	None Immune	Wound	A.melifera	1
+OG0007717	None Immune	Wound	A.melifera	1
+OG0007733	None Immune	Wound	P.lanio	1
+OG0007760	None Immune	Wound	P.lanio	1
+OG0007766	None Immune	Wound	P.lanio	1
+OG0007776	None Immune	Wound	A.melifera	1
+OG0007816	None Immune	Wound	B.terrestris	1
+OG0007908	None Immune	Wound	P.lanio	1
+OG0008044	None Immune	Wound	P.lanio	1
+OG0008049	None Immune	Wound	P.lanio	1
+OG0008068	None Immune	Wound	P.lanio	1
+OG0008113	None Immune	Wound	C.australensis	1
+OG0008221	None Immune	Wound	C.australensis	1
+OG0008318	None Immune	Wound	P.lanio	1
+OG0008347	None Immune	Wound	A.melifera	1
+OG0008367	None Immune	Wound	A.melifera	1
+OG0008404	None Immune	Wound	C.australensis	1
+OG0008420	None Immune	Wound	A.melifera	1
+OG0008524	None Immune	Wound	P.lanio	1
+OG0008568	None Immune	Wound	P.lanio	1
+OG0008624	None Immune	Wound	C.australensis	1
+OG0008629	None Immune	Wound	P.lanio	1
+OG0008655	None Immune	Wound	P.lanio	1
+OG0008744	None Immune	Wound	P.lanio	1
+OG0008750	None Immune	Wound	P.lanio	1
+OG0008798	None Immune	Wound	P.lanio	1
+OG0008833	None Immune	Wound	P.lanio	1
+OG0008850	None Immune	Wound	P.lanio	1
+OG0008953	None Immune	Wound	C.australensis	1
+OG0009022	None Immune	Wound	A.melifera	1
+OG0009079	None Immune	Wound	P.lanio	1
+OG0009099	None Immune	Wound	C.australensis	1
+OG0009103	None Immune	Wound	C.australensis	1
+OG0009114	None Immune	Wound	P.lanio	1
+OG0009115	None Immune	Wound	P.lanio	1
+OG0009235	None Immune	Wound	P.lanio	1
+OG0009404	None Immune	Wound	C.australensis	1
+OG0009645	None Immune	Wound	C.australensis	1
+OG0009670	None Immune	Wound	A.melifera, C.australensis	2
+OG0009702	None Immune	Wound	C.australensis	1
+OG0009911	None Immune	Wound	A.melifera	1
+OG0010667	None Immune	Wound	A.melifera	1
+OG0010716	None Immune	Wound	A.melifera	1
+OG0010859	None Immune	Wound	A.melifera	1
+OG0000067	Putative Immune	Wound	P.lanio	1
+OG0000082	Putative Immune	Wound	P.lanio	1
+OG0000092	Putative Immune	Wound	A.melifera	1
+OG0000100	Putative Immune	Wound	P.lanio	1
+OG0000151	Putative Immune	Wound	C.australensis	1
+OG0000193	Putative Immune	Wound	C.australensis	1
+OG0000266	Putative Immune	Wound	A.melifera, P.lanio	2
+OG0000415	Putative Immune	Wound	C.australensis	1
+OG0000445	Putative Immune	Wound	A.melifera	1
+OG0000934	Putative Immune	Wound	A.melifera	1
+OG0001052	Putative Immune	Wound	P.lanio	1
+OG0001251	Putative Immune	Wound	A.melifera	1
+OG0001691	Putative Immune	Wound	C.australensis	1
+OG0001768	Putative Immune	Wound	A.melifera, P.lanio	2
+OG0001914	Putative Immune	Wound	A.melifera	1
+OG0001993	Putative Immune	Wound	C.australensis	1
+OG0002284	Putative Immune	Wound	A.melifera	1
+OG0002544	Putative Immune	Wound	P.lanio	1
+OG0002555	Putative Immune	Wound	C.australensis	1
+OG0002665	Putative Immune	Wound	C.australensis	1
+OG0002921	Putative Immune	Wound	P.lanio	1
+OG0003154	Putative Immune	Wound	A.melifera	1
+OG0004253	Putative Immune	Wound	A.melifera	1
+OG0005770	Putative Immune	Wound	C.australensis	1
+OG0006427	Putative Immune	Wound	C.australensis	1
+OG0006940	Putative Immune	Wound	C.australensis	1
+OG0007765	Putative Immune	Wound	P.lanio	1
+OG0008109	Putative Immune	Wound	A.melifera	1
+OG0008154	Putative Immune	Wound	A.melifera	1
+OG0008159	Putative Immune	Wound	P.lanio	1
+OG0008376	Putative Immune	Wound	P.lanio	1
+OG0008380	Putative Immune	Wound	C.australensis, P.lanio	2
+OG0008945	Putative Immune	Wound	A.melifera, C.australensis	2
+OG0008950	Putative Immune	Wound	A.melifera, B.terrestris	2
+OG0009346	Putative Immune	Wound	C.australensis	1
+OG0009624	Putative Immune	Wound	C.australensis	1
+OG0002010	Unknown	Wound	C.australensis	1
+OG0004311	Unknown	Wound	P.lanio	1
+OG0005758	Unknown	Wound	C.australensis	1
+OG0007551	Unknown	Wound	P.lanio	1
+OG0008421	Unknown	Wound	C.australensis	1
+OG0008430	Unknown	Wound	P.lanio	1
+OG0008665	Unknown	Wound	C.australensis	1
+OG0008733	Unknown	Wound	P.lanio	1
+OG0008896	Unknown	Wound	P.lanio	1
+OG0009149	Unknown	Wound	B.terrestris	1
+OG0009246	Unknown	Wound	C.australensis	1
+OG0009257	Unknown	Wound	C.australensis	1
+OG0009337	Unknown	Wound	P.lanio	1
+OG0009458	Unknown	Wound	C.australensis	1
+OG0009555	Unknown	Wound	P.lanio	1
+OG0009981	Unknown	Wound	C.australensis	1
+OG0010541	Unknown	Wound	C.australensis	1
+OG0010609	Unknown	Wound	P.lanio	1
+OG0011010	Unknown	Wound	P.lanio	1
+OG0011038	Unknown	Wound	P.lanio	1
+Unassigned_Amel_1	Unknown	Wound	A.melifera	1
+Unassigned_Amel_10	Unknown	Wound	A.melifera	1
+Unassigned_Amel_11	Unknown	Wound	A.melifera	1
+Unassigned_Amel_12	Unknown	Wound	A.melifera	1
+Unassigned_Amel_13	Unknown	Wound	A.melifera	1
+Unassigned_Amel_14	Unknown	Wound	A.melifera	1
+Unassigned_Amel_15	Unknown	Wound	A.melifera	1
+Unassigned_Amel_16	Unknown	Wound	A.melifera	1
+Unassigned_Amel_17	Unknown	Wound	A.melifera	1
+Unassigned_Amel_18	Unknown	Wound	A.melifera	1
+Unassigned_Amel_19	Unknown	Wound	A.melifera	1
+Unassigned_Amel_2	Unknown	Wound	A.melifera	1
+Unassigned_Amel_20	Unknown	Wound	A.melifera	1
+Unassigned_Amel_21	Unknown	Wound	A.melifera	1
+Unassigned_Amel_22	Unknown	Wound	A.melifera	1
+Unassigned_Amel_23	Unknown	Wound	A.melifera	1
+Unassigned_Amel_24	Unknown	Wound	A.melifera	1
+Unassigned_Amel_25	Unknown	Wound	A.melifera	1
+Unassigned_Amel_26	Unknown	Wound	A.melifera	1
+Unassigned_Amel_27	Unknown	Wound	A.melifera	1
+Unassigned_Amel_28	Unknown	Wound	A.melifera	1
+Unassigned_Amel_3	Unknown	Wound	A.melifera	1
+Unassigned_Amel_4	Unknown	Wound	A.melifera	1
+Unassigned_Amel_5	Unknown	Wound	A.melifera	1
+Unassigned_Amel_6	Unknown	Wound	A.melifera	1
+Unassigned_Amel_7	Unknown	Wound	A.melifera	1
+Unassigned_Amel_8	Unknown	Wound	A.melifera	1
+Unassigned_Amel_9	Unknown	Wound	A.melifera	1
+Unassigned_Bter_95	Unknown	Wound	B.terrestris	1
+Unassigned_Bter_96	Unknown	Wound	B.terrestris	1
+Unassigned_Bter_97	Unknown	Wound	B.terrestris	1
+Unassigned_Bter_98	Unknown	Wound	B.terrestris	1
+Unassigned_Caus_132	Unknown	Wound	C.australensis	1
+Unassigned_Caus_133	Unknown	Wound	C.australensis	1
+Unassigned_Caus_134	Unknown	Wound	C.australensis	1
+Unassigned_Caus_135	Unknown	Wound	C.australensis	1
+Unassigned_Caus_136	Unknown	Wound	C.australensis	1
+Unassigned_Caus_137	Unknown	Wound	C.australensis	1
+Unassigned_Caus_138	Unknown	Wound	C.australensis	1
+Unassigned_Caus_139	Unknown	Wound	C.australensis	1
+Unassigned_Caus_140	Unknown	Wound	C.australensis	1
+Unassigned_Caus_141	Unknown	Wound	C.australensis	1
+Unassigned_Caus_142	Unknown	Wound	C.australensis	1
+Unassigned_Caus_143	Unknown	Wound	C.australensis	1
+Unassigned_Caus_144	Unknown	Wound	C.australensis	1
+Unassigned_Caus_145	Unknown	Wound	C.australensis	1
+Unassigned_Caus_146	Unknown	Wound	C.australensis	1
+Unassigned_Caus_147	Unknown	Wound	C.australensis	1
+Unassigned_Caus_148	Unknown	Wound	C.australensis	1
+Unassigned_Caus_149	Unknown	Wound	C.australensis	1
+Unassigned_Caus_150	Unknown	Wound	C.australensis	1
+Unassigned_Caus_151	Unknown	Wound	C.australensis	1
+Unassigned_Caus_152	Unknown	Wound	C.australensis	1
+Unassigned_Plan_183	Unknown	Wound	P.lanio	1
+Unassigned_Plan_184	Unknown	Wound	P.lanio	1
+Unassigned_Plan_185	Unknown	Wound	P.lanio	1
+Unassigned_Plan_186	Unknown	Wound	P.lanio	1
+Unassigned_Plan_187	Unknown	Wound	P.lanio	1
+Unassigned_Plan_188	Unknown	Wound	P.lanio	1
+Unassigned_Plan_189	Unknown	Wound	P.lanio	1
+Unassigned_Plan_190	Unknown	Wound	P.lanio	1
+Unassigned_Plan_191	Unknown	Wound	P.lanio	1
+Unassigned_Plan_192	Unknown	Wound	P.lanio	1
+Unassigned_Plan_193	Unknown	Wound	P.lanio	1
+Unassigned_Plan_194	Unknown	Wound	P.lanio	1
+Unassigned_Plan_195	Unknown	Wound	P.lanio	1
+Unassigned_Plan_196	Unknown	Wound	P.lanio	1
+Unassigned_Plan_197	Unknown	Wound	P.lanio	1
+Unassigned_Plan_198	Unknown	Wound	P.lanio	1
+Unassigned_Plan_199	Unknown	Wound	P.lanio	1
+Unassigned_Plan_200	Unknown	Wound	P.lanio	1
