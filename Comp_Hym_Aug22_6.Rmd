@@ -42,7 +42,7 @@ Gene level instructions from tximport: https://www.ncbi.nlm.nih.gov/pmc/articles
 OrthoGroup information / Annotation information
 
 ```{r}
-ortho <- read.table("input/Ortho_Files/OrthoFinder_Combined_Parsed_Jul22.tsv",
+ortho <- read.table("input/Ortho_Files/OrthoFinder_Combined_Parsed_Aug22.tsv",
                     sep = "\t", header = T)
 
 ann <- read.table("input/Gene_Info/Amel_ImmAnnotations_Orthogroup_Jun22.tsv",
@@ -232,6 +232,87 @@ ortCount.outRem <- function(ortrun, txgeneobjlist, outlier_s){
   return(tx.set)
 }
 ```
+
+A function that does the above, but without removing outliers
+
+```{r}
+ortCount <- function(ortrun, txgeneobjlist){
+  #store the directory where files needed to be extracted from
+  dir <- paste("output/Ortho_DE/", ortrun, "/Filtered_Counts", sep = "")
+  #list the files within this directory (count files to be filtered)
+  files <- list.files(dir)
+  #extract the samples from the file names
+  samples <- sapply(strsplit(files, ".", fixed = T), "[", 1)
+  #name the files with sample IDS
+  names(files) <- samples
+  #prepare to make coldata object using codes in sample names for species and treatment
+  treat <- vector(length = length(samples))
+  species <- vector(length = length(samples))
+  #store treatments per sample
+  for (i in 1:length(samples)){
+    if(grepl("_N_", samples[i]) == T){
+      treat[i] <- "Naive"
+    } else {
+      if(grepl("_P_", samples[i]) == T){
+        treat[i] <- "Wound"
+      } else {
+        if(grepl("_SM_", samples[i]) == T){
+          treat[i] <- "GramPos"
+        } else {
+          if(grepl("_SL_", samples[i]) == T){
+            treat[i] <- "GramNeg"
+          }
+        }
+      }    
+    }
+  }
+  #store species per sample
+  for (i in 1:length(samples)){
+    if(grepl("AM_", samples[i]) == T){
+      species[i] <- "Amel"
+    } else {
+      if(grepl("BT_", samples[i]) == T){
+        species[i] <- "Bter"
+      } else {
+        if(grepl("CA_", samples[i]) == T){
+          species[i] <- "Caus"
+        } else {
+          if(grepl("PL_", samples[i]) == T){
+            species[i] <- "Plan"
+          }
+        }
+      }    
+    }
+  }
+  #combine these vectors into a dataframe which will be coldata object for subsequent
+  #analyses
+  cd <- as.data.frame(cbind(samples, treat, species))
+  names(cd) <- c("Samples", "Treatment", "Species")
+  #write up coldata
+  write.table(cd, 
+              paste("output/Ortho_DE/", ortrun, "/", ortrun, "_SampleData.tsv", sep = ""),
+              col.names = T, row.names = F, sep = "\t", quote = F)
+  cnts <- file.path(dir, files)
+  names(cnts) <- samples
+  #each species will have its own txobject that will be combined into one for DE
+  sets <- unique(species)
+  tx.set <- vector(mode = "list", length = length(sets))
+  #run through each species "set", reading in only those abundance files
+  for (s in 1:length(sets)){
+    print(paste(sets[s], "..." ))
+    samp.set <- cd$Samples[cd$Species == paste(sets[s])]
+    #print the samples used to make sure correct outliers have been removed
+    print(samp.set)
+    cd.set <- cd[cd$Species == paste(sets[s]),]
+    txgene.set <- txgeneobjlist[[s]]
+    cnts.set <- cnts[names(cnts) %in% samp.set]
+    tx.set[[s]] <- tximport(cnts.set, type = "kallisto",
+                            tx2gene = txgene.set, ignoreAfterBar = T)
+  }
+  return(tx.set)
+}
+```
+
 
 Produce DDS object from count table object (includes making coldata object from column names, prefiltering and setting reference condition to Naive)
 
@@ -782,6 +863,182 @@ remove(ort.age.sa.dds, ort.age.sa.res,
 
 
 All done.
+
+##OrthoLevel DE: All Age-Controlled Species (AgeCont) all samples
+
+###Preparing TX Object
+
+Looking at orthogroups present in all four species.
+
+First, produce files that have non-orthogroup associated transcripts removed and save them in output/Ortho_DE/Aculeata/ ready to be ready to be fed into tximport.
+
+```{r}
+runs <- c("Amel", "Bter", "Plan")
+filterCount(runs, "AgeControlled_aS")
+```
+
+
+```{r}
+wd <- "output/Ortho_DE/AgeControlled_aS/"
+```
+
+
+And now to make a list of txobjects (one per species) from these filtered count tables.
+
+```{r}
+ort.age.sa.txs <- ortCount("AgeControlled_aS", tx.list)
+
+#make combined abundance matrix
+abundance <- cbind(ort.age.sa.txs[[1]]$abundance,
+                   ort.age.sa.txs[[2]]$abundance,
+                   ort.age.sa.txs[[3]]$abundance)
+nrow(abundance)
+```
+
+```{r}
+#make combined counts matrix
+counts <- cbind(ort.age.sa.txs[[1]]$counts,
+                   ort.age.sa.txs[[2]]$counts,
+                   ort.age.sa.txs[[3]]$counts)
+nrow(counts)
+```
+
+```{r}
+#make combined lengths matrix
+length <- cbind(ort.age.sa.txs[[1]]$length,
+                   ort.age.sa.txs[[2]]$length,
+                   ort.age.sa.txs[[3]]$length)
+nrow(length)
+```
+
+```{r}
+ort.age.sa.tx <- list(abundance = abundance,
+                  counts = counts, 
+                  length = length)
+
+ort.age.sa.tx$countsFromAbundance <- "no"
+
+for (i in 1:length(ort.age.sa.tx)){
+  print(head(ort.age.sa.tx[[i]], n = 1))
+}
+```
+
+```{r}
+remove(ort.age.sa.txs)
+```
+
+
+###DE Analysis
+
+```{r}
+ort.age.sa.dds <- getDDS("AgeControlled_aS", ort.age.sa.tx)
+```
+
+```{r}
+ort.age.sa.res <- vector(mode = "list", length = 3)
+treats <- resultsNames(ort.age.sa.dds)[c(4,3,2)]
+
+for(i in 1:length(ort.age.sa.res)){
+  ort.age.sa.res[[i]] <- results(ort.age.sa.dds, name = paste(treats[i]))
+  print(treats[i])
+  summary(ort.age.sa.res[[i]])
+}
+```
+
+###Results
+
+Save 
+
+```{r}
+for (i in 1:length(ort.age.sa.res)){
+  ort.age.sa.res[[i]]$Contrast <- paste(treats[i])
+  ort.age.sa.res[[i]]$OrthoGroup <- rownames(ort.age.sa.res[[i]])
+  rownames(ort.age.sa.res[[i]]) <- NULL
+  ort.age.sa.res[[i]] <- as.data.frame(ort.age.sa.res[[i]])
+}
+
+ort.age.sa.res.all <- bind_rows(ort.age.sa.res[1:3])
+
+write.table(ort.age.sa.res.all, paste(wd, 
+                                      "AgeControlled_aS_DeSeqResults_All.tsv", sep = ""),
+            col.names = T, row.names = F, quote = F, sep = "\t")
+
+ort.age.sa.res.sig <- subset(ort.age.sa.res.all, padj < 0.1)
+
+write.table(ort.age.sa.res.sig, paste(wd,
+                                   "AgeControlled_aS_DeSeqResults_FDRlt0.1.tsv", sep =""),
+            col.names = T, row.names = F, quote = F, sep = "\t")
+```
+
+###ExpBoxPlots
+
+What is signficant ? 
+
+```{r}
+ort.age.sa.res.sig
+```
+
+
+```{r}
+sig.ort <- ort.age.sa.res.sig$OrthoGroup
+ann[ann$Orthogroup %in% sig.ort,] %>%
+  arrange(Orthogroup)
+```
+
+```{r}
+ortho[ortho$Orthogroup =="OG0006713",]
+```
+
+####OG0003982: leukocyte elastase inhibitor (serpin)
+
+
+```{r}
+visiOrt.messy("OG0003982", "Leukocyte elastase inhibitor", ort.age.sa.dds)
+```
+
+
+```{r}
+visiOrt.clean("OG0003982", "Leukocyte elastase inhibitor", ort.age.sa.dds)
+```
+
+
+####OG0005698: protein lozenge
+
+
+```{r}
+visiOrt.messy("OG0005698", "protein lozenge", ort.age.sa.dds)
+```
+
+
+```{r}
+visiOrt.clean("OG0005698", "protein lozenge", ort.age.sa.dds)
+```
+
+
+####OG0006713: TSR1 homolog
+
+```{r}
+visiOrt.messy("OG0000699", "TSR1 homolog", ort.age.sa.dds)
+```
+
+
+```{r}
+visiOrt.clean("OG0000699", "TSR1 homolog", ort.age.sa.dds)
+```
+
+
+
+Make some space
+
+```{r}
+remove(ort.age.sa.dds, ort.age.sa.res, 
+       ort.age.sa.res.all, ort.age.sa.res.sig, 
+       ort.age.sa.tx)
+```
+
+
+All done.
+
 
 ##SessionInfo
 
