@@ -42,10 +42,10 @@ Gene level instructions from tximport: https://www.ncbi.nlm.nih.gov/pmc/articles
 OrthoGroup information / Annotation information
 
 ```{r}
-ortho <- read.table("input/Ortho_Files/OrthoFinder_Combined_Parsed_Jul22.tsv",
+ortho <- read.table("input/Ortho_Files/OrthoFinder_Combined_Parsed_Aug22.tsv",
                     sep = "\t", header = T)
 
-ann <- read.table("input/Gene_Info/Amel_ImmAnnotations_Orthogroup_Jun22.tsv",
+ann <- read.table("input/Gene_Info/Amel_ImmAnnotations_Orthogroup_Aug22.tsv",
                   header = T, sep = "\t")
 ann.slim <- ann[,c(2:3)]
 ```
@@ -482,7 +482,6 @@ visiFacet <- function(genes, genenames, dds, filename){
   p3
 }
 ```
-
 
 
 ##OrthoLevel DE: All Species (Aculeata) sans Bter outliers
